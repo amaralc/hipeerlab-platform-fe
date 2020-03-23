@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import laserImagePath from "../img/ded.png";
-import grindingImagePath from "../img/grinding.png";
-import machiningImagePath from "../img/machining.png";
+import laserImagePath from "../img/jvll.png";
+import grindingImagePath from "../img/Oxy.png";
+import machiningImagePath from "../img/opnvtl.png";
 
 export default function PageContent() {
   return (
@@ -56,22 +56,22 @@ export default function PageContent() {
       <div className="row">
         <div className="col-md-4 mb-5">
           <Card
-            title="LASER Processing"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+            title="Fablab Joinville"
+            text="Conceito desenvolvido em Joinville utilizando motor de passo, fuso e ambú."
             imgPath={laserImagePath}
           />
         </div>
         <div className="col-md-4 mb-5">
           <Card
-            title="Machining"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+            title="OpenVentilator"
+            text="Conceito desenvolvido em São Paulo utilizando um fole customizado e pistão."
             imgPath={machiningImagePath}
           />
         </div>
         <div className="col-md-4 mb-5">
           <Card
-            title="Grinding"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+            title="OxyGEN Project"
+            text="Projeto desenvolvido em Barcelona pela empresa protofy.xyz utilizando o conceito de automação de ambu manual."
             imgPath={grindingImagePath}
           />
         </div>
