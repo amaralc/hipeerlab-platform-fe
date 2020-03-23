@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/logo_horizontal.png";
+import logo from "../img/icon.png";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
@@ -13,7 +13,7 @@ export default function NavBar() {
             style={{ paddingTop: "3px", height: "30px" }}
             alt="LMP"
           />
-        </Link>
+        HipeerLab</Link>
 
         <button
           className="navbar-toggler"
