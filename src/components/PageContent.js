@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import projectJoinville from "../img/project-joinville-croped.png";
-import grindingImagePath from "../img/project-oxygen-croped.png";
+import projectOxygen from "../img/project-oxygen-croped.png";
 import projectOpenVentilator from "../img/project-open-ventilator-croped.png";
 
 export default function PageContent() {
@@ -59,7 +59,7 @@ export default function PageContent() {
             title="Fablab Joinville"
             text="Conceito desenvolvido em Joinville utilizando motor de passo, fuso e ambú."
             imgPath={projectJoinville}
-            //url=""
+            url="https://www.instagram.com/p/B-BWCC2pIec/"
           />
         </div>
         <div className="col-md-4 mb-5">
@@ -74,7 +74,7 @@ export default function PageContent() {
           <Card
             title="OxyGEN Project"
             text="Projeto desenvolvido em Barcelona pela empresa protofy.xyz utilizando o conceito de automação de ambu manual."
-            imgPath={grindingImagePath}
+            imgPath={projectOxygen}
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
           />
         </div>
