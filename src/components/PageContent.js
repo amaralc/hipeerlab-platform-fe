@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import laserImagePath from "../img/jvll.png";
-import grindingImagePath from "../img/Oxy.png";
-import machiningImagePath from "../img/opnvtl.png";
+import projectJoinville from "../img/project-joinville-croped.png";
+import grindingImagePath from "../img/project-oxygen-croped.png";
+import projectOpenVentilator from "../img/project-open-ventilator-croped.png";
 
 export default function PageContent() {
   return (
@@ -58,14 +58,14 @@ export default function PageContent() {
           <Card
             title="Fablab Joinville"
             text="Conceito desenvolvido em Joinville utilizando motor de passo, fuso e ambú."
-            imgPath={laserImagePath}
+            imgPath={projectJoinville}
           />
         </div>
         <div className="col-md-4 mb-5">
           <Card
             title="OpenVentilator"
             text="Conceito desenvolvido em São Paulo utilizando um fole customizado e pistão."
-            imgPath={machiningImagePath}
+            imgPath={projectOpenVentilator}
           />
         </div>
         <div className="col-md-4 mb-5">
