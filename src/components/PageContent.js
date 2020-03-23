@@ -1,15 +1,16 @@
-import React from "react"
-import Card from "./Card"
-import laserImagePath from "../img/ded.png"
-import grindingImagePath from "../img/grinding.png"
-import machiningImagePath from "../img/machining.png"
+import React from "react";
+import Card from "./Card";
+import projectJoinville from "../img/project-joinville-croped.png";
+import grindingImagePath from "../img/project-oxygen-croped.png";
+import projectOpenVentilator from "../img/project-open-ventilator-croped.png";
 
 export default function PageContent() {
   return (
     <div className="container">
+      {/*
       <div className="row">
         <div className="col-md-8 mb-5">
-          <h2>What We Do</h2>
+          <h2>Projetos de Respiradores Mecânicos</h2>
           <hr />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt
@@ -27,6 +28,7 @@ export default function PageContent() {
             Call to Action &raquo;
           </a>
         </div>
+        
         <div className="col-md-4 mb-5">
           <h2>Contact Us</h2>
           <hr />
@@ -49,30 +51,31 @@ export default function PageContent() {
           </address>
         </div>
       </div>
+      */}
 
       <div className="row">
         <div className="col-md-4 mb-5">
           <Card
-            title="LASER Processing"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
-            imgPath={laserImagePath}
+            title="Fablab Joinville"
+            text="Conceito desenvolvido em Joinville utilizando motor de passo, fuso e ambú."
+            imgPath={projectJoinville}
           />
         </div>
         <div className="col-md-4 mb-5">
           <Card
-            title="Machining"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
-            imgPath={machiningImagePath}
+            title="OpenVentilator"
+            text="Conceito desenvolvido em São Paulo utilizando um fole customizado e pistão."
+            imgPath={projectOpenVentilator}
           />
         </div>
         <div className="col-md-4 mb-5">
           <Card
-            title="Grinding"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+            title="OxyGEN Project"
+            text="Projeto desenvolvido em Barcelona pela empresa protofy.xyz utilizando o conceito de automação de ambu manual."
             imgPath={grindingImagePath}
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
