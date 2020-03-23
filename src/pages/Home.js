@@ -11,7 +11,7 @@ export default class Home extends React.Component {
         {/*<Header headerTitle="Precision Engineering Laboratory" />*/}
         {/*<Carousel/>*/}
         {/* inclui o header nos moldes das paginas de conteudo */}
-        <Header headerTitle="About Us" />
+        <Header headerTitle="Projetos de Respiradores Mecânicos" />
         <PageContent />
       </div>
     );
