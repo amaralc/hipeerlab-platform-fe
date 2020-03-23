@@ -1,15 +1,16 @@
-import React from "react"
-import Card from "./Card"
-import laserImagePath from "../img/ded.png"
-import grindingImagePath from "../img/grinding.png"
-import machiningImagePath from "../img/machining.png"
+import React from "react";
+import Card from "./Card";
+import laserImagePath from "../img/ded.png";
+import grindingImagePath from "../img/grinding.png";
+import machiningImagePath from "../img/machining.png";
 
 export default function PageContent() {
   return (
     <div className="container">
+      {/*
       <div className="row">
         <div className="col-md-8 mb-5">
-          <h2>What We Do</h2>
+          <h2>Projetos de Respiradores Mecânicos</h2>
           <hr />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt
@@ -27,6 +28,7 @@ export default function PageContent() {
             Call to Action &raquo;
           </a>
         </div>
+        
         <div className="col-md-4 mb-5">
           <h2>Contact Us</h2>
           <hr />
@@ -49,6 +51,7 @@ export default function PageContent() {
           </address>
         </div>
       </div>
+      */}
 
       <div className="row">
         <div className="col-md-4 mb-5">
@@ -74,5 +77,5 @@ export default function PageContent() {
         </div>
       </div>
     </div>
-  )
+  );
 }
