@@ -59,6 +59,7 @@ export default function PageContent() {
             title="Fablab Joinville"
             text="Conceito desenvolvido em Joinville utilizando motor de passo, fuso e ambú."
             imgPath={projectJoinville}
+            //url=""
           />
         </div>
         <div className="col-md-4 mb-5">
@@ -66,6 +67,7 @@ export default function PageContent() {
             title="OpenVentilator"
             text="Conceito desenvolvido em São Paulo utilizando um fole customizado e pistão."
             imgPath={projectOpenVentilator}
+            url="https://www.popsolutions.co/en_US/openventilator"
           />
         </div>
         <div className="col-md-4 mb-5">
@@ -73,6 +75,7 @@ export default function PageContent() {
             title="OxyGEN Project"
             text="Projeto desenvolvido em Barcelona pela empresa protofy.xyz utilizando o conceito de automação de ambu manual."
             imgPath={grindingImagePath}
+            url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
           />
         </div>
       </div>

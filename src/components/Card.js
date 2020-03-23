@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 /*
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
@@ -14,10 +14,10 @@ export default function Card(props) {
         <p className="card-text">{props.text}</p>
       </div>
       <div className="card-footer">
-        <a href="/#" className="btn btn-primary">
-          Find Out More!
+        <a href={props.url} className="btn btn-primary">
+          Site do Projeto
         </a>
       </div>
     </div>
-  )
+  );
 }
