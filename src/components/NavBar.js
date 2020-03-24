@@ -6,12 +6,12 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <Link to="/">
+        <Link to="/" >
           <img
             className="navbar-brand"
             src={logo}
             style={{ paddingTop: "3px", height: "30px" }}
-            alt="LMP"
+            alt="hipeerLab"
           />
         HipeerLab</Link>
 
