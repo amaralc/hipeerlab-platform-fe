@@ -55,7 +55,7 @@ export default function PageContent() {
       */}
 
       <div className="row">
-        <div className="col-md-4 mb-5">
+        <div className="col-md-3 mb-5">
           <Card
             title="Fablab Joinville"
             text="Frente de desenvolvimento em Joinville, SC"
@@ -63,7 +63,7 @@ export default function PageContent() {
             url="https://www.fablabjoinville.com.br/covid19/"
           />
         </div>
-        <div className="col-md-4 mb-5">
+        <div className="col-md-3 mb-5">
           <Card
             title="OpenVentilator"
             text="Frente de desenvolvimento em São Paulo, SP"
@@ -71,7 +71,7 @@ export default function PageContent() {
             url="https://www.popsolutions.co/en_US/openventilator"
           />
         </div>
-        <div className="col-md-4 mb-5">
+        <div className="col-md-3 mb-5">
           <Card
             title="OxyGEN Project"
             text="Frente de desenvolvimento em Barcelona, Espanha"
@@ -79,7 +79,7 @@ export default function PageContent() {
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
           />
         </div>
-        <div className="col-md-4 mb-5">
+        <div className="col-md-3 mb-5">
           <Card
             title="Open Source Ventilator"
             text="Frente de desenvolvimento na Irlanda"
