@@ -59,7 +59,7 @@ export default function PageContent() {
           <Card
             title="Fablab Joinville"
             location= "Joinville, Brasil"
-            updatedAt= "Indeterminado"
+            updatedAt= "23/03/2020"
             status= "Validação de protótipo"
             imgPath={projectJoinville}
             url="https://www.fablabjoinville.com.br/covid19/"
@@ -69,7 +69,7 @@ export default function PageContent() {
           <Card
             title="OpenVentilator"
             location= "São Paulo, Brasil"
-            updatedAt= "Indeterminado"
+            updatedAt= "24/02/2020"
             status= "Em fase de projeto"
             imgPath={projectOpenVentilator}
             url="https://www.popsolutions.co/en_US/openventilator"
@@ -79,7 +79,7 @@ export default function PageContent() {
           <Card
             title="OxyGEN Project"
             location= "Barcelona, Espanha"
-            updatedAt= "22 de março de 2020"
+            updatedAt= "22/03/2020"
             status= "Em operação"
             imgPath={projectOxygen}
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
@@ -89,7 +89,7 @@ export default function PageContent() {
           <Card
             title="Open Source Ventilator"
             location= "Dublin, Irlanda"
-            updatedAt= "21 de março de 2020"
+            updatedAt= "21/03/2020"
             status= "Validação de protótipo"
             imgPath={projectOpenSourceVentilator}
             url="https://opensourceventilator.ie/"
