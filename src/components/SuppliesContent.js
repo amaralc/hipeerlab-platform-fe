@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import projectJoinville from "../img/project-joinville-croped.png";
+import faceShield from "../img/faceShield.png";
 
 export default function PageSupplies() {
   return (
@@ -54,11 +54,11 @@ export default function PageSupplies() {
       <div className="row">
         <div className="col-md-3 mb-5">
           <Card
-            title="Face Shield"
-            location="Joinville, Brasil"
+            title="Face Shields"
+            location="Brasil"
             updatedAt="23/03/2020"
             status="Em operação"
-            imgPath={projectJoinville}
+            imgPath={faceShield}
             url="https://www.fablabjoinville.com.br/covid19/"
           />
         </div>
