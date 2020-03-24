@@ -58,7 +58,9 @@ export default function PageContent() {
         <div className="col-md-3 py-3 mb-3">
           <Card
             title="Fablab Joinville"
-            text="Frente de desenvolvimento em Joinville, SC"
+            location= "Joinville, Brasil"
+            updatedAt= "23/03/2020"
+            status= "Validação de protótipo"
             imgPath={projectJoinville}
             url="https://www.fablabjoinville.com.br/covid19/"
           />
@@ -66,7 +68,9 @@ export default function PageContent() {
         <div className="col-md-3 py-3 mb-3">
           <Card
             title="OpenVentilator"
-            text="Frente de desenvolvimento em São Paulo, SP"
+            location= "São Paulo, Brasil"
+            updatedAt= "24/02/2020"
+            status= "Em fase de projeto"
             imgPath={projectOpenVentilator}
             url="https://www.popsolutions.co/en_US/openventilator"
           />
@@ -74,7 +78,9 @@ export default function PageContent() {
         <div className="col-md-3 py-3 mb-3">
           <Card
             title="OxyGEN Project"
-            text="Frente de desenvolvimento em Barcelona, Espanha"
+            location= "Barcelona, Espanha"
+            updatedAt= "22/03/2020"
+            status= "Em operação"
             imgPath={projectOxygen}
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
           />
@@ -82,9 +88,11 @@ export default function PageContent() {
         <div className="col-md-3 py-3 mb-3">
           <Card
             title="Open Source Ventilator"
-            text="Frente de desenvolvimento na Irlanda"
+            location= "Dublin, Irlanda"
+            updatedAt= "21/03/2020"
+            status= "Validação de protótipo"
             imgPath={projectOpenSourceVentilator}
-            url="https://gitlab.com/open-source-ventilator"
+            url="https://opensourceventilator.ie/"
           />
         </div>
       </div>

@@ -12,6 +12,9 @@ export default function Card(props) {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.text}</p>
+        <p className="card-text">{props.location}</p>
+        <p className="card-text">{props.updatedAt}</p>
+        <p className="card-text">{props.status}</p>
       </div>
       <div className="card-footer">
         <div className="text-center">
