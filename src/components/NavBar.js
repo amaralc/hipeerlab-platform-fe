@@ -44,7 +44,7 @@ export default function NavBar() {
 
             <li className="nav-item">
               <Link className="nav-link" to="/suprimentos">
-                EPI's
+                Suprimentos
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
