@@ -9,10 +9,7 @@ export default function Header(props) {
             <h1 className="display-4 text-white mt-5 mb-2">
               {props.headerTitle}
             </h1>
-            <p className="lead mb-5 text-white">
-              Indexação dos projetos de respiradores mecânicos de baixo custo
-              para utilização em hospitais no combate ao novo Coronavirus.
-            </p>
+            <p className="lead mb-5 text-white">{props.headerText}</p>
           </div>
         </div>
       </div>

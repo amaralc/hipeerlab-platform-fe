@@ -13,7 +13,8 @@ export default function NavBar() {
             style={{ paddingTop: "3px", height: "30px" }}
             alt="hipeerLab"
           />
-        HipeerLab</Link>
+          HipeerLab
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -34,12 +35,13 @@ export default function NavBar() {
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
-            {/*
+
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
-                About
+              <Link className="nav-link" to="/supplies">
+                EPI's
               </Link>
             </li>
+            {/*
             <li className="nav-item">
               <Link className="nav-link" to="/team">
                 Team
