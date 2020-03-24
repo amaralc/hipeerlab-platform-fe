@@ -14,7 +14,7 @@ export default class Home extends React.Component {
         <Header
           headerTitle="Respiradores e Insumos Hospitalares"
           headerText="Indexação dos projetos de respiradores mecânicos de baixo custo
-              e  suprimentos hospitalares para utilização em hospitais no combate ao novo Coronavirus."
+              e  suprimentos hospitalares para utilização em hospitais no combate ao novo COVID-19."
         />
         <HomeContent />
       </div>
