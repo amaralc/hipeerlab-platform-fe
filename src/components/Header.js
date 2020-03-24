@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header(props) {
   return (
-    <header className="bg-primary py-3 mb-3">
+    <header className="bg-dark py-4 mb-4">
       <div className="container h-100">
         <div className="row h-100 align-items-center">
           <div className="col-lg-12">
