@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import faceShield from "../img/faceShield.png";
 
-export default function PageSupplies() {
+export default function SuppliesContent() {
   return (
     <div className="container">
       <div className="row">
