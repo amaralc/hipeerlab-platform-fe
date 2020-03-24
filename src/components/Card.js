@@ -14,9 +14,11 @@ export default function Card(props) {
         <p className="card-text">{props.text}</p>
       </div>
       <div className="card-footer">
-        <a href={props.url} className="btn btn-primary">
-          Site do Projeto
-        </a>
+        <div className="text-center">
+          <a href={props.url} className="btn btn-primary">
+            Ver projeto
+          </a>
+        </div>        
       </div>
     </div>
   );
