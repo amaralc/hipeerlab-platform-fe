@@ -5,7 +5,7 @@ import SuppliesContent from "../components/SuppliesContent";
 
 // import { Container } from './styles';
 
-export default class About extends React.Component {
+export default class Supplies extends React.Component {
   render() {
     return (
       <div>

@@ -7,17 +7,15 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from "./App";
 import Ventilator from "./pages/Ventilator";
 import Supplies from "./pages/Supplies";
-import Team from "./pages/Team";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Switch>
-        <Route exact path="/" component={Ventilator} />
+        <Route exact path="/" component={Home} />
         <Route path="/suprimentos" component={Supplies} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/team" component={Team} />
+        <Route path="/respiradores" component={Ventilator} />
       </Switch>
     </App>
   </BrowserRouter>,
