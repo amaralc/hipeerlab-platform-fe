@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import projectJoinville from "../img/project-joinville-croped.png";
-import projectOpenVentilator from "../img/project-open-ventilator-croped.png";
+import FaceShield from "../img/faceShield.png";
 
 export default function HomeContent() {
   return (
@@ -66,11 +66,11 @@ export default function HomeContent() {
         </div>
         <div className="col-md-6 py-3 mb-3">
           <Card
-            title="OpenVentilator"
-            location="São Paulo, Brasil"
-            updatedAt="24/02/2020"
-            status="Em fase de projeto"
-            imgPath={projectOpenVentilator}
+            title="Suprimentos"
+            location=""
+            updatedAt=""
+            status=""
+            imgPath={FaceShield}
             url="/suprimentos"
             button="Ver Projetos"
           />
