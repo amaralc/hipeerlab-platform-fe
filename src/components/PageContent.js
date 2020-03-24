@@ -3,6 +3,7 @@ import Card from "./Card";
 import projectJoinville from "../img/project-joinville-croped.png";
 import projectOxygen from "../img/project-oxygen-croped.png";
 import projectOpenVentilator from "../img/project-open-ventilator-croped.png";
+import projectOpenSourceVentilator from "../img/project-open-source-ventilator-croped.png";
 
 export default function PageContent() {
   return (
@@ -57,15 +58,15 @@ export default function PageContent() {
         <div className="col-md-4 mb-5">
           <Card
             title="Fablab Joinville"
-            text="Conceito desenvolvido em Joinville utilizando motor de passo, fuso e ambú."
+            text="Frente de desenvolvimento em Joinville, SC"
             imgPath={projectJoinville}
-            url="https://www.instagram.com/p/B-BWCC2pIec/"
+            url="https://www.fablabjoinville.com.br/covid19/"
           />
         </div>
         <div className="col-md-4 mb-5">
           <Card
             title="OpenVentilator"
-            text="Conceito desenvolvido em São Paulo utilizando um fole customizado e pistão."
+            text="Frente de desenvolvimento em São Paulo, SP"
             imgPath={projectOpenVentilator}
             url="https://www.popsolutions.co/en_US/openventilator"
           />
@@ -73,9 +74,17 @@ export default function PageContent() {
         <div className="col-md-4 mb-5">
           <Card
             title="OxyGEN Project"
-            text="Projeto desenvolvido em Barcelona pela empresa protofy.xyz utilizando o conceito de automação de ambu manual."
+            text="Frente de desenvolvimento em Barcelona, Espanha"
             imgPath={projectOxygen}
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
+          />
+        </div>
+        <div className="col-md-4 mb-5">
+          <Card
+            title="Open Source Ventilator"
+            text="Frente de desenvolvimento na Irlanda"
+            imgPath={projectOpenSourceVentilator}
+            url="https://gitlab.com/open-source-ventilator"
           />
         </div>
       </div>
