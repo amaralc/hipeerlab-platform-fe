@@ -55,7 +55,7 @@ export default function PageContent() {
       */}
 
       <div className="row">
-        <div className="col-md-3 mb-5">
+        <div className="col-md-3 py-3 mb-3">
           <Card
             title="Fablab Joinville"
             location= "Joinville, Brasil"
@@ -65,7 +65,7 @@ export default function PageContent() {
             url="https://www.fablabjoinville.com.br/covid19/"
           />
         </div>
-        <div className="col-md-3 mb-5">
+        <div className="col-md-3 py-3 mb-3">
           <Card
             title="OpenVentilator"
             location= "São Paulo, Brasil"
@@ -75,7 +75,7 @@ export default function PageContent() {
             url="https://www.popsolutions.co/en_US/openventilator"
           />
         </div>
-        <div className="col-md-3 mb-5">
+        <div className="col-md-3 py-3 mb-3">
           <Card
             title="OxyGEN Project"
             location= "Barcelona, Espanha"
@@ -85,7 +85,7 @@ export default function PageContent() {
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
           />
         </div>
-        <div className="col-md-3 mb-5">
+        <div className="col-md-3 py-3 mb-3">
           <Card
             title="Open Source Ventilator"
             location= "Dublin, Irlanda"
