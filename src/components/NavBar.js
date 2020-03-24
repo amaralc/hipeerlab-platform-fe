@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <Link to="/" >
+        <Link to="/">
           <img
             className="navbar-brand"
             src={logo}
@@ -29,24 +29,27 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
+            <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/respiradores">
+                Respiradores
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/supplies">
-                EPI's
+              <Link className="nav-link" to="/suprimentos">
+                Suprimentos
+                <span className="sr-only">(current)</span>
               </Link>
             </li>
+
             {/*
-            <li className="nav-item">
-              <Link className="nav-link" to="/team">
-                Team
-              </Link>
-            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">
                 Contact

@@ -19,9 +19,9 @@ export default function Card(props) {
       <div className="card-footer">
         <div className="text-center">
           <a href={props.url} className="btn btn-dark">
-            Ver projeto
+            {props.button}
           </a>
-        </div>        
+        </div>
       </div>
     </div>
   );
