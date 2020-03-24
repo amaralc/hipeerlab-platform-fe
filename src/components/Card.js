@@ -10,12 +10,12 @@ export default function Card(props) {
     <div className="card h-100">
       <img className="card-img-top" src={props.imgPath} alt="" />
       <div className="card-body">
-        <h4 className="card-title">{props.title}</h4>
+        <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.text}</p>
       </div>
       <div className="card-footer">
         <div className="text-center">
-          <a href={props.url} className="btn btn-primary">
+          <a href={props.url} className="btn btn-dark">
             Ver projeto
           </a>
         </div>        
