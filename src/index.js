@@ -5,7 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import App from "./App";
-import Home from "./pages/Home";
+import Ventilator from "./pages/Ventilator";
 import Supplies from "./pages/Supplies";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
@@ -14,8 +14,8 @@ ReactDOM.render(
   <BrowserRouter>
     <App>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/supplies" component={Supplies} />
+        <Route exact path="/" component={Ventilator} />
+        <Route path="/suprimentos" component={Supplies} />
         <Route path="/contact" component={Contact} />
         <Route path="/team" component={Team} />
       </Switch>
