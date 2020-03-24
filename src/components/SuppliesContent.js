@@ -14,6 +14,7 @@ export default function PageSupplies() {
             status="Em operação"
             imgPath={faceShield}
             url="https://www.fablabjoinville.com.br/covid19/"
+            button="Ver Projeto"
           />
         </div>
       </div>

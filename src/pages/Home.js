@@ -12,9 +12,9 @@ export default class Home extends React.Component {
         {/*<Carousel/>*/}
         {/* inclui o header nos moldes das paginas de conteudo */}
         <Header
-          headerTitle="Projetos de Respiradores Mecânicos"
+          headerTitle="Respiradores e Insumos Hospitalares"
           headerText="Indexação dos projetos de respiradores mecânicos de baixo custo
-              para utilização em hospitais no combate ao novo Coronavirus."
+              e  suprimentos hospitalares para utilização em hospitais no combate ao novo Coronavirus."
         />
         <HomeContent />
       </div>
