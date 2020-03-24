@@ -10,7 +10,7 @@ export default function Card(props) {
     <div className="card h-100">
       <img className="card-img-top" src={props.imgPath} alt="" />
       <div className="card-body">
-        <h4 className="card-title">{props.title}</h4>
+        <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.location}</p>
         <p className="card-text">{props.updatedAt}</p>
         <p className="card-text">{props.status}</p>
