@@ -8,13 +8,10 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
-        {/*<Header headerTitle="Precision Engineering Laboratory" />*/}
-        {/*<Carousel/>*/}
         {/* inclui o header nos moldes das paginas de conteudo */}
         <Header
-          headerTitle="Respiradores e Insumos Hospitalares"
-          headerText="Indexação dos projetos de respiradores mecânicos de baixo custo
-              e  suprimentos hospitalares para utilização em hospitais no combate ao novo COVID-19."
+          headerTitle="Equipamentos emergenciais"
+          headerText="Indexação dos projetos de equipamentos hospitalares emergenciais para auxílio no combate ao COVID-19."
         />
         <HomeContent />
       </div>

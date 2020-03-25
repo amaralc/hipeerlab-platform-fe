@@ -3,7 +3,7 @@ import Card from "./Card";
 import faceShield from "../img/faceShield.png";
 import medicalShield from "../img/medicalshield.png";
 
-export default function PageSupplies() {
+export default function SuppliesContent() {
   return (
     <div className="container">
       <div className="row">
