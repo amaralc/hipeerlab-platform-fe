@@ -1,10 +1,5 @@
 import React from "react";
 
-/*
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-          esse necessitatibus neque sequi doloribus.
-*/
-
 export default function Card(props) {
   return (
     <div className="card h-100">
@@ -19,9 +14,9 @@ export default function Card(props) {
       <div className="card-footer">
         <div className="text-center">
           <a href={props.url} className="btn btn-dark">
-            Ver projeto
+            {props.button}
           </a>
-        </div>        
+        </div>
       </div>
     </div>
   );
