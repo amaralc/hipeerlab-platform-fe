@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import projectJoinville from "../img/project-joinville-croped.png";
 import projectOxygen from "../img/project-oxygen-croped.png";
-import projectOpenVentilator from "../img/project-open-ventilator-croped.png";
+import projectOpenVentilator from "../img/project-open-ventilator-croped-20200324.png";
 import projectOpenSourceVentilator from "../img/project-open-source-ventilator-croped.png";
 
 export default function VentilatorContent() {

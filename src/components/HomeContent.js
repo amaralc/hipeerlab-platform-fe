@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import projectJoinville from "../img/project-joinville-croped.png";
+import Ventilator from "../img/project-joinville-croped.png";
 import FaceShield from "../img/faceShield.png";
 
 export default function HomeContent() {
@@ -13,7 +13,7 @@ export default function HomeContent() {
             location=""
             updatedAt=""
             status=""
-            imgPath={projectJoinville}
+            imgPath={Ventilator}
             url="/respiradores"
             button="Ver Projetos"
           />
