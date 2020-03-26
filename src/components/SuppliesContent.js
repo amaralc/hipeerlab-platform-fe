@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import faceShield from "../img/faceShield.png";
 import medicalShield from "../img/medicalshield.png";
+import hipeerShields from "../img/hipeerShields.png";
 
 export default function SuppliesContent() {
   return (
@@ -9,9 +10,20 @@ export default function SuppliesContent() {
       <div className="row">
         <div className="col-md-3 mb-5">
           <Card
+            title="Voluntários HipeerLab"
+            location="Florianópolis, Brasil"
+            updatedAt="25/03/2020"
+            status="Em operação"
+            imgPath={hipeerShields}
+            url="https://www.instagram.com/hipeerlab/"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 mb-5">
+          <Card
             title="Face Shields"
             location="Brasil"
-            updatedAt="23/03/2020"
+            updatedAt="25/03/2020"
             status="Em operação"
             imgPath={faceShield}
             url="https://www.fablabjoinville.com.br/covid19/"
