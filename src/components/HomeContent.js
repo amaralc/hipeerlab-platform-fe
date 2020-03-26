@@ -8,7 +8,7 @@ export default function HomeContent() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-6 py-3 mb-3">
+        <div className="col-md-4 py-3 mb-3">
           <Card
             title="Ajude a causa!"
             location=""
@@ -19,7 +19,7 @@ export default function HomeContent() {
             button="Link da Campanha"
           />
         </div>
-        <div className="col-md-6 py-3 mb-3">
+        <div className="col-md-4 py-3 mb-3">
           <Card
             title="Respiradores"
             location=""
@@ -30,7 +30,7 @@ export default function HomeContent() {
             button="Ver Projetos"
           />
         </div>
-        <div className="col-md-6 py-3 mb-3">
+        <div className="col-md-4 py-3 mb-3">
           <Card
             title="Suprimentos"
             location=""
