@@ -15,7 +15,7 @@ export default function SuppliesContent() {
             updatedAt=""
             status=""
             imgPath={hipeerShields}
-            url="https://www.instagram.com/p/B-Lj0TNnMcA/"
+            url="https://www.instagram.com/hipeerlab/"
             button="Ver Projeto"
           />
         </div>
