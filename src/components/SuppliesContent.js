@@ -2,11 +2,23 @@ import React from "react";
 import Card from "./Card";
 import faceShield from "../img/faceShield.png";
 import medicalShield from "../img/medicalshield.png";
+import hipeerShields from "../img/hipeerShields.png";
 
 export default function SuppliesContent() {
   return (
     <div className="container">
       <div className="row">
+        <div className="col-md-3 mb-5">
+          <Card
+            title="Voluntários HipeerLab"
+            location="Brasil"
+            updatedAt=""
+            status=""
+            imgPath={hipeerShields}
+            url="https://www.instagram.com/p/B-Lj0TNnMcA/"
+            button="Ver Projeto"
+          />
+        </div>
         <div className="col-md-3 mb-5">
           <Card
             title="Face Shields"
