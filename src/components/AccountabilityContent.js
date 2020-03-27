@@ -7,11 +7,7 @@ import TableLayout from "./Layouts/Accountability";
 export default function AccountabilityContent() {
   return (
     <div className="container">
-      <div className="row ">
-        <div className="col-md-3 mb-5">
-          <TableLayout />
-        </div>
-      </div>
+      <TableLayout />
 
       <div className="row">
         <div className="col-md-6 py-3 mb-3">
