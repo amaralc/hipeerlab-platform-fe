@@ -10,9 +10,9 @@ export const Table = styled.table`
 
   th,
   td {
-    padding: 0.75rem;
+    padding: 10px 20px 10px 20px;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    text-align: left;
+    text-align: center;
   }
   th {
     background-color: rgba(0, 0, 0, 0.03);
