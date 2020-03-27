@@ -8,41 +8,39 @@ export default function DonateContent() {
     <div className="container">
       <div className="row">
         <div className="col-md-8 mb-5">
-          <h2>Projetos de Respiradores Mecânicos</h2>
+          <h2>Sobre a Campanha</h2>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt
-            neque tempore recusandae animi soluta quasi? Asperiores rem dolore
-            eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat
-            explicabo, maiores!
+            Nós somos engenheiros residentes em Florianópolis-SC que decidiram,
+            voluntariamente, se unir e buscar uma forma de ajudar nosso país no
+            combate ao CORONAVÍRUS (COVID-19)!
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-            optio neque consectetur consequatur magni in nisi, natus beatae
-            quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt
-            voluptate. Voluptatum.
+            Com isso, estamos utilizando impressoras 3D para PRODUZIR e DOAR
+            equipamentos de proteção para os profissionais de saúde. Você também
+            pode nos ajudar nessa causa, SEM SAIR DE CASA, fazendo uma doação de
+            qualquer valor para a compra de matéria-prima.
           </p>
         </div>
 
         <div className="col-md-4 mb-5">
-          <h2>Contact Us</h2>
+          <h2>Dados</h2>
           <hr />
           <address>
-            <strong>LMP</strong>
+            <strong>Conta Bancária:</strong>
             <br />
-            R. Eng. Agronômico Andrei Cristian Ferreira, s/n
+            Banco do Brasil, 001
             <br />
-            Trindade, Florianópolis, SC
+            Rafael Gomes Nunes Silva
             <br />
-            CEP 88040-900
+            AG.: 1453-2
+            <br />
+            CC.: 60818-1
             <br />
           </address>
           <address>
-            <abbr title="Phone">P:</abbr>
-            +55 (48) 3271-7229
-            <br />
-            <abbr title="Email">E:</abbr>
-            <a href="mailto:#"> lmp@ufsc.br</a>
+            <abbr title="Phone">WhatsApp:</abbr>
+            +55 (48) 99800-6530
           </address>
         </div>
       </div>
