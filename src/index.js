@@ -15,7 +15,7 @@ ReactDOM.render(
     <App>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/gratidao!" component={Donate} />
+        <Route path="/contribua" component={Donate} />
         <Route path="/suprimentos" component={Supplies} />
         <Route path="/respiradores" component={Ventilator} />
         <Redirect to="/" />
