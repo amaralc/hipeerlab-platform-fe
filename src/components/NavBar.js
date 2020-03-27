@@ -36,6 +36,12 @@ export default function NavBar() {
             </li>
 
             <li className="nav-item">
+              <Link className="nav-link" to="/gratidao!">
+                Contribua
+              </Link>
+            </li>
+
+            <li className="nav-item">
               <Link className="nav-link" to="/respiradores">
                 Respiradores
                 <span className="sr-only">(current)</span>
@@ -48,14 +54,6 @@ export default function NavBar() {
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
-
-            {/*
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">
-                Contact
-              </Link>
-            </li>
-            */}
           </ul>
         </div>
       </div>

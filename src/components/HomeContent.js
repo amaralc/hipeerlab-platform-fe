@@ -15,8 +15,8 @@ export default function HomeContent() {
             updatedAt=""
             status=""
             imgPath={Donation}
-            url="https://www.instagram.com/p/B-Lj0TNnMcA/"
-            button="Link da Campanha"
+            url="gratidao!"
+            button="Contribua!"
           />
         </div>
         <div className="col-md-4 py-3 mb-3">
