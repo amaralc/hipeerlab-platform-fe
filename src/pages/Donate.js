@@ -7,10 +7,7 @@ export default class Donate extends React.Component {
     return (
       <div>
         {/* inclui o header nos moldes das paginas de conteudo */}
-        <Header
-          headerTitle="COVID-19: Equipamentos emergenciais"
-          headerText="Indexação dos projetos de equipamentos hospitalares emergenciais para auxílio no combate à COVID-19."
-        />
+        <Header headerTitle="Contribua com o Projeto!" />
         <DonateContent />
       </div>
     );
