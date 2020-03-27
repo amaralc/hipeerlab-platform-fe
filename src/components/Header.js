@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Header(props) {
   return (
-    <header className="bg-dark py-2 mb-4">
+    <header className="bg-dark py-4 mb-4">
       <div className="container h-100">
         <div className="row h-100 align-items-center">
           <div className="col-lg-12">
             <h1 className="display-4 text-white mt-5 mb-2">
               {props.headerTitle}
             </h1>
-            <p className="lead mb-5 "></p>
+            <p className="lead mb-5 text-white">{props.headerText}</p>
           </div>
         </div>
       </div>
