@@ -8,15 +8,17 @@ import App from "./App";
 import Ventilator from "./pages/Ventilator";
 import Supplies from "./pages/Supplies";
 import Home from "./pages/Home";
+import Donate from "./pages/Donate";
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/gratidao!" component={Donate} />
         <Route path="/suprimentos" component={Supplies} />
         <Route path="/respiradores" component={Ventilator} />
-        <Redirect to="/"/>
+        <Redirect to="/" />
       </Switch>
     </App>
   </BrowserRouter>,

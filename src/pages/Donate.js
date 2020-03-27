@@ -1,10 +1,8 @@
 import React from "react";
-import HomeContent from "../components/HomeContent";
-/* import Carousel from "../components/Carousel"; */
+import DonateContent from "../components/DonateContent";
 import Header from "../components/Header";
-// import { Container } from './styles';
 
-export default class Home extends React.Component {
+export default class Donate extends React.Component {
   render() {
     return (
       <div>
@@ -13,7 +11,7 @@ export default class Home extends React.Component {
           headerTitle="COVID-19: Equipamentos emergenciais"
           headerText="Indexação dos projetos de equipamentos hospitalares emergenciais para auxílio no combate à COVID-19."
         />
-        <HomeContent />
+        <DonateContent />
       </div>
     );
   }
