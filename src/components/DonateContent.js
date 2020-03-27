@@ -11,7 +11,7 @@ export default function DonateContent() {
           <h2>Sobre a Campanha</h2>
           <hr />
           <p>
-            Nós somos engenheiros residentes em Florianópolis-SC que decidiram,
+            Nós somos engenheiros e estudantes residentes em Florianópolis-SC que decidiram,
             voluntariamente, se unir e buscar uma forma de ajudar nosso país no
             combate ao CORONAVÍRUS (COVID-19)!
           </p>
@@ -29,7 +29,7 @@ export default function DonateContent() {
           <address>
             <strong>Conta Bancária:</strong>
             <br />
-            Banco do Brasil, 001
+            Banco do Brasil (Código: 001)
             <br />
             Rafael Gomes Nunes Silva
             <br />
