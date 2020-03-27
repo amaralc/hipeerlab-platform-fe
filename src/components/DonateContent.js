@@ -7,7 +7,7 @@ export default function DonateContent() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-8 mb-5">
+        <div className="col-md-8 mb-5 ">
           <h2>Sobre a Campanha</h2>
           <hr />
           <p>
@@ -21,6 +21,11 @@ export default function DonateContent() {
             pode nos ajudar nessa causa, SEM SAIR DE CASA, fazendo uma doação de
             qualquer valor para a compra de matéria-prima.
           </p>
+          {/*
+          <a className="btn btn-primary btn-lg" href="google.sheets">
+            Prestação de Contas &raquo;
+          </a>
+          */}
         </div>
 
         <div className="col-md-4 mb-5">
