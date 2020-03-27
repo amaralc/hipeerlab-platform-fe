@@ -36,7 +36,7 @@ export default function NavBar() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/gratidao!">
+              <Link className="nav-link" to="/contribua">
                 Contribua
               </Link>
             </li>
