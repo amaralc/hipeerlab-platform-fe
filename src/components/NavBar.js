@@ -13,7 +13,7 @@ export default function NavBar() {
             style={{ paddingTop: "3px", height: "30px" }}
             alt="hipeerLab"
           />
-          HipeerLab
+          hipeerLab
         </Link>
 
         <button

@@ -15,7 +15,7 @@ export default function HomeContent() {
             updatedAt=""
             status=""
             imgPath={Donation}
-            url="gratidao!"
+            url="/contribua"
             button="Contribua!"
           />
         </div>
