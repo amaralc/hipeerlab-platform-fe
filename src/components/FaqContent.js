@@ -2,7 +2,6 @@ import React from "react";
 import Card from "./Card";
 import Ventilator from "../img/project-joinville-croped.png";
 import FaceShield from "../img/faceShield.png";
-import P from "./Layouts/global/styles";
 
 export default function FaqContent() {
   return (
@@ -10,9 +9,9 @@ export default function FaqContent() {
       <div className="row">
         <div className="col-md-8 mb-5 ">
           <h5>A iniciativa hipeerLab possui lucro?</h5>
-          <P>Não.</P>
+          <p>Não.</p>
           <h5>É possível comprar ou revender os produtos da hipeerLab?</h5>
-          <p></p>
+          <p>ok</p>
           <h5>Como posso ajudar com a iniciativa da hipeerLab?</h5>
           <p></p>
           <h5>Tenho uma impressora 3D e gostaria de ajudar. Como faço?</h5>
