@@ -54,6 +54,12 @@ export default function NavBar() {
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/faq">
+                FAQ
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
