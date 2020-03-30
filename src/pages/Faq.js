@@ -1,14 +1,14 @@
 import React from "react";
-import DonateContent from "../components/FaqContent";
+import FaqContent from "../components/FaqContent";
 import Header from "../components/Header";
 
-export default class Donate extends React.Component {
+export default class Faq extends React.Component {
   render() {
     return (
       <div>
         {/* inclui o header nos moldes das paginas de conteudo */}
-        <Header headerTitle="Contribua com o Projeto!" />
-        <DonateContent />
+        <Header headerTitle="Perguntas Frequentes" />
+        <FaqContent />
       </div>
     );
   }
