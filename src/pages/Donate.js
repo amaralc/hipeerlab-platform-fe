@@ -1,5 +1,5 @@
 import React from "react";
-import DonateContent from "../components/FaqContent";
+import DonateContent from "../components/DonateContent";
 import Header from "../components/Header";
 
 export default class Donate extends React.Component {

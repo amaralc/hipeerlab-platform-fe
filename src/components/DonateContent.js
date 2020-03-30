@@ -11,9 +11,9 @@ export default function DonateContent() {
           <h2>Sobre a Campanha</h2>
           <hr />
           <p>
-            Nós somos engenheiros e estudantes residentes em Florianópolis-SC que decidiram,
-            voluntariamente, se unir e buscar uma forma de ajudar nosso país no
-            combate ao CORONAVÍRUS (COVID-19)!
+            Nós somos engenheiros e estudantes residentes em Florianópolis-SC
+            que decidiram, voluntariamente, se unir e buscar uma forma de ajudar
+            nosso país no combate ao CORONAVÍRUS (COVID-19)!
           </p>
           <p>
             Com isso, estamos utilizando impressoras 3D para PRODUZIR e DOAR
