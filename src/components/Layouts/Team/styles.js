@@ -21,3 +21,31 @@ export const TeamImg = styled.img.attrs(props => ({
   width: 200px;
   border-radius: 50%;
 `;
+export const Div = styled.div`
+  margin: auto;
+  margin-top: 0;
+`;
+export const Title = styled.div`
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  p {
+    text-align: center;
+    font-size: 30px;
+  }
+`;
+export const InImg = styled.img.attrs(props => ({
+  src: props.imgPath
+}))`
+  margin-top: -10px;
+  width: 40px;
+`;
+export const Name = styled.p`
+  font-weight: bold;
+  margin-top: 10px;
+`;
+
+export const About = styled.p`
+  margin-top: 10px;
+  text-align: center;
+`;

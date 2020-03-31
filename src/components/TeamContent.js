@@ -2,14 +2,24 @@ import React from "react";
 import Card from "./Card";
 import Ventilator from "../img/project-joinville-croped.png";
 import FaceShield from "../img/faceShield.png";
-import { TeamCard, TeamImg } from "./Layouts/Team/styles";
+import Donation from "../img/donation.png";
+import In from "../img/in.png";
+import {
+  TeamCard,
+  TeamImg,
+  Div,
+  InImg,
+  Name,
+  About,
+  Title
+} from "./Layouts/Team/styles";
 
 export default function TeamContent() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-8 mb-5 ">
-          <h2>Sobre a Campanha</h2>
+        <div className="col-md-10 mb-5 ">
+          <h2>Sobre a Equipe</h2>
           <hr />
           <p>
             Nós somos engenheiros e estudantes residentes em Florianópolis-SC
@@ -21,22 +31,44 @@ export default function TeamContent() {
         </div>
       </div>
 
+      <Title className="py-3 mb-3">
+        <p>Website</p>
+        <hr />
+      </Title>
+
       <div className="row">
-        <div className="col-md-4 py-3 mb-3">
+        <Div className="col-md-2 py-3 mb-3">
           <TeamCard>
-            <TeamImg imgPath={FaceShield} />
+            <TeamImg imgPath={Donation} />
+            <Name>Bruno Weber</Name>
+            <InImg imgPath={In} />
+            <About>Graduando em Engenharia Mecânica</About>
           </TeamCard>
-        </div>
-        <div className="col-md-4 py-3 mb-3">
+        </Div>
+        <Div className="col-md-2 py-3 mb-3">
           <TeamCard>
-            <TeamImg imgPath={FaceShield} />
+            <TeamImg imgPath={Donation} />
+            <Name>Bruno Weber</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Mecânico</About>
           </TeamCard>
-        </div>
-        <div className="col-md-4 py-3 mb-3">
+        </Div>
+        <Div className="col-md-2 py-3 mb-3">
           <TeamCard>
-            <TeamImg imgPath={FaceShield} />
+            <TeamImg imgPath={Donation} />
+            <Name>Bruno Weber</Name>
+            <InImg imgPath={In} />
+            <About>Graduando em Engenharia Mecânica</About>
           </TeamCard>
-        </div>
+        </Div>
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Donation} />
+            <Name>Bruno Weber</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Mecânico</About>
+          </TeamCard>
+        </Div>
       </div>
 
       <div className="row">

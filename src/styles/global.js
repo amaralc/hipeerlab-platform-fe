@@ -1,9 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-  p {
-    text-indent:40px;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+  body, p {
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
   }
   body {
     -webkit-font-smoothing: antialiased;
