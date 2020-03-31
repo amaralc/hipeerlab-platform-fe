@@ -9,6 +9,8 @@ import Ventilator from "./pages/Ventilator";
 import Supplies from "./pages/Supplies";
 import Home from "./pages/Home";
 import Donate from "./pages/Donate";
+import Faq from "./pages/Faq";
+/*import Accountability from "./pages/Accountability";*/
 
 ReactDOM.render(
   <BrowserRouter>
@@ -18,6 +20,8 @@ ReactDOM.render(
         <Route path="/contribua" component={Donate} />
         <Route path="/suprimentos" component={Supplies} />
         <Route path="/respiradores" component={Ventilator} />
+        <Route path="/faq" component={Faq} />
+        {/*<Route path="/contabilidade" component={Accountability} />*/}
         <Redirect to="/" />
       </Switch>
     </App>
