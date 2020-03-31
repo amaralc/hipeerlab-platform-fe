@@ -4,6 +4,7 @@ import projectJoinville from "../img/project-joinville-croped.png";
 import projectOxygen from "../img/project-oxygen-croped.png";
 import projectOpenVentilator from "../img/project-open-ventilator-croped-20200324.png";
 import projectOpenSourceVentilator from "../img/project-open-source-ventilator-croped.png";
+import projecthipeerLab from  "../img/project-hipeerlab-v2-croped.png";
 
 export default function VentilatorContent() {
   return (
@@ -24,7 +25,7 @@ export default function VentilatorContent() {
           <Card
             title="OpenVentilator"
             location="São Paulo, Brasil"
-            updatedAt="24/02/2020"
+            updatedAt="24/03/2020"
             status="Em fase de projeto"
             imgPath={projectOpenVentilator}
             url="https://www.popsolutions.co/en_US/openventilator"
@@ -50,6 +51,17 @@ export default function VentilatorContent() {
             status="Validação de protótipo"
             imgPath={projectOpenSourceVentilator}
             url="https://opensourceventilator.ie/"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
+            title="Equipe hipeerLab"
+            location="Florianópolis, Brasil"
+            updatedAt="31/03/2020"
+            status="Em fase de projeto"
+            imgPath={projecthipeerLab}
+            url="https://cad.onshape.com/documents/e5be8ec8b08e9cf7da0f61df/w/deeaf8c80be6a7337b6eb1dc/e/a6d575935da95adc5c422287"
             button="Ver Projeto"
           />
         </div>
