@@ -12,6 +12,17 @@ export default function VentilatorContent() {
       <div className="row">
         <div className="col-md-3 py-3 mb-3">
           <Card
+            title="Equipe hipeerLab"
+            location="Florianópolis, Brasil"
+            updatedAt="31/03/2020"
+            status="Em fase de projeto"
+            imgPath={projecthipeerLab}
+            url="https://cad.onshape.com/documents/e5be8ec8b08e9cf7da0f61df/w/deeaf8c80be6a7337b6eb1dc/e/a6d575935da95adc5c422287"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
             title="Fablab Joinville"
             location="Joinville, Brasil"
             updatedAt="23/03/2020"
@@ -54,17 +65,7 @@ export default function VentilatorContent() {
             button="Ver Projeto"
           />
         </div>
-        <div className="col-md-3 py-3 mb-3">
-          <Card
-            title="Equipe hipeerLab"
-            location="Florianópolis, Brasil"
-            updatedAt="31/03/2020"
-            status="Em fase de projeto"
-            imgPath={projecthipeerLab}
-            url="https://cad.onshape.com/documents/e5be8ec8b08e9cf7da0f61df/w/deeaf8c80be6a7337b6eb1dc/e/a6d575935da95adc5c422287"
-            button="Ver Projeto"
-          />
-        </div>
+      
       </div>
     </div>
   );
