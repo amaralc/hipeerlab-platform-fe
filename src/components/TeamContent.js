@@ -1,8 +1,23 @@
 import React from "react";
-import Card from "./Card";
-import Ventilator from "../img/project-joinville-croped.png";
-import FaceShield from "../img/faceShield.png";
-import Donation from "../img/donation.png";
+import Adriano from "./Layouts/Team/img/Adriano.png";
+import Francisco from "./Layouts/Team/img/Francisco.png";
+import Frederico from "./Layouts/Team/img/Frederico.png";
+import Marcos from "./Layouts/Team/img/Marcos.png";
+import Glauco from "./Layouts/Team/img/Glauco.png";
+import Fernando from "./Layouts/Team/img/Fernando.png";
+import Thaison from "./Layouts/Team/img/Thaison.png";
+import Theodor from "./Layouts/Team/img/Theodor.png";
+import Michel from "./Layouts/Team/img/Michel.png";
+import Calil from "./Layouts/Team/img/Calil.png";
+import Rafael from "./Layouts/Team/img/Rafael.png";
+import Sara from "./Layouts/Team/img/Sara.png";
+import Luise from "./Layouts/Team/img/Luise.png";
+import Azevedo from "./Layouts/Team/img/Azevedo.png";
+import Lazaro from "./Layouts/Team/img/Lazaro.png";
+import Artur from "./Layouts/Team/img/Artur.png";
+import Bruno from "./Layouts/Team/img/Bruno.png";
+import Luam from "./Layouts/Team/img/Luam.png";
+
 import In from "../img/in.png";
 import {
   TeamCard,
@@ -32,68 +47,215 @@ export default function TeamContent() {
       </div>
 
       <Title className="py-3 mb-3">
-        <p>Website</p>
+        <p>Face Shield</p>
         <hr />
       </Title>
 
       <div className="row">
-        <Div className="col-md-2 py-3 mb-3">
+        <Div className="col-md-3 py-3 mb-3">
           <TeamCard>
-            <TeamImg imgPath={Donation} />
-            <Name>Bruno Weber</Name>
+            <TeamImg imgPath={Adriano} />
+            <Name>Adriano S. P. Pereira</Name>
             <InImg imgPath={In} />
-            <About>Graduando em Engenharia Mecânica</About>
+            <About>Engenheiro de Materiais</About>
           </TeamCard>
         </Div>
-        <Div className="col-md-2 py-3 mb-3">
+
+        <Div className="col-md-3 py-3 mb-3">
           <TeamCard>
-            <TeamImg imgPath={Donation} />
-            <Name>Bruno Weber</Name>
+            <TeamImg imgPath={Francisco} />
+            <Name>Francisco Sedrez Warmling</Name>
+            <InImg imgPath={In} />
+            <About>Animator, 2D Rigger, 3D Modeler</About>
+          </TeamCard>
+        </Div>
+        <Div className="col-md-3 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Frederico} />
+            <Name>Frederico Baumgratz</Name>
             <InImg imgPath={In} />
             <About>Engenheiro Mecânico</About>
           </TeamCard>
         </Div>
-        <Div className="col-md-2 py-3 mb-3">
+
+        <Div className="col-md-3 py-3 mb-3">
           <TeamCard>
-            <TeamImg imgPath={Donation} />
-            <Name>Bruno Weber</Name>
+            <TeamImg imgPath={Marcos} />
+            <Name>Marcos R. Butignol</Name>
             <InImg imgPath={In} />
-            <About>Graduando em Engenharia Mecânica</About>
-          </TeamCard>
-        </Div>
-        <Div className="col-md-2 py-3 mb-3">
-          <TeamCard>
-            <TeamImg imgPath={Donation} />
-            <Name>Bruno Weber</Name>
-            <InImg imgPath={In} />
-            <About>Engenheiro Mecânico</About>
+            <About>Engenheiro Mecatrônico</About>
           </TeamCard>
         </Div>
       </div>
 
+      <Title className="py-3 mb-3">
+        <p>Respiradores Mecânicos</p>
+        <hr />
+      </Title>
       <div className="row">
-        <div className="col-md-6 py-3 mb-3">
-          <Card
-            title="Respiradores"
-            location=""
-            updatedAt=""
-            status=""
-            imgPath={Ventilator}
-            url="/respiradores"
-            button="Ver Projetos"
-          />
-        </div>
-        <div className="col-md-6 py-3 mb-3">
-          <Card
-            title="Suprimentos"
-            location=""
-            updatedAt=""
-            status=""
-            imgPath={FaceShield}
-            url="/suprimentos"
-            button="Ver Projetos"
-          />
-        </div>
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Glauco} />
+            <Name>Glauco G. Tirollo</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Químico</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Fernando} />
+            <Name>Fernando M. Bordin</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Mecânico, Dr.</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Thaison} />
+            <Name>Thaison Prando</Name>
+            <InImg imgPath={In} />
+            <About>Graduando em Engenharia Mecânica</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Theodor} />
+            <Name>Theodor van Caspel</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Mecânico</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Michel} />
+            <Name>Michel Tavares</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Mecânico, Msc</About>
+          </TeamCard>
+        </Div>
+      </div>
+
+      <Title className="py-3 mb-3">
+        <p>Logística</p>
+        <hr />
+      </Title>
+      <div className="row">
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Calil} />
+            <Name>Calil Amaral</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Mecânico</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Glauco} />
+            <Name>Glauco G. Tirollo</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Químico</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Rafael} />
+            <Name>Rafael G. Nunes Silva</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro de Materiais</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Sara} />
+            <Name>Sara Díaz Builes</Name>
+            <InImg imgPath={In} />
+            <About>Engenheira Mecânica</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Luise} />
+            <Name>Vitória Luise Silva</Name>
+            <InImg imgPath={In} />
+            <About>Graduanda em Engenharia Mecânica</About>
+          </TeamCard>
+        </Div>
+      </div>
+
+      <Title className="py-3 mb-3">
+        <p>Marketing</p>
+        <hr />
+      </Title>
+      <div className="row">
+        <Div></Div>
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Azevedo} />
+            <Name>Edália Azevedo</Name>
+            <InImg imgPath={In} />
+            <About>Engenheira Mecânica</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Lazaro} />
+            <Name>João R. C. Lazaro</Name>
+            <InImg imgPath={In} />
+            <About>Produtor Audiovisual</About>
+          </TeamCard>
+        </Div>
+        <Div></Div>
+      </div>
+
+      <Title className="py-3 mb-3">
+        <p>Website</p>
+        <hr />
+      </Title>
+      <div className="row">
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Artur} />
+            <Name>Artur Della Favera</Name>
+            <InImg imgPath={In} />
+            <About>Graduando em Engenharia Mecânica</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Bruno} />
+            <Name>Bruno W. de Castro</Name>
+            <InImg imgPath={In} />
+            <About>Graduando em Engenharia Mecânica</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Calil} />
+            <Name>Calil Amaral</Name>
+            <InImg imgPath={In} />
+            <About>Engenheiro Mecânico</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Luam} />
+            <Name>Luam G Maul</Name>
+            <InImg imgPath={In} />
+            <About>Graduando em Engenharia Mecânica</About>
+          </TeamCard>
+        </Div>
       </div>
     </div>
   );
