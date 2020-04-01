@@ -5,6 +5,9 @@ import projectOxygen from "../img/project-oxygen-croped.png";
 import projectOpenVentilator from "../img/project-open-ventilator-croped-20200324.png";
 import projectOpenSourceVentilator from "../img/project-open-source-ventilator-croped.png";
 import projecthipeerLab from  "../img/project-hipeerlab-v2-croped.png";
+import projectVentilaid from  "../img/project-ventilaid.png";
+import projectMitEVent from  "../img/project-mit-e-vent.png";
+import projectBreathe4Life from  "../img/project-breathe-4-life.png";
 
 export default function VentilatorContent() {
   return (
@@ -45,12 +48,45 @@ export default function VentilatorContent() {
         </div>
         <div className="col-md-3 py-3 mb-3">
           <Card
+            title="Breath4Life"
+            location="Florianópolis, Brasil"
+            updatedAt="27/03/2020"
+            status="Em fase de projeto"
+            imgPath={projectBreathe4Life}
+            url="https://breath4lifeproject.com/"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
             title="OxyGEN Project"
             location="Barcelona, Espanha"
             updatedAt="22/03/2020"
             status="Em operação"
             imgPath={projectOxygen}
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
+            title="MIT E-vent"
+            location="Cambridge, EUA"
+            updatedAt="30/03/2020"
+            status="Em fase de projeto"
+            imgPath={projectMitEVent}
+            url="https://e-vent.mit.edu/"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
+            title="Ventilaid"
+            location="Cracóvia, Polônia"
+            updatedAt="31/03/2020"
+            status="Em fase de projeto"
+            imgPath={projectVentilaid}
+            url="https://www.ventilaid.org/"
             button="Ver Projeto"
           />
         </div>
