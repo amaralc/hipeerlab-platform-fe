@@ -51,7 +51,7 @@ export default function VentilatorContent() {
             title="Breath4Life"
             location="Florianópolis, Brasil"
             updatedAt="27/03/2020"
-            status="Em fase de projeto"
+            status="Protótipo pronto"
             imgPath={projectBreathe4Life}
             url="https://breath4lifeproject.com/"
             button="Ver Projeto"
@@ -84,7 +84,7 @@ export default function VentilatorContent() {
             title="Ventilaid"
             location="Cracóvia, Polônia"
             updatedAt="31/03/2020"
-            status="Em fase de projeto"
+            status="Protótipo pronto"
             imgPath={projectVentilaid}
             url="https://www.ventilaid.org/"
             button="Ver Projeto"
