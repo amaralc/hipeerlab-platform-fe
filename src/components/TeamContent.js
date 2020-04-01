@@ -17,6 +17,7 @@ import Lazaro from "./Layouts/Team/img/Lazaro.png";
 import Artur from "./Layouts/Team/img/Artur.png";
 import Bruno from "./Layouts/Team/img/Bruno.png";
 import Luam from "./Layouts/Team/img/Luam.png";
+import Braulio from "./Layouts/Team/img/Braulio.png";
 
 import In from "../img/in.png";
 import {
@@ -52,7 +53,7 @@ export default function TeamContent() {
       </Title>
 
       <div className="row">
-        <Div className="col-md-3 py-3 mb-3">
+        <Div className="col-md-2 py-3 mb-3">
           <TeamCard>
             <TeamImg imgPath={Adriano} />
             <Name>Adriano S. P. Pereira</Name>
@@ -66,20 +67,34 @@ export default function TeamContent() {
           </TeamCard>
         </Div>
 
-        <Div className="col-md-3 py-3 mb-3">
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Braulio} />
+            <Name>Braulio Crippa</Name>
+            <a
+              href="https://www.linkedin.com/in/braulio-crippa-877639134/"
+              target="_blank"
+            >
+              <InImg imgPath={In} />
+            </a>
+            <About>Engenheiro de Materiais</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
           <TeamCard>
             <TeamImg imgPath={Francisco} />
-            <Name>Francisco Sedrez Warmling</Name>
+            <Name>Francisco Warmling</Name>
             <a
               href="https://www.linkedin.com/in/francisco-warmling"
               target="_blank"
             >
               <InImg imgPath={In} />
             </a>
-            <About>Animator, 2D Rigger, 3D Modeler</About>
+            <About>Animator, 3D Modeler</About>
           </TeamCard>
         </Div>
-        <Div className="col-md-3 py-3 mb-3">
+        <Div className="col-md-2 py-3 mb-3">
           <TeamCard>
             <TeamImg imgPath={Frederico} />
             <Name>Frederico Baumgratz</Name>
@@ -93,7 +108,7 @@ export default function TeamContent() {
           </TeamCard>
         </Div>
 
-        <Div className="col-md-3 py-3 mb-3">
+        <Div className="col-md-2 py-3 mb-3">
           <TeamCard>
             <TeamImg imgPath={Marcos} />
             <Name>Marcos R. Butignol</Name>
