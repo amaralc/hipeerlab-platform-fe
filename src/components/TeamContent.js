@@ -57,7 +57,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Adriano} />
             <Name>Adriano S. P. Pereira</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/adriano-sppereira-eng/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -71,7 +71,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Francisco} />
             <Name>Francisco Sedrez Warmling</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/francisco-warmling"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -84,7 +84,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Frederico} />
             <Name>Frederico Baumgratz</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/frederico-baumgratz/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -98,7 +98,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Marcos} />
             <Name>Marcos R. Butignol</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/marcos-rodrigues-butignol-87188a127/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -117,10 +117,7 @@ export default function TeamContent() {
           <TeamCard>
             <TeamImg imgPath={Glauco} />
             <Name>Glauco G. Tirollo</Name>
-            <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/gtirollo/" target="_blank">
               <InImg imgPath={In} />
             </a>
             <About>Engenheiro Químico</About>
@@ -132,7 +129,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Fernando} />
             <Name>Fernando M. Bordin</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/fernando-moreira-bordin-357aa1186/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -146,7 +143,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Thaison} />
             <Name>Thaison Prando</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/thaison-prando-427070102/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -160,7 +157,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Theodor} />
             <Name>Theodor van Caspel</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/theodor-van-caspel-49ba8886/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -174,7 +171,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Michel} />
             <Name>Michel Tavares</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/michel-tavares-6197609a/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -194,7 +191,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Calil} />
             <Name>Calil Amaral</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/calil-amaral-84005b67/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -207,10 +204,7 @@ export default function TeamContent() {
           <TeamCard>
             <TeamImg imgPath={Glauco} />
             <Name>Glauco G. Tirollo</Name>
-            <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/gtirollo/" target="_blank">
               <InImg imgPath={In} />
             </a>
             <About>Engenheiro Químico</About>
@@ -221,10 +215,7 @@ export default function TeamContent() {
           <TeamCard>
             <TeamImg imgPath={Rafael} />
             <Name>Rafael G. Nunes Silva</Name>
-            <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/rafael-nunes/" target="_blank">
               <InImg imgPath={In} />
             </a>
             <About>Engenheiro de Materiais</About>
@@ -236,7 +227,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Sara} />
             <Name>Sara Díaz Builes</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/sara-díaz-builes-715b41114"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -250,7 +241,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Luise} />
             <Name>Vitória Luise Silva</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/vit%C3%B3ria-luise-silva-04b99b191/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -271,7 +262,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Azevedo} />
             <Name>Edália Azevedo</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/ed%C3%A1lia-azevedo/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -284,10 +275,7 @@ export default function TeamContent() {
           <TeamCard>
             <TeamImg imgPath={Lazaro} />
             <Name>João R. C. Lazaro</Name>
-            <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
-              target="_blank"
-            >
+            <a href="https://LinkedIn.com/in/joaorlazaro" target="_blank">
               <InImg imgPath={In} />
             </a>
             <About>Produtor Audiovisual</About>
@@ -305,10 +293,7 @@ export default function TeamContent() {
           <TeamCard>
             <TeamImg imgPath={Artur} />
             <Name>Artur Della Favera</Name>
-            <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
-              target="_blank"
-            >
+            <a href="https://www.instagram.com/arturdf/" target="_blank">
               <InImg imgPath={In} />
             </a>
             <About>Graduando em Engenharia Mecânica</About>
@@ -334,7 +319,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Calil} />
             <Name>Calil Amaral</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/calil-amaral-84005b67/"
               target="_blank"
             >
               <InImg imgPath={In} />
@@ -348,7 +333,7 @@ export default function TeamContent() {
             <TeamImg imgPath={Luam} />
             <Name>Luam G Maul</Name>
             <a
-              href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
+              href="https://www.linkedin.com/in/luam-gabriel-maul-ab8144125/"
               target="_blank"
             >
               <InImg imgPath={In} />
