@@ -39,7 +39,7 @@ export default function VentilatorContent() {
           <Card
             title="OpenVentilator"
             location="São Paulo, Brasil"
-            updatedAt="24/03/2020"
+            updatedAt="31/03/2020"
             status="Em fase de projeto"
             imgPath={projectOpenVentilator}
             url="https://www.popsolutions.co/en_US/openventilator"
@@ -61,7 +61,7 @@ export default function VentilatorContent() {
           <Card
             title="OxyGEN Project"
             location="Barcelona, Espanha"
-            updatedAt="22/03/2020"
+            updatedAt="01/03/2020"
             status="Em operação"
             imgPath={projectOxygen}
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
@@ -94,7 +94,7 @@ export default function VentilatorContent() {
           <Card
             title="Open Source Ventilator"
             location="Dublin, Irlanda"
-            updatedAt="21/03/2020"
+            updatedAt="01/03/2020"
             status="Validação de protótipo"
             imgPath={projectOpenSourceVentilator}
             url="https://opensourceventilator.ie/"
