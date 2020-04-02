@@ -33,22 +33,8 @@ import {
 export default function TeamContent() {
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-md-10 mb-5 ">
-          <h2>Sobre a Equipe</h2>
-          <hr />
-          <p>
-            Nós somos engenheiros e estudantes residentes em Florianópolis-SC
-            que decidiram, voluntariamente, se unir e buscar uma forma de ajudar
-            nosso país no combate ao CORONAVÍRUS (COVID-19). Estamos utilizando
-            impressoras 3D para PRODUZIR e DOAR equipamentos de proteção para os
-            profissionais de saúde.
-          </p>
-        </div>
-      </div>
-
       <Title className="py-3 mb-3">
-        <p>Face Shield</p>
+        <p>Impressão 3D</p>
         <hr />
       </Title>
 

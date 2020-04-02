@@ -9,7 +9,13 @@ export default class Team extends React.Component {
     return (
       <div>
         {/* inclui o header nos moldes das paginas de conteudo */}
-        <Header headerTitle="Hipeerlab: Equipe" headerText="" />
+        <Header 
+        headerTitle="Equipe hipeerLab" 
+        headerText="Engenheiros, artistas e estudantes residentes em 
+        Florianópolis-SC unidos no combate ao CORONAVÍRUS (COVID-19). Utilizamos
+        impressoras 3D para PRODUZIR e DOAR equipamentos de proteção e equipamentos
+        emergenciais hospitalares para profissionais de saúde e outros em situação
+        de vulnerabilidade." />
         <TeamContent />
       </div>
     );
