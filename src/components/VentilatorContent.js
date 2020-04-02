@@ -4,11 +4,26 @@ import projectJoinville from "../img/project-joinville-croped.png";
 import projectOxygen from "../img/project-oxygen-croped.png";
 import projectOpenVentilator from "../img/project-open-ventilator-croped-20200324.png";
 import projectOpenSourceVentilator from "../img/project-open-source-ventilator-croped.png";
+import projecthipeerLab from  "../img/project-hipeerlab-v2-croped.png";
+import projectVentilaid from  "../img/project-ventilaid.png";
+import projectMitEVent from  "../img/project-mit-e-vent.png";
+import projectBreathe4Life from  "../img/project-breathe-4-life.png";
 
 export default function VentilatorContent() {
   return (
     <div className="container">
       <div className="row">
+        <div className="col-md-3 py-3 mb-3">
+          <Card
+            title="Equipe hipeerLab"
+            location="Florianópolis, Brasil"
+            updatedAt="31/03/2020"
+            status="Em fase de projeto"
+            imgPath={projecthipeerLab}
+            url="https://cad.onshape.com/documents/e5be8ec8b08e9cf7da0f61df/w/deeaf8c80be6a7337b6eb1dc/e/a6d575935da95adc5c422287"
+            button="Ver Projeto"
+          />
+        </div>
         <div className="col-md-3 py-3 mb-3">
           <Card
             title="Fablab Joinville"
@@ -24,7 +39,7 @@ export default function VentilatorContent() {
           <Card
             title="OpenVentilator"
             location="São Paulo, Brasil"
-            updatedAt="24/02/2020"
+            updatedAt="31/03/2020"
             status="Em fase de projeto"
             imgPath={projectOpenVentilator}
             url="https://www.popsolutions.co/en_US/openventilator"
@@ -33,9 +48,20 @@ export default function VentilatorContent() {
         </div>
         <div className="col-md-3 py-3 mb-3">
           <Card
+            title="Breath4Life"
+            location="Florianópolis, Brasil"
+            updatedAt="27/03/2020"
+            status="Protótipo pronto"
+            imgPath={projectBreathe4Life}
+            url="https://breath4lifeproject.com/"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
             title="OxyGEN Project"
             location="Barcelona, Espanha"
-            updatedAt="22/03/2020"
+            updatedAt="01/03/2020"
             status="Em operação"
             imgPath={projectOxygen}
             url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
@@ -44,15 +70,38 @@ export default function VentilatorContent() {
         </div>
         <div className="col-md-3 py-3 mb-3">
           <Card
+            title="MIT E-vent"
+            location="Cambridge, EUA"
+            updatedAt="30/03/2020"
+            status="Em fase de projeto"
+            imgPath={projectMitEVent}
+            url="https://e-vent.mit.edu/"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
+            title="Ventilaid"
+            location="Cracóvia, Polônia"
+            updatedAt="31/03/2020"
+            status="Protótipo pronto"
+            imgPath={projectVentilaid}
+            url="https://www.ventilaid.org/"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 py-3 mb-3">
+          <Card
             title="Open Source Ventilator"
             location="Dublin, Irlanda"
-            updatedAt="21/03/2020"
+            updatedAt="01/03/2020"
             status="Validação de protótipo"
             imgPath={projectOpenSourceVentilator}
             url="https://opensourceventilator.ie/"
             button="Ver Projeto"
           />
         </div>
+      
       </div>
     </div>
   );
