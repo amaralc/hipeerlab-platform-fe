@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import Ventilator from "../img/project-joinville-croped.png";
+import Ventilator from "../img/project-hipeerlab-v2-croped.png";
 import FaceShield from "../img/faceShield.png";
 import Donation from "../img/donation.png";
 
