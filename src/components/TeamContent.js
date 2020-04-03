@@ -18,6 +18,7 @@ import Artur from "./Layouts/Team/img/Artur.png";
 import Bruno from "./Layouts/Team/img/Bruno.png";
 import Luam from "./Layouts/Team/img/Luam.png";
 import Braulio from "./Layouts/Team/img/Braulio.png";
+import Larissa from "./Layouts/Team/img/Larissa.png";
 
 import In from "../img/in.png";
 import {
@@ -283,6 +284,62 @@ export default function TeamContent() {
           </TeamCard>
         </Div>
         <Div></Div>
+      </div>
+
+      <Title className="py-3 mb-3">
+        <p>Jurídico</p>
+        <hr />
+      </Title>
+      <div className="row">
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Calil} />
+            <Name>Calil Amaral</Name>
+            <a
+              href="https://www.linkedin.com/in/calil-amaral-84005b67/"
+              target="_blank"
+            >
+              <InImg imgPath={In} />
+            </a>
+            <About>Engenheiro Mecânico</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Lazaro} />
+            <Name>João R. C. Lazaro</Name>
+            <a href="https://LinkedIn.com/in/joaorlazaro" target="_blank">
+              <InImg imgPath={In} />
+            </a>
+            <About>Produtor Audiovisual</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Larissa} />
+            <Name>Larissa Martins</Name>
+            <a
+              href="https://www.linkedin.com/in/larissalealmartins/"
+              target="_blank"
+            >
+              <InImg imgPath={In} />
+            </a>
+            <About>Engenheira Mecânica</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Rafael} />
+            <Name>Rafael G. Nunes Silva</Name>
+            <a href="https://www.linkedin.com/in/rafael-nunes/" target="_blank">
+              <InImg imgPath={In} />
+            </a>
+            <About>Engenheiro de Materiais</About>
+          </TeamCard>
+        </Div>
       </div>
 
       <Title className="py-3 mb-3">
