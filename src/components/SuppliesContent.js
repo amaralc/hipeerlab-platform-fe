@@ -3,6 +3,7 @@ import Card from "./Card";
 import faceShield from "../img/faceShield.png";
 import medicalShield from "../img/medicalshield.png";
 import hipeerShields from "../img/hipeerShields.png";
+import tiaraAcetato from "../img/mascara-tiara-acetato.png";
 
 export default function SuppliesContent() {
   return (
@@ -38,6 +39,17 @@ export default function SuppliesContent() {
             status="Em operação"
             imgPath={medicalShield}
             url="https://hackaday.io/project/170481-laser-cut-medical-shield"
+            button="Ver Projeto"
+          />
+        </div>
+        <div className="col-md-3 mb-5">
+          <Card
+            title="Máscara facial com acetato e tiara"
+            location="Polônia"
+            updatedAt="02/04/2020"
+            status="Em operação"
+            imgPath={tiaraAcetato}
+            url="https://www.youtube.com/watch?v=AKJjZ7m8A7c"
             button="Ver Projeto"
           />
         </div>
