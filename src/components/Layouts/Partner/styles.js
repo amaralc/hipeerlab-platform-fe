@@ -14,7 +14,7 @@ export const TeamCard = styled.div`
 export const TeamImg = styled.img.attrs(props => ({
   src: props.imgPath
 }))`
-  width: 225px;
+  height: 100px;
   margin: auto;
 `;
 export const Div = styled.div`
