@@ -19,6 +19,8 @@ import Bruno from "./Layouts/Team/img/Bruno.png";
 import Luam from "./Layouts/Team/img/Luam.png";
 import Braulio from "./Layouts/Team/img/Braulio.png";
 import Larissa from "./Layouts/Team/img/Larissa.png";
+import Max from "./Layouts/Team/img/Max.png";
+import Lehmkuhl from "./Layouts/Team/img/Lehmkuhl.png";
 
 import In from "../img/in.png";
 import {
@@ -179,6 +181,20 @@ export default function TeamContent() {
               <InImg imgPath={In} />
             </a>
             <About>Engenheiro Mecânico, Msc</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Max} />
+            <Name>Max B. Rodrigues</Name>
+            <a
+              href="https://www.linkedin.com/in/max-baranenko-rodrigues/"
+              target="_blank"
+            >
+              <InImg imgPath={In} />
+            </a>
+            <About>Engenheiro Mecatrônico, Msc</About>
           </TeamCard>
         </Div>
       </div>
@@ -397,6 +413,20 @@ export default function TeamContent() {
               <InImg imgPath={In} />
             </a>
             <About>Graduando em Engenharia Mecânica</About>
+          </TeamCard>
+        </Div>
+
+        <Div className="col-md-2 py-3 mb-3">
+          <TeamCard>
+            <TeamImg imgPath={Lehmkuhl} />
+            <Name>Rafael A. Lehmkuhl</Name>
+            <a
+              href="https://www.linkedin.com/in/rafael-lehmkuhl/"
+              target="_blank"
+            >
+              <InImg imgPath={In} />
+            </a>
+            <About>Engenheiro Mecânico</About>
           </TeamCard>
         </Div>
       </div>
