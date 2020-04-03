@@ -54,7 +54,12 @@ export default function NavBar() {
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link className="nav-link" to="/parceiros">
+                Parceiros
+                <span className="sr-only">(current)</span>
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/equipe">
                 Equipe

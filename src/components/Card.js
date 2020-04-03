@@ -5,11 +5,11 @@ export default function Card(props) {
     <div className="card h-100">
       <img className="card-img-top" src={props.imgPath} alt="" />
       <div className="card-body">
-        <h5 className="card-title">{props.title}</h5>
-        <p className="card-text">{props.text}</p>
-        <p className="card-text">{props.location}</p>
-        <p className="card-text">{props.updatedAt}</p>
-        <p className="card-text">{props.status}</p>
+        <h5 className="card-title text-center">{props.title}</h5>
+        <p className="card-text text-center">{props.text}</p>
+        <p className="card-text text-center">{props.location}</p>
+        <p className="card-text text-center">{props.updatedAt}</p>
+        <p className="card-text text-center">{props.status}</p>
       </div>
       <div className="card-footer">
         <div className="text-center">

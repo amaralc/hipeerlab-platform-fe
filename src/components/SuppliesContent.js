@@ -23,7 +23,7 @@ export default function SuppliesContent() {
         <div className="col-md-3 mb-5">
           <Card
             title="Face Shields"
-            location="Brasil"
+            location="Joinville, Brasil"
             updatedAt="25/03/2020"
             status="Em operação"
             imgPath={faceShield}
@@ -33,8 +33,8 @@ export default function SuppliesContent() {
         </div>
         <div className="col-md-3 mb-5">
           <Card
-            title="Medical Shield"
-            location="Polônia"
+            title="Konrad Klepacki"
+            location="Gdynia, Polônia"
             updatedAt="24/03/2020"
             status="Em operação"
             imgPath={medicalShield}
@@ -44,8 +44,8 @@ export default function SuppliesContent() {
         </div>
         <div className="col-md-3 mb-5">
           <Card
-            title="Máscara facial com acetato e tiara"
-            location="Polônia"
+            title="Medicina - USP"
+            location="São Paulo, Brasil"
             updatedAt="02/04/2020"
             status="Em operação"
             imgPath={tiaraAcetato}
