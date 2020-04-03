@@ -11,7 +11,9 @@ export default class Partner extends React.Component {
         {/* inclui o header nos moldes das paginas de conteudo */}
         <Header
           headerTitle="Parceiros hipeerLab"
-          headerText="Calil faz teu show aqui pls src/pages/Partner.js"
+          headerText="Agimos de maneira colaborativa com parceiros de instituições
+          públicas e privadas para fabricar, montar, distribuir e comunicar os resultados
+          de nossas ações."
         />
         <PartnerContent />
       </div>
