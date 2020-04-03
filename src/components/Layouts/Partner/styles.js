@@ -14,7 +14,7 @@ export const TeamCard = styled.div`
 export const TeamImg = styled.img.attrs(props => ({
   src: props.imgPath
 }))`
-  width: 250px;
+  width: 225px;
   margin: auto;
 `;
 export const Div = styled.div`
@@ -23,4 +23,13 @@ export const Div = styled.div`
 export const Row = styled.div`
   margin-bottom: 80px;
   margin-top: 80px;
+`;
+export const Title = styled.div`
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  p {
+    text-align: center;
+    font-size: 30px;
+  }
 `;

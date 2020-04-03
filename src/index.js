@@ -11,7 +11,6 @@ import Home from "./pages/Home";
 import Donate from "./pages/Donate";
 import Faq from "./pages/Faq";
 import Team from "./pages/Team";
-import Partner from "./pages/Partner";
 /*import Accountability from "./pages/Accountability";*/
 
 ReactDOM.render(
@@ -24,7 +23,6 @@ ReactDOM.render(
         <Route path="/respiradores" component={Ventilator} />
         <Route path="/faq" component={Faq} />
         <Route path="/equipe" component={Team} />
-        <Route path="/parceiros" component={Partner} />
         {/*<Route path="/contabilidade" component={Accountability} />*/}
         <Redirect to="/" />
       </Switch>
