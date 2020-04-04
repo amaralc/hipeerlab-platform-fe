@@ -1,5 +1,5 @@
 import React from "react";
-import FaqContent from "../components/FaqContent";
+import FaqContent from "./Layouts/Faq/FaqContent";
 import Header from "../components/Header";
 
 export default class Faq extends React.Component {

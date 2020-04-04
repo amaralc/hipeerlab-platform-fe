@@ -1,13 +1,13 @@
 import React from "react";
-import Card from "./Card";
-import projectJoinville from "../img/project-joinville-croped-2.png";
-import projectOxygen from "../img/project-oxygen-croped-2.png";
-import projectOpenVentilator from "../img/project-open-ventilator-croped-2.png";
-import projectOpenSourceVentilator from "../img/project-open-source-ventilator-croped-2.png";
-import projecthipeerLab from  "../img/project-hipeerlab-croped-2.png";
-import projectVentilaid from  "../img/project-ventilaid-2.png";
-import projectMitEVent from  "../img/project-mit-e-vent-2.png";
-import projectBreathe4Life from  "../img/project-breathe-4-life-2.png";
+import Card from "../../../components/Card";
+import projectJoinville from "../../../img/project-joinville-croped-2.png";
+import projectOxygen from "../../../img/project-oxygen-croped-2.png";
+import projectOpenVentilator from "../../../img/project-open-ventilator-croped-2.png";
+import projectOpenSourceVentilator from "../../../img/project-open-source-ventilator-croped-2.png";
+import projecthipeerLab from "../../../img/project-hipeerlab-croped-2.png";
+import projectVentilaid from "../../../img/project-ventilaid-2.png";
+import projectMitEVent from "../../../img/project-mit-e-vent-2.png";
+import projectBreathe4Life from "../../../img/project-breathe-4-life-2.png";
 
 export default function VentilatorContent() {
   return (
@@ -101,7 +101,6 @@ export default function VentilatorContent() {
             button="Ver Projeto"
           />
         </div>
-      
       </div>
     </div>
   );

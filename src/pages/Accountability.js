@@ -1,5 +1,5 @@
 import React from "react";
-import AccountabilityContent from "../components/AccountabilityContent";
+import AccountabilityContent from "./Layouts/Accountability/AccountabilityContent";
 import Header from "../components/Header";
 
 export default class Accoutability extends React.Component {

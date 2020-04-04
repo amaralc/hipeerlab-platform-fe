@@ -1,8 +1,6 @@
 import React from "react";
-import VentilatorContent from "../components/VentilatorContent";
-/* import Carousel from "../components/Carousel"; */
+import VentilatorContent from "./Layouts/Ventilator/VentilatorContent";
 import Header from "../components/Header";
-// import { Container } from './styles';
 
 export default class Ventilator extends React.Component {
   render() {

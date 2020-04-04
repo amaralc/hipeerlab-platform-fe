@@ -1,37 +1,29 @@
 import React from "react";
-import Adriano from "./Layouts/Team/img/Adriano.png";
-import Francisco from "./Layouts/Team/img/Francisco.png";
-import Frederico from "./Layouts/Team/img/Frederico.png";
-import Marcos from "./Layouts/Team/img/Marcos.png";
-import Glauco from "./Layouts/Team/img/Glauco.png";
-import Fernando from "./Layouts/Team/img/Fernando.png";
-import Thaison from "./Layouts/Team/img/Thaison.png";
-import Theodor from "./Layouts/Team/img/Theodor.png";
-import Michel from "./Layouts/Team/img/Michel.png";
-import Calil from "./Layouts/Team/img/Calil.png";
-import Rafael from "./Layouts/Team/img/Rafael.png";
-import Sara from "./Layouts/Team/img/Sara.png";
-import Luise from "./Layouts/Team/img/Luise.png";
-import Azevedo from "./Layouts/Team/img/Azevedo.png";
-import Lazaro from "./Layouts/Team/img/Lazaro.png";
-import Artur from "./Layouts/Team/img/Artur.png";
-import Bruno from "./Layouts/Team/img/Bruno.png";
-import Luam from "./Layouts/Team/img/Luam.png";
-import Braulio from "./Layouts/Team/img/Braulio.png";
-import Larissa from "./Layouts/Team/img/Larissa.png";
-import Max from "./Layouts/Team/img/Max.png";
-import Lehmkuhl from "./Layouts/Team/img/Lehmkuhl.png";
+import Adriano from "./img/Adriano.png";
+import Francisco from "./img/Francisco.png";
+import Frederico from "./img/Frederico.png";
+import Marcos from "./img/Marcos.png";
+import Glauco from "./img/Glauco.png";
+import Fernando from "./img/Fernando.png";
+import Thaison from "./img/Thaison.png";
+import Theodor from "./img/Theodor.png";
+import Michel from "./img/Michel.png";
+import Calil from "./img/Calil.png";
+import Rafael from "./img/Rafael.png";
+import Sara from "./img/Sara.png";
+import Luise from "./img/Luise.png";
+import Azevedo from "./img/Azevedo.png";
+import Lazaro from "./img/Lazaro.png";
+import Artur from "./img/Artur.png";
+import Bruno from "./img/Bruno.png";
+import Luam from "./img/Luam.png";
+import Braulio from "./img/Braulio.png";
+import Larissa from "./img/Larissa.png";
+import Max from "./img/Max.png";
+import Lehmkuhl from "./img/Lehmkuhl.png";
 
-import In from "../img/in.png";
-import {
-  TeamCard,
-  TeamImg,
-  Div,
-  InImg,
-  Name,
-  About,
-  Title
-} from "./Layouts/Team/styles";
+import In from "../../../img/in.png";
+import { TeamCard, TeamImg, Div, InImg, Name, About, Title } from "./styles";
 
 export default function TeamContent() {
   return (

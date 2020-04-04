@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "./Card";
-import faceShield from "../img/faceShield.png";
-import medicalShield from "../img/medicalshield.png";
-import hipeerShields from "../img/hipeerShields.png";
-import tiaraAcetato from "../img/mascara-tiara-acetato.png";
+import Card from "../../../components/Card";
+import faceShield from "../../../img/faceShield.png";
+import medicalShield from "../../../img/medicalshield.png";
+import hipeerShields from "../../../img/hipeerShields.png";
+import tiaraAcetato from "../../../img/mascara-tiara-acetato.png";
 
 export default function SuppliesContent() {
   return (

@@ -11,8 +11,8 @@ export const TeamCard = styled.div`
   flex-direction: column;
   min-width: 0;
 `;
-export const TeamImg = styled.img.attrs(props => ({
-  src: props.imgPath
+export const TeamImg = styled.img.attrs((props) => ({
+  src: props.imgPath,
 }))`
   height: 100px;
   margin: auto;

@@ -1,7 +1,6 @@
 import React from "react";
-
+import SuppliesContent from "./Layouts/Supplies/SuppliesContent";
 import Header from "../components/Header";
-import SuppliesContent from "../components/SuppliesContent";
 
 // import { Container } from './styles';
 

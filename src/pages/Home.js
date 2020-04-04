@@ -1,5 +1,5 @@
 import React from "react";
-import HomeContent from "../components/HomeContent";
+import HomeContent from "./Layouts/Home/HomeContent";
 /* import Carousel from "../components/Carousel"; */
 import Header from "../components/Header";
 // import { Container } from './styles';

@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "./Card";
-import Ventilator from "../img/project-joinville-croped.png";
-import FaceShield from "../img/faceShield.png";
-import TableLayout from "./Layouts/Accountability";
+import Card from "../../../components/Card";
+import Ventilator from "../../../img/project-joinville-croped.png";
+import FaceShield from "../../../img/faceShield.png";
+import TableLayout from "./index";
 
 export default function AccountabilityContent() {
   return (

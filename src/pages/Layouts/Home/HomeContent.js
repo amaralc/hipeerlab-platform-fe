@@ -1,15 +1,15 @@
 import React from "react";
-import Card from "./Card";
-import Ventilator from "../img/project-hipeerlab-v2-croped.png";
-import FaceShield from "../img/faceShield.png";
-import Donation from "../img/donation.png";
-import Eme from "../img/eme.png";
-import Ngd from "../img/ngd.png";
-import Pronto from "../img/pronto.png";
-import Lmp from "../img/lmp.png"
-import Comunave from "../img/comunave.png"
+import Card from "../../../components/Card";
+import Ventilator from "../../../img/project-hipeerlab-v2-croped.png";
+import FaceShield from "../../../img/faceShield.png";
+import Donation from "../../../img/donation.png";
+import Eme from "../../../img/eme.png";
+import Ngd from "../../../img/ngd.png";
+import Pronto from "../../../img/pronto.png";
+import Lmp from "../../../img/lmp.png";
+import Comunave from "../../../img/comunave.png";
 
-import { TeamCard, TeamImg, Div, Row, Title } from "./Layouts/Partner/styles";
+import { TeamCard, TeamImg, Div, Row, Title } from "../Partner/styles";
 
 export default function HomeContent() {
   return (
