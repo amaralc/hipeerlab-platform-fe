@@ -22,7 +22,7 @@ export default class Supplies extends React.Component {
           <div className="row">
             <div className="col-md-3 mb-5">
               <Card
-                title="Voluntários HipeerLab"
+                title="Equipe hipeerLab"
                 location="Florianópolis, Brasil"
                 updatedAt="25/03/2020"
                 status="Em operação"
@@ -33,7 +33,7 @@ export default class Supplies extends React.Component {
             </div>
             <div className="col-md-3 mb-5">
               <Card
-                title="Face Shields"
+                title="FabLab Joinville"
                 location="Joinville, Brasil"
                 updatedAt="25/03/2020"
                 status="Em operação"
