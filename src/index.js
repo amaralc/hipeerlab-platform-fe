@@ -5,12 +5,12 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import App from "./App";
-import Ventilator from "./pages/Ventilator";
-import Supplies from "./pages/Supplies";
-import Home from "./pages/Home";
-import Donate from "./pages/Donate";
-import Faq from "./pages/Faq";
-import Team from "./pages/Team";
+import Ventilator from "./pages/Ventilator/index";
+import Supplies from "./pages/Supplies/index";
+import Home from "./pages/Home/index";
+import Donate from "./pages/Donate/index";
+import Faq from "./pages/Faq/index";
+import Team from "./pages/Team/index";
 /*import Accountability from "./pages/Accountability";*/
 
 ReactDOM.render(

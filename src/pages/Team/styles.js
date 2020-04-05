@@ -15,8 +15,8 @@ export const TeamCard = styled.div`
   background-clip: border-box;
   align-items: center;
 `;
-export const TeamImg = styled.img.attrs(props => ({
-  src: props.imgPath
+export const TeamImg = styled.img.attrs((props) => ({
+  src: props.imgPath,
 }))`
   width: 100px;
   border-radius: 50%;
@@ -34,8 +34,8 @@ export const Title = styled.div`
     font-size: 30px;
   }
 `;
-export const InImg = styled.img.attrs(props => ({
-  src: props.imgPath
+export const InImg = styled.img.attrs((props) => ({
+  src: props.imgPath,
 }))`
   margin-top: -10px;
   width: 40px;
