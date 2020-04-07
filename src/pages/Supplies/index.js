@@ -4,6 +4,7 @@ import faceShield from "../../img/faceShield.png";
 import medicalShield from "../../img/medicalshield.png";
 import hipeerShields from "../../img/hipeerShields.png";
 import tiaraAcetato from "../../img/mascara-tiara-acetato.png";
+import prusaFaceShield from "../../img/prusaFaceShield.png";
 
 import Header from "../../components/Header";
 
@@ -61,6 +62,17 @@ export default class Supplies extends React.Component {
                 status="Em operação"
                 imgPath={tiaraAcetato}
                 url="https://www.youtube.com/watch?v=AKJjZ7m8A7c"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Prusa RC3"
+                location="Praga, República Tcheca"
+                updatedAt="03/04/2020"
+                status="Em operação"
+                imgPath={prusaFaceShield}
+                url="https://www.prusaprinters.org/prints/25857-prusa-face-shield"
                 button="Ver Projeto"
               />
             </div>
