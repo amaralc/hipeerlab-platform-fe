@@ -62,9 +62,17 @@ export default function NavBar() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/faq">
+              <Link className="nav-link ins-ic mr-3" role="button" to="/faq">
                 FAQ
               </Link>
+            </li>
+            <li className="nav-item">
+              <a 
+                className="btn btn-social-icon btn-instagram"
+                href="https://www.instagram.com/hipeerlab/"
+              >
+                <span class="fa fa-instagram"></span>
+              </a>
             </li>
           </ul>
         </div>
