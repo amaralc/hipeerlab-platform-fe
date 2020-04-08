@@ -26,11 +26,11 @@ export default class Donate extends React.Component {
                 uma doação de qualquer valor para auxiliar na compra de matéria-prima
                 e arcar com outros custos logísticos e operacionais.
               </p>
-              {/*
-            <a className="btn btn-primary btn-lg" href="google.sheets">
+              
+            <a className="btn btn-primary btn-lg" href="/contabilidade">
               Prestação de Contas &raquo;
             </a>
-            */}
+           
             </div>
 
             <div className="col-md-4 mb-5">
