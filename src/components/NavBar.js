@@ -67,9 +67,11 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a 
+              <a
                 className="btn btn-social-icon btn-instagram"
                 href="https://www.instagram.com/hipeerlab/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span class="fa fa-instagram"></span>
               </a>
