@@ -6,6 +6,7 @@ import hipeerShields from "../../img/hipeerShields.png";
 import tiaraAcetato from "../../img/mascara-tiara-acetato.png";
 import prusaFaceShield from "../../img/prusaFaceShield.png";
 import diyFaceShield from "../../img/diyFaceShield.png";
+import ambevFaceShield from "../../img/ambevFaceShield.png";
 
 import Header from "../../components/Header";
 
@@ -85,6 +86,17 @@ export default class Supplies extends React.Component {
                 status="Em operação"
                 imgPath={diyFaceShield}
                 url="https://www.pscpen.com/events/psc-faceshield/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Cervejaria Ambev"
+                location="São Paulo, Brasil"
+                updatedAt="08/04/2020"
+                status="Em operação"
+                imgPath={ambevFaceShield}
+                url="https://www.linkedin.com/posts/ambev_alaezmdosraejtulos-activity-6653374061483225088-Pds4"
                 button="Ver Projeto"
               />
             </div>

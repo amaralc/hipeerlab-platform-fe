@@ -1,11 +1,7 @@
 /* --------------------------------- IMPORTS ---------------------------------*/
 import React from "react";
-import Card from "../../components/Card";
-import Ventilator from "../../img/project-joinville-croped.png";
-import FaceShield from "../../img/faceShield.png";
-
-import { Table } from "./styles";
 import Header from "../../components/Header";
+import { TeamCard, TeamImg, Div, InImg, Name, About, Title, Description, SubTitle } from "./styles";
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 export default class Accoutability extends React.Component {
@@ -14,82 +10,30 @@ export default class Accoutability extends React.Component {
       <div>
         {/* inclui o header nos moldes das paginas de conteudo */}
         <Header headerTitle="Prestação de Contas" />
-        <div className="container">
-          <Table>
-            <tr>
-              <th>Entradas</th>
-              <th>Saídas</th>
-              <th>Descrição das Saídas</th>
-            </tr>
-            <tr>
-              <td>R$ 50,00</td>
-              <td>R$ 25,00</td>
-              <td>Compra de PLA</td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td>R$ 20,00</td>
-              <td>Compra de Acetato</td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td>R$ 20,00</td>
-              <td>Compra de Acetato</td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td>R$ 20,00</td>
-              <td>Compra de Acetato</td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td>R$ 20,00</td>
-              <td>Compra de Acetato</td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td>R$ 20,00</td>
-              <td>Compra de Acetato</td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>R$ 150,00</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </Table>
-
+        <div className="container"> 
+          <Title className="py-3 mb-3">
+            <h2>Finanças</h2>
+            <hr/>
+          </Title>        
+          <SubTitle className = "py-3 mb-3">
+            <p>Resumo</p>
+            <hr />
+          </SubTitle>                 
+          <div className="row">          
+            <div className="col-md-4 mb-5 ">             
+              <iframe width="100%" height="400px" className="text-center" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQB-JW5B7ElmeIDLHotYZZYQN06OGTbQqqIO3SO_JZGV_8LocHVF_GYt43ZnKGByvbPqBZlJQ8bQyOy/pubhtml?gid=928021458&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            </div>   
+            <div className="col-md-8 mb-5 ">              
+              <iframe width="100%" height="400px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQB-JW5B7ElmeIDLHotYZZYQN06OGTbQqqIO3SO_JZGV_8LocHVF_GYt43ZnKGByvbPqBZlJQ8bQyOy/pubchart?oid=166581470&amp;format=interactive"></iframe>
+            </div>          
+          </div>
+          <SubTitle className = "py-3 mb-3">
+            <p>Detalhes</p>
+            <hr />
+          </SubTitle> 
           <div className="row">
-            <div className="col-md-6 py-3 mb-3">
-              <Card
-                title="Respiradores"
-                location=""
-                updatedAt=""
-                status=""
-                imgPath={Ventilator}
-                url="/respiradores"
-                button="Ver Projetos"
-              />
-            </div>
-            <div className="col-md-6 py-3 mb-3">
-              <Card
-                title="Suprimentos"
-                location=""
-                updatedAt=""
-                status=""
-                imgPath={FaceShield}
-                url="/suprimentos"
-                button="Ver Projetos"
-              />
+            <div className="col-md-12 mb-5 ">
+              <iframe width="100%" height="400px" className="text-center" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQB-JW5B7ElmeIDLHotYZZYQN06OGTbQqqIO3SO_JZGV_8LocHVF_GYt43ZnKGByvbPqBZlJQ8bQyOy/pubhtml?gid=688914183&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
           </div>
         </div>
