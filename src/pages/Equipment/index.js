@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import api from "../../services/api";
+
 import Card from "../../components/Card";
+import Header from "../../components/Header"
+
 import FaceShield from "../../img/faceShield.png";
 
 export default class Equipment extends Component {
@@ -15,6 +18,8 @@ export default class Equipment extends Component {
     const { equipment } = this.state;
 
     return (
+      <>
+      <Header headerTitle="Equipamentos" />
       <div className="container">
         <div className="row">
           {equipment.map((equipment) => (
