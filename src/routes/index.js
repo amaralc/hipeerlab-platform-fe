@@ -7,6 +7,7 @@ import Home from "../pages/Home/index";
 import Donate from "../pages/Donate/index";
 import Faq from "../pages/Faq/index";
 import Team from "../pages/Team/index";
+import Equipment from "../pages/Equipment/index";
 
 export default function Routes() {
   return (
@@ -17,6 +18,7 @@ export default function Routes() {
       <Route path="/respiradores" component={Ventilator} />
       <Route path="/faq" component={Faq} />
       <Route path="/equipe" component={Team} />
+      <Route path="/listequipment" component={Equipment} />
       {/*<Route path="/contabilidade" component={Accountability} />*/}
       <Redirect to="/" />
     </Switch>
