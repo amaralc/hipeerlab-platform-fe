@@ -8,6 +8,7 @@ import prusaFaceShield from "../../img/prusaFaceShield.png";
 import diyFaceShield from "../../img/diyFaceShield.png";
 import ambevFaceShield from "../../img/ambevFaceShield.png";
 import imaginum3dlogo from "../../img/imaginum3dlogo.png";
+import santoshackerlogo from "../../img/santoshackerlogo.png";
 
 import Header from "../../components/Header";
 
@@ -109,6 +110,17 @@ export default class Supplies extends React.Component {
                 status="Em operação"
                 imgPath={imaginum3dlogo}
                 url="https://www.imaginum3d.com.br/#"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Santos Hacker Club"
+                location="Santos, Brasil"
+                updatedAt="09/04/2020"
+                status="Em operação"
+                imgPath={santoshackerlogo}
+                url="https://faceshield.santoshackerclube.net/"
                 button="Ver Projeto"
               />
             </div>
