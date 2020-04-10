@@ -20,9 +20,9 @@ export default class Supplies extends React.Component {
     return (
       <div>
         <Header
-          headerTitle="Projetos de insumos hospitalares"
-          headerText="Indexação dos projetos de insumos hospitalares
-              para utilização em hospitais no combate à COVID-19."
+          headerTitle="Fabricação de itens auxiliares"
+          headerText="Frentes de fabricação e distribuição de viseiras, shields
+          e outros itens de apoio, úteis para a prevenção da propagação do COVID-19."
         />
         <div className="container">
           <div className="row">
