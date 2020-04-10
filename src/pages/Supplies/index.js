@@ -9,6 +9,7 @@ import diyFaceShield from "../../img/diyFaceShield.png";
 import ambevFaceShield from "../../img/ambevFaceShield.png";
 import imaginum3dlogo from "../../img/imaginum3dlogo.png";
 import santoshackerlogo from "../../img/santoshackerlogo.png";
+import sicnovaproject from "../../img/sicnovaproject.png";
 
 import Header from "../../components/Header";
 
@@ -121,6 +122,17 @@ export default class Supplies extends React.Component {
                 status="Em operação"
                 imgPath={santoshackerlogo}
                 url="https://faceshield.santoshackerclube.net/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Sicnova 3D"
+                location="Linares, Espanha"
+                updatedAt="10/04/2020"
+                status="Em operação"
+                imgPath={sicnovaproject}
+                url="https://portal3dcovid19.es/www/portal3d/productos/adjuntos/1/Visera_plana_rapida_1.pdf"
                 button="Ver Projeto"
               />
             </div>
