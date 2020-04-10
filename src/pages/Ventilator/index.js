@@ -8,6 +8,11 @@ import projecthipeerLab from "../../img/project-hipeerlab-croped-2.png";
 import projectVentilaid from "../../img/project-ventilaid-2.png";
 import projectMitEVent from "../../img/project-mit-e-vent-2.png";
 import projectBreathe4Life from "../../img/project-breathe-4-life-2.png";
+import projectOxVent from "../../img/project-Ox-Vent-cropped.png";
+import projectOpenVent from "../../img/project-open-vent-bristol-cropped.png";
+import projectAmboVent from "../../img/project-ambo-vent-cropped.png";
+import projectVentilatorPal from "../../img/project-ventilator-pal-croped.png"; 
+import projectRespiraWorks from "../../img/project-respira-works-croped.png";
 
 import Header from "../../components/Header";
 
@@ -104,10 +109,65 @@ export default class Ventilator extends React.Component {
               <Card
                 title="Open Source Ventilator"
                 location="Dublin, Irlanda"
-                updatedAt="01/03/2020"
+                updatedAt="01/04/2020"
                 status="Validação de protótipo"
                 imgPath={projectOpenSourceVentilator}
                 url="https://opensourceventilator.ie/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="OxVent"
+                location="Londres, Reino Unido"
+                updatedAt="08/04/2020"
+                status="Protótipo pronto"
+                imgPath={projectOxVent}
+                url="https://oxvent.org/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="OpenVent-Bristol"
+                location="Bristol, Reino Unido"
+                updatedAt="01/04/2020"
+                status="Protótipo pronto"
+                imgPath={projectOpenVent}
+                url="https://www.instructables.com/id/COVID-19-Rapid-Manufacture-Ventilator-BVM-Ambubag-/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="AmboVent"
+                location="Israel"
+                updatedAt="08/04/2020"
+                status="Protótipo pronto"
+                imgPath={projectAmboVent}
+                url="https://members.smoove.io//view.ashx?message=h44811613O122349105O219654O122419175&r=1009"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="VentilatorPAL"
+                location="Nimegue, Holanda"
+                updatedAt="08/04/2020"
+                status="Protótipo pronto"
+                imgPath={projectVentilatorPal}
+                url="https://freebreathing.org/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="RespiraWorks"
+                location="EUA"
+                updatedAt="27/03/2020"
+                status="Em fase de projeto"
+                imgPath={projectRespiraWorks}
+                url="https://respira.works/our-vision"
                 button="Ver Projeto"
               />
             </div>
