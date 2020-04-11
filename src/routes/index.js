@@ -11,6 +11,7 @@ import Faq from "../pages/Faq/index";
 import Team from "../pages/Team/index";
 import Equipment from "../pages/Equipment/index";
 import Newequip from "../pages/Newequip/index";
+import Login from "../pages/Login/index";
 
 export default function Routes() {
   return (
@@ -23,6 +24,7 @@ export default function Routes() {
       <Route path="/equipe" component={Team} />
       <Route path="/listequipment" component={Equipment} isPrivate />
       <Route path="/cadastroequip" component={Newequip} isPrivate />
+      <Route path="/login" component={Login} />
 
       {/*<Route path="/contabilidade" component={Accountability} />*/}
       <Redirect to="/" />
