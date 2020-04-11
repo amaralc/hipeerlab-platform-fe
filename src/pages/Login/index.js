@@ -7,13 +7,16 @@ import { Wrapper, Content } from "./styles";
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 export default function Login() {
+  function handleSubmit({ email, password }) {
+    console.tron.log(email, password);
+  }
   return (
     <>
       {/* inclui o header nos moldes das paginas de conteudo */}
       <Header headerTitle="Página de Login" />
       <Wrapper>
         <Content>
-          <Form>
+          <Form onSubmit={handleSubmit}>
             <Input name="email" type="email" placeholder="Seu e-mail" />
             <Input
               name="password"
