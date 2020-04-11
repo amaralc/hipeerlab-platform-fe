@@ -4,6 +4,9 @@ import Footer from "./components/Footer";
 import GlobalStyle from "./styles/global";
 import Routes from "./routes";
 import { BrowserRouter } from "react-router-dom";
+
+import "./config/ReactotronConfig";
+
 export default class App extends React.Component {
   render() {
     return (
