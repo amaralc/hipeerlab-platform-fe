@@ -11,7 +11,7 @@ import Home from "./pages/Home/index";
 import Donate from "./pages/Donate/index";
 import Faq from "./pages/Faq/index";
 import Team from "./pages/Team/index";
-import Accountability from "./pages/Accountability";
+import Transparency from "./pages/Transparency";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -23,7 +23,7 @@ ReactDOM.render(
         <Route path="/respiradores" component={Ventilator} />
         <Route path="/faq" component={Faq} />
         <Route path="/equipe" component={Team} />
-        <Route path="/contabilidade" component={Accountability} />
+        <Route path="/transparencia" component={Transparency} />
         <Redirect to="/" />
       </Switch>
     </App>

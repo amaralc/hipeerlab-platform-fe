@@ -13,7 +13,12 @@ export default function Card(props) {
       </div>
       <div className="card-footer">
         <div className="text-center">
-          <a href={props.url} className="btn btn-dark">
+          <a
+            href={props.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-dark"
+          >
             {props.button}
           </a>
         </div>
