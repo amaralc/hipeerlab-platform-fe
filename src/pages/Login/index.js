@@ -20,6 +20,7 @@ const schema = Yup.object().shape({
 
 export default function Login() {
   const dispatch = useDispatch();
+
   function handleSubmit({ email, password }) {
     dispatch(signInRequest(email, password));
     console.tron.log(email, password);

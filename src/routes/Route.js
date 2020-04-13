@@ -12,11 +12,11 @@ export default function RouteWrapper({
   ...rest
 }) {
   // flag para usuário logado
-  const signed = true;
+  const signed = false;
 
   // caso o usuário não esteja logado e a rota for privada
   if (!signed && isPrivate) {
-    return <Redirect to="/" />;
+    return <Redirect to="/login" />;
   }
   // retorna o componente acessado
   return <Route {...rest} component={Component} />;
