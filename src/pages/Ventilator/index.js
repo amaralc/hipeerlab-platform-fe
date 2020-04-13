@@ -1,18 +1,19 @@
 import React from "react";
 import Card from "../../components/Card";
-import projectJoinville from "../../img/project-joinville-croped-2.png";
-import projectOxygen from "../../img/project-oxygen-croped-2.png";
-import projectOpenVentilator from "../../img/project-open-ventilator-croped-2.png";
-import projectOpenSourceVentilator from "../../img/project-open-source-ventilator-croped-2.png";
-import projecthipeerLab from "../../img/project-hipeerlab-croped-2.png";
-import projectVentilaid from "../../img/project-ventilaid-2.png";
-import projectMitEVent from "../../img/project-mit-e-vent-2.png";
-import projectBreathe4Life from "../../img/project-breathe-4-life-2.png";
-import projectOxVent from "../../img/project-Ox-Vent-cropped.png";
-import projectOpenVent from "../../img/project-open-vent-bristol-cropped.png";
-import projectAmboVent from "../../img/project-ambo-vent-cropped.png";
+import projectJoinville from "../../img/project-fablab-croped.png";
+import projectOxygen from "../../img/project-oxygen-croped.png";
+import projectOpenVentilator from "../../img/project-open-ventilator-croped.png";
+import projectOpenSourceVentilator from "../../img/project-open-source-ventilator-croped.png";
+import projecthipeerLab from "../../img/project-hipeerlab-v2-croped.png";
+import projectVentilaid from "../../img/project-ventilaid-croped.png";
+import projectMitEVent from "../../img/project-mit-e-vent-croped.png";
+import projectBreathe4Life from "../../img/project-breathe-4-life-croped.png";
+import projectOxVent from "../../img/project-Ox-Vent-croped.png";
+import projectOpenVent from "../../img/project-open-vent-bristol-croped.png";
+import projectAmboVent from "../../img/project-ambo-vent-croped.png";
 import projectVentilatorPal from "../../img/project-ventilator-pal-croped.png"; 
 import projectRespiraWorks from "../../img/project-respira-works-croped.png";
+import projectOpenAir from "../../img/project-open-air-croped.png";
 
 import Header from "../../components/Header";
 
@@ -168,6 +169,17 @@ export default class Ventilator extends React.Component {
                 status="Em fase de projeto"
                 imgPath={projectRespiraWorks}
                 url="https://respira.works/our-vision"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="Projeto OpenAir"
+                location="Lisboa, Portugal"
+                updatedAt="01/04/2020"
+                status="Em fase de projeto"
+                imgPath={projectOpenAir}
+                url="https://www.projectopenair.org/open-source-ventilator.php"
                 button="Ver Projeto"
               />
             </div>
