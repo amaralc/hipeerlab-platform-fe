@@ -29,7 +29,7 @@ export default class Donate extends React.Component {
 
               <Btn
                 className="btn btn-primary btn-lg color-dark"
-                href="/contabilidade"
+                href="/transparencia"
               >
                 Prestação de Contas &raquo;
               </Btn>
