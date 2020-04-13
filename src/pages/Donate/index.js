@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
-import { Btn } from "./styles";
+import { Btn, Title } from "./styles";
 
 export default class Donate extends React.Component {
   render() {
@@ -10,8 +10,10 @@ export default class Donate extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-8 mb-5 ">
-              <h2>Sobre a Campanha</h2>
-              <hr />
+              <Title>
+                <h2>Sobre a campanha</h2>
+                <hr />
+              </Title>
               <p className="text-justify">
                 Somos engenheiros, artistas e estudantes residentes em
                 Florianópolis-SC unidos no combate ao CORONAVÍRUS (COVID-19).
@@ -36,8 +38,10 @@ export default class Donate extends React.Component {
             </div>
 
             <div className="col-md-4 mb-5">
-              <h2>Dados bancários</h2>
-              <hr />
+              <Title>
+                <h2>Dados bancários</h2>
+                <hr />
+              </Title>
               <address>
                 <strong>Titular:</strong> Rafael Gomes Nunes Silva
                 <br />
