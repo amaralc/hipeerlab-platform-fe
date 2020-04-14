@@ -22,6 +22,7 @@ export default class Accoutability extends React.Component {
           <Row>
             <div className="col-md-4 mb-5 ">
               <iframe
+                title="Resumo financeiro"
                 width="100%"
                 height="400px"
                 className="text-center"
@@ -30,6 +31,7 @@ export default class Accoutability extends React.Component {
             </div>
             <div className="col-md-8 mb-5 ">
               <iframe
+                title="Resumo financeiro gráfico"
                 width="100%"
                 height="400px"
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQB-JW5B7ElmeIDLHotYZZYQN06OGTbQqqIO3SO_JZGV_8LocHVF_GYt43ZnKGByvbPqBZlJQ8bQyOy/pubchart?oid=166581470&amp;format=interactive"
@@ -43,6 +45,7 @@ export default class Accoutability extends React.Component {
           <Row>
             <div className="col-md-12 mb-5 ">
               <iframe
+                title="Detalhes financeiros"
                 width="100%"
                 height="400px"
                 className="text-center"
@@ -61,6 +64,7 @@ export default class Accoutability extends React.Component {
           <Row>
             <div className="col-md-4 mb-5 ">
               <iframe
+                title="Resumo da produção de kits"
                 width="100%"
                 height="400px"
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQB-JW5B7ElmeIDLHotYZZYQN06OGTbQqqIO3SO_JZGV_8LocHVF_GYt43ZnKGByvbPqBZlJQ8bQyOy/pubhtml?gid=1536242094&amp;single=true&amp;widget=true&amp;headers=false"
@@ -68,6 +72,7 @@ export default class Accoutability extends React.Component {
             </div>
             <div className="col-md-8 mb-5 ">
               <iframe
+                title="Resumo gráfico da produção de kits"
                 width="100%"
                 height="400px"
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQB-JW5B7ElmeIDLHotYZZYQN06OGTbQqqIO3SO_JZGV_8LocHVF_GYt43ZnKGByvbPqBZlJQ8bQyOy/pubchart?oid=1354884143&amp;format=interactive"
