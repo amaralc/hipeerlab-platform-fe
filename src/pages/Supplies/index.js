@@ -10,6 +10,10 @@ import ambevFaceShield from "../../img/ambevFaceShield.png";
 import imaginum3dlogo from "../../img/imaginum3dlogo.png";
 import santoshackerlogo from "../../img/santoshackerlogo.png";
 import sicnovaproject from "../../img/sicnovaproject.png";
+import aegisproject from "../../img/aegisproject.png";
+import poliproject from "../../img/poliproject.png";
+import feiproject from "../../img/feiproject.png";
+import fablab3dtoyproject from "../../img/fablab3dtoyproject.png";
 
 import Header from "../../components/Header";
 
@@ -133,6 +137,51 @@ export default class Supplies extends React.Component {
                 status="Em operação"
                 imgPath={sicnovaproject}
                 url="https://portal3dcovid19.es/www/portal3d/productos/adjuntos/1/Visera_plana_rapida_1.pdf"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Aegis V1A"
+                location="Filipinas"
+                updatedAt="13/04/2020"
+                status="Em operação"
+                imgPath={aegisproject}
+                url="https://www.thingiverse.com/thing:4238890"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Poli USP"
+                location="São Paulo, Brasil"
+                updatedAt="13/04/2020"
+                status="Em operação"
+                imgPath={poliproject}
+                url="https://www.poli.usp.br/faceshields"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Campus Universitário FEI"
+                location="São Bernardo do Campo, Brasil"
+                updatedAt="13/04/2020"
+                status="Em operação"
+                imgPath={feiproject}
+                url="https://fei.edu.br/coronavirus/fei-e-abinfer-produzirao-mascaras-contra-covid19.html"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="FabLab 3DToy"
+                location="Campinas, Brasil"
+                updatedAt="13/04/2020"
+                status="Em operação"
+                imgPath={fablab3dtoyproject}
+                url="https://www.3dtoy.com.br/"
+                // https://www.facebook.com/Loja3dtoy/posts/1628637810607730?__xts__[0]=68.ARDuuAv5KXEtNLmWTy47XViN5JuuNvOe0eoLHBBue1DvaxNvz0EVLpdIBIOt6s8l7RehHyEFoCRXnJL9wMRyTbWFMyTtZe2v1WVx10_Vw0oWQiWQlnzEhZR7jOeRZ4DjexrYvKSXbThhqP7EutIPKeCWzrTV2tImlwN4Igjl8UNraho6a5UJsQ-n__FWVN7EJ3b0oHzCIdjXhtVbidncM3kH4yjtzZcM7Ld9RcKIqHL3cR-7PR_yt7_P67mvNxkQD7Fvnm3R3ZvgKO8DmyukgftshD4RdWl_OxzZysiAdCgQ5OgSoNgcty06z5i-xJSAh4Uwc2xMT6CuwJmjs6sYU66Wwp0vmib_MZHqheAmZEB0e_vHqP7QR2Kp4qKLrEcWWcyaIZhwJ3RsnDqq8v2YuG_TkABaEtkGVH5hXiVDQapz1B0&__tn__=-R"
                 button="Ver Projeto"
               />
             </div>
