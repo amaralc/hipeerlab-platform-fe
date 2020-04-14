@@ -54,6 +54,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/adriano-sppereira-eng/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -68,6 +69,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/braulio-crippa-877639134/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -82,6 +84,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/francisco-warmling"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -95,6 +98,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/frederico-baumgratz/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -109,6 +113,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/marcos-rodrigues-butignol-87188a127/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -126,7 +131,11 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Glauco} />
                 <Name>Glauco G. Tirollo</Name>
-                <a href="https://www.linkedin.com/in/gtirollo/" target="_blank">
+                <a 
+                  href="https://www.linkedin.com/in/gtirollo/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <InImg imgPath={In} />
                 </a>
                 <About>Engenheiro Químico</About>
@@ -140,6 +149,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/fernando-moreira-bordin-357aa1186/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -154,6 +164,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/thaison-prando-427070102/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -168,6 +179,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/theodor-van-caspel-49ba8886/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -182,6 +194,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/michel-tavares-6197609a/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -196,6 +209,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/max-baranenko-rodrigues/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -216,6 +230,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/calil-amaral-84005b67/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -227,7 +242,11 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Glauco} />
                 <Name>Glauco G. Tirollo</Name>
-                <a href="https://www.linkedin.com/in/gtirollo/" target="_blank">
+                <a 
+                  href="https://www.linkedin.com/in/gtirollo/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <InImg imgPath={In} />
                 </a>
                 <About>Engenheiro Químico</About>
@@ -241,6 +260,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/rafael-nunes/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -255,6 +275,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/sara-díaz-builes-715b41114"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -269,6 +290,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/vit%C3%B3ria-luise-silva-04b99b191/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -290,6 +312,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/ed%C3%A1lia-azevedo/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -301,7 +324,11 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Lazaro} />
                 <Name>João R. C. Lazaro</Name>
-                <a href="https://LinkedIn.com/in/joaorlazaro" target="_blank">
+                <a 
+                  href="https://LinkedIn.com/in/joaorlazaro" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <InImg imgPath={In} />
                 </a>
                 <About>Produtor Audiovisual</About>
@@ -322,6 +349,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/calil-amaral-84005b67/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -333,7 +361,11 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Lazaro} />
                 <Name>João R. C. Lazaro</Name>
-                <a href="https://LinkedIn.com/in/joaorlazaro" target="_blank">
+                <a 
+                  href="https://LinkedIn.com/in/joaorlazaro" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <InImg imgPath={In} />
                 </a>
                 <About>Produtor Audiovisual</About>
@@ -347,6 +379,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/larissalealmartins/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -361,6 +394,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/rafael-nunes/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -378,7 +412,12 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Artur} />
                 <Name>Artur Della Favera</Name>
-                <a href="https://www.instagram.com/arturdf/" target="_blank">
+                <a 
+                  href="https://www.instagram.com/arturdf/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                    
                   <InImg imgPath={In} />
                 </a>
                 <About>Graduando em Engenharia Mecânica</About>
@@ -392,6 +431,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/bruno-weber-de-castro-398641195/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -406,6 +446,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/calil-amaral-84005b67/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -420,6 +461,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/luam-gabriel-maul-ab8144125/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
@@ -434,6 +476,7 @@ export default class Team extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/rafael-lehmkuhl/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <InImg imgPath={In} />
                 </a>
