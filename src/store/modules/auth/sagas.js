@@ -16,7 +16,7 @@ export function* signIn({ payload }) {
     api.defaults.headers.Authorization = `Bearer ${token}`;
 
     yield put(signInSuccess(token, user));
-    history.push("/cadastroequip");
+    history.push("/listequipment");
   } catch (err) {
     toast.error("Falha na autenticação, verifique seus dados. 😐");
     yield put(signFailure());
@@ -33,7 +33,7 @@ export function* signUp({ payload }) {
       provider: true,
     });
 
-    history.push("/");
+    history.push("/login");
   } catch (err) {
     toast.error("Falha no cadastro, verifique seus dados. 😐");
     yield put(signFailure());
