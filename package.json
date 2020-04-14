@@ -1,6 +1,6 @@
 {
-  "name": "lmp-website",
-  "version": "0.1.0",
+  "name": "hipeerlab-platform-fe",
+  "version": "v1.5.4",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
