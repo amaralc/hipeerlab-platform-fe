@@ -36,21 +36,21 @@ export default function NavBar() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/contribua">
-                Contribua
+              <Link className="nav-link" to="/login">
+                Login
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/respiradores">
-                Respiradores
+              <Link className="nav-link" to="/cadastroequip">
+                novos
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/suprimentos">
-                Suprimentos
+              <Link className="nav-link" to="/listequipment">
+                equipamentos
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
@@ -67,7 +67,7 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a 
+              <a
                 className="btn btn-social-icon btn-instagram"
                 href="https://www.instagram.com/hipeerlab/"
               >
