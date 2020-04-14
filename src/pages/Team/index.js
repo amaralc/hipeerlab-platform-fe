@@ -23,6 +23,7 @@ import Max from "./img/Max.png";
 import Lehmkuhl from "./img/Lehmkuhl.png";
 
 import In from "../../img/in.png";
+import TeamMember from "./TeamMember";
 import { TeamCard, TeamImg, Div, InImg, Name, About, Title } from "./styles";
 
 import Header from "../../components/Header";
@@ -47,79 +48,40 @@ export default class Team extends React.Component {
           </Title>
 
           <div className="row">
-            <Div className="col-md-2 py-3 mb-3">
-              <TeamCard>
-                <TeamImg imgPath={Adriano} />
-                <Name>Adriano S. P. Pereira</Name>
-                <a
-                  href="https://www.linkedin.com/in/adriano-sppereira-eng/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <InImg imgPath={In} />
-                </a>
-                <About>Engenheiro de Materiais</About>
-              </TeamCard>
-            </Div>
+            <TeamMember
+              name="Adriano S. P. Pereira"
+              about="Engenheiro de Materiais"
+              imgPath={Adriano}
+              url="https://www.linkedin.com/in/adriano-sppereira-eng/"
+            />
 
-            <Div className="col-md-2 py-3 mb-3">
-              <TeamCard>
-                <TeamImg imgPath={Braulio} />
-                <Name>Braulio Crippa</Name>
-                <a
-                  href="https://www.linkedin.com/in/braulio-crippa-877639134/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <InImg imgPath={In} />
-                </a>
-                <About>Engenheiro de Materiais</About>
-              </TeamCard>
-            </Div>
+            <TeamMember
+              name="Braulio Crippa"
+              about="Engenheiro de Materiais"
+              imgPath={Braulio}
+              url="https://www.linkedin.com/in/braulio-crippa-877639134/"
+            />
 
-            <Div className="col-md-2 py-3 mb-3">
-              <TeamCard>
-                <TeamImg imgPath={Francisco} />
-                <Name>Francisco Warmling</Name>
-                <a
-                  href="https://www.linkedin.com/in/francisco-warmling"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <InImg imgPath={In} />
-                </a>
-                <About>Animator, 3D Modeler</About>
-              </TeamCard>
-            </Div>
-            <Div className="col-md-2 py-3 mb-3">
-              <TeamCard>
-                <TeamImg imgPath={Frederico} />
-                <Name>Frederico Baumgratz</Name>
-                <a
-                  href="https://www.linkedin.com/in/frederico-baumgratz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <InImg imgPath={In} />
-                </a>
-                <About>Engenheiro Mecânico</About>
-              </TeamCard>
-            </Div>
+            <TeamMember
+              name="Francisco Warmling"
+              about="Animator, 3D Modeler"
+              imgPath={Francisco}
+              url="https://www.linkedin.com/in/francisco-warmling"
+            />
 
-            <Div className="col-md-2 py-3 mb-3">
-              <TeamCard>
-                <TeamImg imgPath={Marcos} />
-                <Name>Marcos R. Butignol</Name>
-                <a
-                  href="https://www.linkedin.com/in/marcos-rodrigues-butignol-87188a127/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <InImg imgPath={In} />
-                </a>
-                <About>Engenheiro Mecatrônico</About>
-              </TeamCard>
-            </Div>
+            <TeamMember
+              name="Frederico Baumgratz"
+              imgPath={Frederico}
+              url="https://www.linkedin.com/in/frederico-baumgratz/"
+              about="Engenheiro Mecânico"
+            />
+
+            <TeamMember
+              imgPath={Marcos}
+              name="Marcos R. Butignol"
+              url="https://www.linkedin.com/in/marcos-rodrigues-butignol-87188a127/"
+              about="Engenheiro Mecatrônico"
+            />
           </div>
 
           <Title className="py-3 mb-3">
@@ -131,8 +93,8 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Glauco} />
                 <Name>Glauco G. Tirollo</Name>
-                <a 
-                  href="https://www.linkedin.com/in/gtirollo/" 
+                <a
+                  href="https://www.linkedin.com/in/gtirollo/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -242,8 +204,8 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Glauco} />
                 <Name>Glauco G. Tirollo</Name>
-                <a 
-                  href="https://www.linkedin.com/in/gtirollo/" 
+                <a
+                  href="https://www.linkedin.com/in/gtirollo/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -324,8 +286,8 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Lazaro} />
                 <Name>João R. C. Lazaro</Name>
-                <a 
-                  href="https://LinkedIn.com/in/joaorlazaro" 
+                <a
+                  href="https://LinkedIn.com/in/joaorlazaro"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -361,8 +323,8 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Lazaro} />
                 <Name>João R. C. Lazaro</Name>
-                <a 
-                  href="https://LinkedIn.com/in/joaorlazaro" 
+                <a
+                  href="https://LinkedIn.com/in/joaorlazaro"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -412,12 +374,11 @@ export default class Team extends React.Component {
               <TeamCard>
                 <TeamImg imgPath={Artur} />
                 <Name>Artur Della Favera</Name>
-                <a 
-                  href="https://www.instagram.com/arturdf/" 
+                <a
+                  href="https://www.instagram.com/arturdf/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                    
                   <InImg imgPath={In} />
                 </a>
                 <About>Graduando em Engenharia Mecânica</About>
