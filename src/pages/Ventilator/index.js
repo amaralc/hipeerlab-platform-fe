@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../../components/Card";
 import projectJoinville from "./img/project-fablab-croped.png";
 import projectOxygen from "./img/project-oxygen-croped.png";
-import projectOpenVentilator from "./img/project-open-ventilator-croped.png";
+import projectOpenVentilator from "./img/project-open-ventilator-v2-croped.png";
 import projectOpenSourceVentilator from "./img/project-open-source-ventilator-croped.png";
 import projecthipeerLab from "./img/project-hipeerlab-v2-croped.png";
 import projectVentilaid from "./img/project-ventilaid-croped.png";
@@ -56,8 +56,8 @@ export default class Ventilator extends React.Component {
               <Card
                 title="OpenVentilator"
                 location="São Paulo, Brasil"
-                updatedAt="31/03/2020"
-                status="Em fase de projeto"
+                updatedAt="14/04/2020"
+                status="Protótipo pronto"
                 imgPath={projectOpenVentilator}
                 url="https://www.popsolutions.co/en_US/openventilator"
                 button="Ver Projeto"
@@ -67,7 +67,7 @@ export default class Ventilator extends React.Component {
               <Card
                 title="Breath4Life"
                 location="Florianópolis, Brasil"
-                updatedAt="27/03/2020"
+                updatedAt="09/04/2020"
                 status="Protótipo pronto"
                 imgPath={projectBreathe4Life}
                 url="https://breath4lifeproject.com/"
@@ -78,10 +78,10 @@ export default class Ventilator extends React.Component {
               <Card
                 title="OxyGEN Project"
                 location="Barcelona, Espanha"
-                updatedAt="01/03/2020"
+                updatedAt="14/04/2020"
                 status="Em operação"
                 imgPath={projectOxygen}
-                url="https://www.oxygen.protofy.xyz/?fbclid=IwAR3EEDQZRBOmSG8TFY582vxQLQe7skdjRaI8Z67ufgwCjIoil4Q5oWvMpAk"
+                url="https://www.oxygen.protofy.xyz/"
                 button="Ver Projeto"
               />
             </div>
@@ -89,8 +89,8 @@ export default class Ventilator extends React.Component {
               <Card
                 title="MIT E-vent"
                 location="Cambridge, EUA"
-                updatedAt="30/03/2020"
-                status="Em fase de projeto"
+                updatedAt="14/04/2020"
+                status="Protótipo pronto"
                 imgPath={projectMitEVent}
                 url="https://e-vent.mit.edu/"
                 button="Ver Projeto"
@@ -100,7 +100,7 @@ export default class Ventilator extends React.Component {
               <Card
                 title="Ventilaid"
                 location="Cracóvia, Polônia"
-                updatedAt="31/03/2020"
+                updatedAt="10/04/2020"
                 status="Protótipo pronto"
                 imgPath={projectVentilaid}
                 url="https://www.ventilaid.org/"
@@ -111,7 +111,7 @@ export default class Ventilator extends React.Component {
               <Card
                 title="Open Source Ventilator"
                 location="Dublin, Irlanda"
-                updatedAt="01/04/2020"
+                updatedAt="15/04/2020"
                 status="Validação de protótipo"
                 imgPath={projectOpenSourceVentilator}
                 url="https://opensourceventilator.ie/"
@@ -122,7 +122,7 @@ export default class Ventilator extends React.Component {
               <Card
                 title="OxVent"
                 location="Londres, Reino Unido"
-                updatedAt="08/04/2020"
+                updatedAt="12/04/2020"
                 status="Protótipo pronto"
                 imgPath={projectOxVent}
                 url="https://oxvent.org/"
@@ -144,7 +144,7 @@ export default class Ventilator extends React.Component {
               <Card
                 title="AmboVent"
                 location="Israel"
-                updatedAt="08/04/2020"
+                updatedAt="14/04/2020"
                 status="Protótipo pronto"
                 imgPath={projectAmboVent}
                 url="https://members.smoove.io//view.ashx?message=h44811613O122349105O219654O122419175&r=1009"
@@ -155,7 +155,7 @@ export default class Ventilator extends React.Component {
               <Card
                 title="VentilatorPAL"
                 location="Nimegue, Holanda"
-                updatedAt="08/04/2020"
+                updatedAt="10/04/2020"
                 status="Protótipo pronto"
                 imgPath={projectVentilatorPal}
                 url="https://freebreathing.org/"
@@ -166,10 +166,10 @@ export default class Ventilator extends React.Component {
               <Card
                 title="RespiraWorks"
                 location="EUA"
-                updatedAt="27/03/2020"
+                updatedAt="15/04/2020"
                 status="Em fase de projeto"
                 imgPath={projectRespiraWorks}
-                url="https://respira.works/our-vision"
+                url="https://respira.works/"
                 button="Ver Projeto"
               />
             </div>
