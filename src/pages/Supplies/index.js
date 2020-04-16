@@ -119,7 +119,7 @@ export default class Supplies extends React.Component {
                 updatedAt="09/04/2020"
                 status="Em operação"
                 imgPath={imaginum3dlogo}
-                url="https://www.imaginum3d.com.br/#"
+                url="https://www.imaginum3d.com.br/pagina/imaginum3d-contra-o-covid-19.html"
                 button="Ver Projeto"
               />
             </div>
@@ -185,8 +185,7 @@ export default class Supplies extends React.Component {
                 updatedAt="13/04/2020"
                 status="Em operação"
                 imgPath={fablab3dtoyproject}
-                url="https://www.3dtoy.com.br/"
-                // https://www.facebook.com/Loja3dtoy/posts/1628637810607730?__xts__[0]=68.ARDuuAv5KXEtNLmWTy47XViN5JuuNvOe0eoLHBBue1DvaxNvz0EVLpdIBIOt6s8l7RehHyEFoCRXnJL9wMRyTbWFMyTtZe2v1WVx10_Vw0oWQiWQlnzEhZR7jOeRZ4DjexrYvKSXbThhqP7EutIPKeCWzrTV2tImlwN4Igjl8UNraho6a5UJsQ-n__FWVN7EJ3b0oHzCIdjXhtVbidncM3kH4yjtzZcM7Ld9RcKIqHL3cR-7PR_yt7_P67mvNxkQD7Fvnm3R3ZvgKO8DmyukgftshD4RdWl_OxzZysiAdCgQ5OgSoNgcty06z5i-xJSAh4Uwc2xMT6CuwJmjs6sYU66Wwp0vmib_MZHqheAmZEB0e_vHqP7QR2Kp4qKLrEcWWcyaIZhwJ3RsnDqq8v2YuG_TkABaEtkGVH5hXiVDQapz1B0&__tn__=-R"
+                url="https://www.facebook.com/Loja3dtoy/posts/1628637810607730?__xts__[0]=68.ARDuuAv5KXEtNLmWTy47XViN5JuuNvOe0eoLHBBue1DvaxNvz0EVLpdIBIOt6s8l7RehHyEFoCRXnJL9wMRyTbWFMyTtZe2v1WVx10_Vw0oWQiWQlnzEhZR7jOeRZ4DjexrYvKSXbThhqP7EutIPKeCWzrTV2tImlwN4Igjl8UNraho6a5UJsQ-n__FWVN7EJ3b0oHzCIdjXhtVbidncM3kH4yjtzZcM7Ld9RcKIqHL3cR-7PR_yt7_P67mvNxkQD7Fvnm3R3ZvgKO8DmyukgftshD4RdWl_OxzZysiAdCgQ5OgSoNgcty06z5i-xJSAh4Uwc2xMT6CuwJmjs6sYU66Wwp0vmib_MZHqheAmZEB0e_vHqP7QR2Kp4qKLrEcWWcyaIZhwJ3RsnDqq8v2YuG_TkABaEtkGVH5hXiVDQapz1B0&__tn__=-R"
                 button="Ver Projeto"
               />
             </div>
@@ -197,7 +196,7 @@ export default class Supplies extends React.Component {
                 updatedAt="15/04/2020"
                 status="Em operação"
                 imgPath={fixitproject}
-                url="https://www.instagram.com/usefixit/"
+                url="https://www.instagram.com/p/B--ZnfaFmR4/"
                 /* Tem o site deles, entretanto não menciona sobre a fabricação de face shields e a doação delas https://usefixit.com.br/ */
                 button="Ver Projeto"
               />
