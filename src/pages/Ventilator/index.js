@@ -14,6 +14,7 @@ import projectAmboVent from "./img/project-ambo-vent-croped.png";
 import projectVentilatorPal from "./img/project-ventilator-pal-croped.png"; 
 import projectRespiraWorks from "./img/project-respira-works-croped.png";
 import projectOpenAir from "./img/project-open-air-croped.png";
+import projectVirginOrbit from "./img/project-virgin-orbit-croped.png";
 
 import Header from "../../components/Header";
 
@@ -33,8 +34,8 @@ export default class Ventilator extends React.Component {
               <Card
                 title="Equipe hipeerLab"
                 location="Florianópolis, Brasil"
-                updatedAt="31/03/2020"
-                status="Em fase de projeto"
+                updatedAt="15/04/2020"
+                status="Protótipo pronto"
                 imgPath={projecthipeerLab}
                 url="https://cad.onshape.com/documents/e5be8ec8b08e9cf7da0f61df/w/deeaf8c80be6a7337b6eb1dc/e/a6d575935da95adc5c422287"
                 button="Ver Projeto"
@@ -180,6 +181,18 @@ export default class Ventilator extends React.Component {
                 status="Em fase de projeto"
                 imgPath={projectOpenAir}
                 url="https://www.projectopenair.org/open-source-ventilator.php"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="Virgin Orbit Ventilator"
+                location="Long Beach, EUA"
+                updatedAt="30/03/2020"
+                status= "Protótipo pronto"
+                imgPath={projectVirginOrbit}
+                url="https://virginorbit.com/virgin-orbit-uci-and-ut-austin-
+                design-new-mass-producible-ventilator-for-covid-19-patients/"
                 button="Ver Projeto"
               />
             </div>
