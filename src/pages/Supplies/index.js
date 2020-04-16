@@ -14,6 +14,11 @@ import aegisproject from "../../img/aegisproject.png";
 import poliproject from "../../img/poliproject.png";
 import feiproject from "../../img/feiproject.png";
 import fablab3dtoyproject from "../../img/fablab3dtoyproject.png";
+import fixitproject from "../../img/fixitproject.png";
+import unespproject from "../../img/unespproject.png";
+import sos3dproject from "../../img/sos3dproject.png";
+import utfprproject from "../../img/utfprproject.png";
+import atitude3dproject from "../../img/atitude3dproject.png";
 
 import Header from "../../components/Header";
 
@@ -182,6 +187,62 @@ export default class Supplies extends React.Component {
                 imgPath={fablab3dtoyproject}
                 url="https://www.3dtoy.com.br/"
                 // https://www.facebook.com/Loja3dtoy/posts/1628637810607730?__xts__[0]=68.ARDuuAv5KXEtNLmWTy47XViN5JuuNvOe0eoLHBBue1DvaxNvz0EVLpdIBIOt6s8l7RehHyEFoCRXnJL9wMRyTbWFMyTtZe2v1WVx10_Vw0oWQiWQlnzEhZR7jOeRZ4DjexrYvKSXbThhqP7EutIPKeCWzrTV2tImlwN4Igjl8UNraho6a5UJsQ-n__FWVN7EJ3b0oHzCIdjXhtVbidncM3kH4yjtzZcM7Ld9RcKIqHL3cR-7PR_yt7_P67mvNxkQD7Fvnm3R3ZvgKO8DmyukgftshD4RdWl_OxzZysiAdCgQ5OgSoNgcty06z5i-xJSAh4Uwc2xMT6CuwJmjs6sYU66Wwp0vmib_MZHqheAmZEB0e_vHqP7QR2Kp4qKLrEcWWcyaIZhwJ3RsnDqq8v2YuG_TkABaEtkGVH5hXiVDQapz1B0&__tn__=-R"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Fix it"
+                location="São Paulo, Brasil"
+                updatedAt="15/04/2020"
+                status="Em operação"
+                imgPath={fixitproject}
+                url="https://www.instagram.com/usefixit/"
+                /* Tem o site deles, entretanto não menciona sobre a fabricação de face shields e a doação delas https://usefixit.com.br/ */
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="UNESP"
+                location="Ilha Solteira, Brasil"
+                updatedAt="15/04/2020"
+                status="Em operação"
+                imgPath={unespproject}
+                url="https://www.feis.unesp.br/#!/covid-19/pagina"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="SOS 3D COVID 19"
+                location="Rio de Janeiro, Brasil"
+                updatedAt="15/04/2020"
+                status="Em operação"
+                imgPath={sos3dproject}
+                url="https://sos3dcovid19.com.br/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Área 42 - UTFPR"
+                location="Cornélio Precópio, Brasil"
+                updatedAt="15/04/2020"
+                status="Em operação"
+                imgPath={utfprproject}
+                url="https://www.facebook.com/pfarea42/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Atitude 3D"
+                location="Curitiba, Brasil"
+                updatedAt="15/04/2020"
+                status="Em operação"
+                imgPath={atitude3dproject}
+                url="https://www.instagram.com/atitude3dvoluntario/"
                 button="Ver Projeto"
               />
             </div>
