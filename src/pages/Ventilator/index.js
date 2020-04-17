@@ -4,7 +4,7 @@ import projectJoinville from "./img/project-fablab-croped.png";
 import projectOxygen from "./img/project-oxygen-croped.png";
 import projectOpenVentilator from "./img/project-open-ventilator-v2-croped.png";
 import projectOpenSourceVentilator from "./img/project-open-source-ventilator-croped.png";
-import projecthipeerLab from "./img/project-hipeerlab-v2-croped.png";
+import projecthipeerLab from "./img/project-hipeerlab-v3-croped.png";
 import projectVentilaid from "./img/project-ventilaid-croped.png";
 import projectMitEVent from "./img/project-mit-e-vent-croped.png";
 import projectBreathe4Life from "./img/project-breathe-4-life-croped.png";
