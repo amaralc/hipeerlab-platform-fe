@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../../components/Card";
-import Ventilator from "../Ventilator/img/project-hipeerlab-v2-croped.png";
+import Ventilator from "../Ventilator/img/project-hipeerlab-v3-croped.png";
 import FaceShield from "../../img/faceShield.png";
 import Donation from "../../img/donation.png";
 import Eme from "../../img/eme.png";
