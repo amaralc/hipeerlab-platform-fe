@@ -1,28 +1,36 @@
 export function NewEquipRequest(
   category,
+  responsible_id,
   equipment_name,
   company,
   model,
+  ufsc_patrimony,
+  feesc_patimony,
   color,
   serial_number,
   comment,
   state,
   room_id,
-  image
+  image,
+  hourly_rate_brl
 ) {
   return {
     type: "@equip/NEW_EQUIP_REQUEST",
     payload: {
       category,
+      responsible_id,
       equipment_name,
       company,
       model,
+      ufsc_patrimony,
+      feesc_patimony,
       color,
       serial_number,
       comment,
       state,
       room_id,
       image,
+      hourly_rate_brl,
     },
   };
 }
