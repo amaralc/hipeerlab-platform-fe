@@ -1,8 +1,9 @@
 import React from "react";
+import { CardContainer } from "./styles";
 
 export default function Card(props) {
   return (
-    <div className="card h-100">
+    <CardContainer>
       <img className="card-img-top" src={props.imgPath} alt="" />
       <div className="card-body">
         <h5 className="card-title text-center">{props.title}</h5>
@@ -23,6 +24,6 @@ export default function Card(props) {
           </a>
         </div>
       </div>
-    </div>
+    </CardContainer>
   );
 }
