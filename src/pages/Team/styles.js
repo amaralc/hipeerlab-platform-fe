@@ -11,7 +11,7 @@ export const Title = styled.div`
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
-  p {
+  h2 {
     text-align: center;
     font-size: 30px;
   }
