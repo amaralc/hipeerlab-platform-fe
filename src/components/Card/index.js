@@ -1,28 +1,24 @@
 import React from "react";
+import { CardContainer, Body, Footer, FooterDiv } from "./styles";
 
 export default function Card(props) {
   return (
-    <div className="card h-100">
-      <img className="card-img-top" src={props.imgPath} alt="" />
-      <div className="card-body">
-        <h5 className="card-title text-center">{props.title}</h5>
-        <p className="card-text text-center">{props.text}</p>
-        <p className="card-text text-center">{props.location}</p>
-        <p className="card-text text-center">{props.updatedAt}</p>
-        <p className="card-text text-center">{props.status}</p>
-      </div>
-      <div className="card-footer">
-        <div className="text-center">
-          <a
-            href={props.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-dark"
-          >
+    <CardContainer>
+      <img src={props.imgPath} alt="" />
+      <Body>
+        <h5>{props.title}</h5>
+        <p>{props.text}</p>
+        <p>{props.location}</p>
+        <p>{props.updatedAt}</p>
+        <p>{props.status}</p>
+      </Body>
+      <Footer>
+        <FooterDiv>
+          <a href={props.url} target="_blank" rel="noopener noreferrer">
             {props.button}
           </a>
-        </div>
-      </div>
-    </div>
+        </FooterDiv>
+      </Footer>
+    </CardContainer>
   );
 }
