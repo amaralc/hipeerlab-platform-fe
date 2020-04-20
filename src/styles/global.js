@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-  p {
+  footer,
+  header {
+    display: block;
   }
 `;

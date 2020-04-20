@@ -1,18 +1,18 @@
 import React from "react";
 
+import { HeaderDiv, Container, Row, Div } from "./styles";
+
 export default function Header(props) {
   return (
-    <header className="bg-dark py-4 mb-4">
-      <div className="container h-100">
-        <div className="row h-100 align-items-center">
-          <div className="col-lg-12">
-            <h1 className="display-4 text-white mt-5 mb-2">
-              {props.headerTitle}
-            </h1>
-            <p className="lead mb-5 text-white">{props.headerText}</p>
-          </div>
-        </div>
-      </div>
-    </header>
+    <HeaderDiv>
+      <Container className="container">
+        <Row>
+          <Div>
+            <h1>{props.headerTitle}</h1>
+            <p>{props.headerText}</p>
+          </Div>
+        </Row>
+      </Container>
+    </HeaderDiv>
   );
 }
