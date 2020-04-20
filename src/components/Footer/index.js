@@ -1,11 +1,13 @@
 import React from "react";
 
+import { FooterDiv, FooterContainer } from "./styles";
+
 export default function Footer() {
   return (
-    <footer className="py-5 bg-dark">
-      <div className="container">
-        <p className="m-5 text-center text-white">Copyright &copy; hipeerLab 2020</p>
-      </div>
-    </footer>
+    <FooterDiv>
+      <FooterContainer>
+        <p>Copyright &copy; hipeerLab 2020</p>
+      </FooterContainer>
+    </FooterDiv>
   );
 }
