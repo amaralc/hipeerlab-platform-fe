@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 
-export const TeamCard = styled.div`
+export const PartnerCard = styled.div`
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -11,7 +11,7 @@ export const TeamCard = styled.div`
   flex-direction: column;
   min-width: 0;
 `;
-export const TeamImg = styled.img.attrs((props) => ({
+export const PartnerImg = styled.img.attrs((props) => ({
   src: props.imgPath,
 }))`
   height: 100px;
@@ -20,10 +20,7 @@ export const TeamImg = styled.img.attrs((props) => ({
 export const Div = styled.div`
   margin: auto;
 `;
-export const Row = styled.div`
-  margin-bottom: 80px;
-  margin-top: 80px;
-`;
+
 export const Title = styled.div`
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;

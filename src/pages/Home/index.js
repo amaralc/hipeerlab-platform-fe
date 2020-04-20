@@ -9,9 +9,9 @@ import Pronto from "../../img/pronto.png";
 import Lmp from "../../img/lmp.png";
 import Comunave from "../../img/comunave.png";
 
-import { Div, Title } from "./styles";
+import { Title, Row, Partners } from "./styles";
 
-import { TeamCard, TeamImg, Row } from "../Partner/styles";
+import Partner from "./Partner";
 
 import Header from "../../components/Header";
 
@@ -25,27 +25,24 @@ export default class Home extends React.Component {
           headerText="Indexação dos projetos de equipamentos hospitalares emergenciais para auxílio no combate à COVID-19."
         />
         <div className="container">
-          <div className="row">
+          <Row>
             <div className="col-md-8 mb-5">
               <Title>
-                <p>
-                  O que fazemos
-                </p>
+                <h2>O que fazemos</h2>
               </Title>
               <hr />
               <p>
-                Formamos um grande laboratório, distribuído nas casas dos membros
-                e em espaços físicos de outras instituições parceiras. Cada um
-                de nós contribui com sua iniciativa, equipamentos e habilidades,
-                da maneira como pode e quando tem disponibilidade.
+                Formamos um grande laboratório, distribuído nas casas dos
+                membros e em espaços físicos de outras instituições parceiras.
+                Cada um de nós contribui com sua iniciativa, equipamentos e
+                habilidades, da maneira como pode e quando tem disponibilidade.
               </p>
-              <p>
-                
-              </p>
-              
+              <p></p>
             </div>
             <div className="col-md-4 mb-5">
-              <Title><p>O que fazemos</p></Title>
+              <Title>
+                <h2>O que fazemos</h2>
+              </Title>
               <hr />
               <address>
                 <strong>LMP</strong>
@@ -65,8 +62,8 @@ export default class Home extends React.Component {
                 <a href="mailto:#"> lmp@ufsc.br</a>
               </address>
             </div>
-          </div>
-          <div className="row">
+          </Row>
+          <Row>
             <div className="col-md-4 py-3 mb-3">
               <Card
                 title="Ajude  a causa!"
@@ -100,39 +97,24 @@ export default class Home extends React.Component {
                 button="Ver Projetos"
               />
             </div>
-          </div>       
+          </Row>
 
-          <Row className="row">
+          <Partners>
             <Title className="py-3 mb-3">
-              <p>Parceiros</p>
+              <h2>Parceiros</h2>
               <hr />
             </Title>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Ngd} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Eme} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Pronto} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Lmp} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Comunave} />
-              </TeamCard>
-            </Div>
-          </Row>
+
+            <Partner imgPath={Ngd} />
+
+            <Partner imgPath={Eme} />
+
+            <Partner imgPath={Pronto} />
+
+            <Partner imgPath={Lmp} />
+
+            <Partner imgPath={Comunave} />
+          </Partners>
         </div>
       </div>
     );
