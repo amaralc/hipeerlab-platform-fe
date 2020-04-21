@@ -18,11 +18,7 @@ export default function NewsCard(props) {
       />
       <div class="info-container">
         <div class="title">{props.title}</div>
-        <div class="description">{props.description}</div>
-        <div class="provider">
-          <div class="source">{props.source} :</div>
-          <div class="date">: {props.date}</div>
-        </div>
+        <div class="date">{props.date}</div>
       </div>
     </a>
   );
