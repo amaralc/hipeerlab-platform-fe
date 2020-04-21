@@ -23,7 +23,7 @@ export default class Home extends React.Component {
         />
         <div className="container">
           <Row>
-            <div className="col-md-8 mb-5">
+            <div className="col-md-8 mb-3">
               <Title>
                 <h2>Quem somos</h2>
               </Title>
@@ -42,7 +42,7 @@ export default class Home extends React.Component {
                 de respirador mecânico que pode ajudar a salvar vidas. 
               </p>
             </div>
-            <div className="col-md-4 mb-5">
+            <div className="col-md-4 mb-3">
               <Title>
                 <h2>Contato</h2>
               </Title>
@@ -101,7 +101,11 @@ export default class Home extends React.Component {
               />
             </div>
           </Row>
-          <PartnersContent />
+          <Row>
+            <div className="col-md-12 mb-3">
+              <PartnersContent />  
+            </div>
+          </Row>
         </div>
       </div>
     );
