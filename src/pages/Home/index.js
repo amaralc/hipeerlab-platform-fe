@@ -16,8 +16,8 @@ export default class Home extends React.Component {
       <div>
         {/* inclui o header nos moldes das paginas de conteudo */}
         <Header
-          headerTitle="COVID-19: Equipamentos emergenciais"
-          headerText="Indexação dos projetos de equipamentos hospitalares emergenciais para auxílio no combate à COVID-19."
+          headerTitle="Business Name or Tagline"
+          headerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam."
         />
         <div className="container">
           <Row>
