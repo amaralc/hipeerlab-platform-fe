@@ -14,11 +14,10 @@ export const Title = styled.div`
 `;
 
 export const Button = styled.button`
-  top: -1px;
   position: relative;
   z-index: 2;
   display: inline-block;
-  margin: 5px 0 0;
+  margin: 0 0 0;
   height: 48px;
   background-color: #343a40;
   color: #fff;
