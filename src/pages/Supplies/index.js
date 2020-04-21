@@ -19,6 +19,11 @@ import unespproject from "../../img/unespproject.png";
 import sos3dproject from "../../img/sos3dproject.png";
 import utfprproject from "../../img/utfprproject.png";
 import atitude3dproject from "../../img/atitude3dproject.png";
+import brotherinarmsproject from "../../img/brotherinarmsproject.png";
+import cuidarproject from "../../img/cuidarproject.png";
+import sesimsproject from "../../img/sesimsproject.png";
+import sos3djfproject from "../../img/sos3djfproject.png";
+import ufopproject from "../../img/ufopproject.png";
 
 import Header from "../../components/Header";
 
@@ -242,6 +247,61 @@ export default class Supplies extends React.Component {
                 status="Em operação"
                 imgPath={atitude3dproject}
                 url="https://www.instagram.com/atitude3dvoluntario/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Brother in Arms"
+                location="Porto Alegre, Brasil"
+                updatedAt="21/04/2020"
+                status="Em operação"
+                imgPath={brotherinarmsproject}
+                url="https://brothersinarms.cc/noticias/quem-somos-2/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Cuidar"
+                location="Aracaju, Brasil"
+                updatedAt="21/04/2020"
+                status="Em operação"
+                imgPath={cuidarproject}
+                url="https://www.instagram.com/cuid4r/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="SESI - MS"
+                location="Campo Grande, Brasil"
+                updatedAt="21/04/2020"
+                status="Em operação"
+                imgPath={sesimsproject}
+                url="https://www.instagram.com/p/B-Xha2OBPSL/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="SOS 3D JF"
+                location="Juiz de Fora, Brasil"
+                updatedAt="21/04/2020"
+                status="Em operação"
+                imgPath={sos3djfproject}
+                url="https://www.sos3djf.com.br/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 mb-5">
+              <Card
+                title="Universidade Federal de Ouro Preto"
+                location="Ouro Preto, Brasil"
+                updatedAt="21/04/2020"
+                status="Em operação"
+                imgPath={ufopproject}
+                url="https://ufop.br/noticias/pesquisa-e-inovacao/ufop-produz-protetores-faciais-para-aumentar-seguranca-de-profissionais"
                 button="Ver Projeto"
               />
             </div>
