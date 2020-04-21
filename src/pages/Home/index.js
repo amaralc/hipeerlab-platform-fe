@@ -3,15 +3,10 @@ import Card from "../../components/Card";
 import Ventilator from "../Ventilator/img/project-hipeerlab-v3-croped.png";
 import FaceShield from "../../img/faceShield.png";
 import Donation from "../../img/donation.png";
-import Eme from "../../img/eme.png";
-import Ngd from "../../img/ngd.png";
-import Pronto from "../../img/pronto.png";
-import Lmp from "../../img/lmp.png";
-import Comunave from "../../img/comunave.png";
 
-import { Title, Row, Partners } from "./styles";
+import { Title, Row } from "./styles";
 
-import Partner from "./Partner";
+import PartnersContent from "./Partner";
 
 import Header from "../../components/Header";
 
@@ -98,23 +93,7 @@ export default class Home extends React.Component {
               />
             </div>
           </Row>
-
-          <Partners>
-            <Title className="py-3 mb-3">
-              <h2>Parceiros</h2>
-              <hr />
-            </Title>
-
-            <Partner imgPath={Ngd} />
-
-            <Partner imgPath={Eme} />
-
-            <Partner imgPath={Pronto} />
-
-            <Partner imgPath={Lmp} />
-
-            <Partner imgPath={Comunave} />
-          </Partners>
+          <PartnersContent />
         </div>
       </div>
     );

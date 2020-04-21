@@ -19,14 +19,3 @@ export const Title = styled.div`
     font-size: 30px;
   }
 `;
-
-export const Partners = styled.div`
-  margin-bottom: 80px;
-  margin-top: 80px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-`;

@@ -11,12 +11,11 @@ export const PartnerCard = styled.div`
   flex-direction: column;
   min-width: 0;
 `;
-export const PartnerImg = styled.img.attrs((props) => ({
-  src: props.imgPath,
-}))`
+export const PartnerImg = styled.img`
   height: 100px;
   margin: auto;
 `;
+
 export const Div = styled.div`
   margin: auto;
 `;
@@ -29,4 +28,15 @@ export const Title = styled.div`
     text-align: center;
     font-size: 30px;
   }
+`;
+
+export const Partners = styled.div`
+  margin-bottom: 80px;
+  margin-top: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 `;
