@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <a class="navbar-brand" href="#">hipeerLab</a>
+        <a className="navbar-brand" href="/">hipeerLab</a>
         
 
         <button
@@ -71,7 +71,7 @@ export default function NavBar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span class="fa fa-instagram"></span>
+                <span className="fa fa-instagram"></span>
               </a>
             </li>
           </ul>

@@ -47,19 +47,12 @@ export default class Home extends React.Component {
               </Title>
               <hr />
               <address>
-                <strong>hipeerLab</strong>
-                <br />
-                Proximidades da UFSC campus Trindade
-                <br />
-                Florianópolis, SC                
-                <br />
+                <p><strong>hipeerLab</strong></p>
+                <p>Florianópolis, SC</p>          
               </address>
               <address>
-                <span title="Slack">Slack:</span>
-                <a href="https://hipeerlab.slack.com"> hipeerlab.slack.com</a>
-                <br />
-                <span title="Email">E-mail:</span>
-                <a href="mailto:#"> hipeerlab@gmail.com</a>
+                <span title="Instagram">Instagram:</span>
+                <a href="https://www.instagram.com/hipeerlab/"> @hipeerlab</a>
               </address>
             </div>
           </Row>
