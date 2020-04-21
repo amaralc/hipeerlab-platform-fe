@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 
-export const TeamCard = styled.div`
+export const PartnerCard = styled.div`
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -11,19 +11,16 @@ export const TeamCard = styled.div`
   flex-direction: column;
   min-width: 0;
 `;
-export const TeamImg = styled.img.attrs((props) => ({
-  src: props.imgPath,
-}))`
-  height: 100px;
+export const PartnerImg = styled.img`
+  
   margin: auto;
+  max-width: 100px;
 `;
+
 export const Div = styled.div`
   margin: auto;
 `;
-export const Row = styled.div`
-  margin-bottom: 80px;
-  margin-top: 80px;
-`;
+
 export const Title = styled.div`
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -32,4 +29,15 @@ export const Title = styled.div`
     text-align: center;
     font-size: 30px;
   }
+`;
+
+export const Partners = styled.div`
+  margin-bottom: 80px;
+  margin-top: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 `;
