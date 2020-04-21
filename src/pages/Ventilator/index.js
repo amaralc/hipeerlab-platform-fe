@@ -15,6 +15,10 @@ import projectVentilatorPal from "./img/project-ventilator-pal-croped.png";
 import projectRespiraWorks from "./img/project-respira-works-croped.png";
 import projectOpenAir from "./img/project-open-air-croped.png";
 import projectVirginOrbit from "./img/project-virgin-orbit-croped.png";
+import projectApolloBVM from "./img/project-apollo-bvm-croped.png";
+import projectInspire from "./img/project-inspire-croped.png";
+
+
 
 import Header from "../../components/Header";
 
@@ -193,6 +197,28 @@ export default class Ventilator extends React.Component {
                 imgPath={projectVirginOrbit}
                 url="https://virginorbit.com/virgin-orbit-uci-and-ut-austin-
                 design-new-mass-producible-ventilator-for-covid-19-patients/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="ApolloBVM"
+                location="Houston, EUA"
+                updatedAt="19/04/2020"
+                status= "Protótipo pronto"
+                imgPath={projectApolloBVM}
+                url="http://oedk.rice.edu/apollobvm/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="Inspire"
+                location="São Paulo, Brasil"
+                updatedAt="09/04/2020"
+                status= "Protótipo pronto"
+                imgPath={projectInspire}
+                url=""
                 button="Ver Projeto"
               />
             </div>
