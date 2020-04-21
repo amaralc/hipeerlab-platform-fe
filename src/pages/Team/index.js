@@ -42,7 +42,7 @@ export default class Team extends React.Component {
         />
         <div className="container">
           <Title className="py-3 mb-3">
-            <p>Impressão 3D</p>
+            <h2>Impressão 3D</h2>
             <hr />
           </Title>
 
@@ -84,7 +84,7 @@ export default class Team extends React.Component {
           </div>
 
           <Title className="py-3 mb-3">
-            <p>Respiradores Mecânicos</p>
+            <h2>Respiradores Mecânicos</h2>
             <hr />
           </Title>
           <div className="row">
@@ -132,7 +132,7 @@ export default class Team extends React.Component {
           </div>
 
           <Title className="py-3 mb-3">
-            <p>Logística</p>
+            <h2>Logística</h2>
             <hr />
           </Title>
           <div className="row">
@@ -173,7 +173,7 @@ export default class Team extends React.Component {
           </div>
 
           <Title className="py-3 mb-3">
-            <p>Marketing</p>
+            <h2>Marketing</h2>
             <hr />
           </Title>
 
@@ -198,7 +198,7 @@ export default class Team extends React.Component {
           </div>
 
           <Title className="py-3 mb-3">
-            <p>Jurídico</p>
+            <h2>Jurídico</h2>
             <hr />
           </Title>
 
@@ -233,7 +233,7 @@ export default class Team extends React.Component {
           </div>
 
           <Title className="py-3 mb-3">
-            <p>Website</p>
+            <h2>Website</h2>
             <hr />
           </Title>
           <div className="row">
