@@ -32,8 +32,7 @@ export const Title = styled.div`
 `;
 
 export const Partners = styled.div`
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 1rem!important;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
