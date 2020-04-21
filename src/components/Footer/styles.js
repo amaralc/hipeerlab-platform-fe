@@ -6,7 +6,7 @@ import styled from "styled-components";
 export const FooterDiv = styled.footer`
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
-  background-color: #343a40 !important;
+  background-color: #000 !important;
 `;
 
 export const FooterContainer = styled.div`

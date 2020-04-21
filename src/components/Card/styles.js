@@ -72,14 +72,14 @@ export const FooterDiv = styled.div`
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: #000;
+    border-color: #000;
   }
 
   a:hover {
     color: #fff;
-    background-color: #23272b;
-    border-color: #1d2124;
+    background-color: #007bff;
+    border-color: #007bff;
     text-decoration: none;
   }
 
