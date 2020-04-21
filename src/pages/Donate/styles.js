@@ -18,7 +18,6 @@ export const Button = styled.button`
   z-index: 2;
   display: inline-block;
   margin: 0 0 0;
-  height: 48px;
   background-color: #343a40;
   color: #fff;
   font-weight: 400;
@@ -26,7 +25,6 @@ export const Button = styled.button`
   border-radius: 0.3rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  transition: background 0.2s;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
