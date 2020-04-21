@@ -16,45 +16,50 @@ export default class Home extends React.Component {
       <div>
         {/* inclui o header nos moldes das paginas de conteudo */}
         <Header
-          headerTitle="COVID-19: Equipamentos emergenciais"
-          headerText="Indexação dos projetos de equipamentos hospitalares emergenciais para auxílio no combate à COVID-19."
+          headerTitle="Iniciativa COVID-19"
+          headerText="Nos reunimos para auxiliar no combate à propagação da COVID-19.
+          No momento estamos projetando e fabricando um respirador mecânico de baixo
+          custo, assim como fabricando e doando face shields."
         />
         <div className="container">
           <Row>
             <div className="col-md-8 mb-5">
               <Title>
-                <h2>O que fazemos</h2>
+                <h2>Quem somos</h2>
               </Title>
               <hr />
               <p>
-                Formamos um grande laboratório, distribuído nas casas dos
-                membros e em espaços físicos de outras instituições parceiras.
-                Cada um de nós contribui com sua iniciativa, equipamentos e
-                habilidades, da maneira como pode e quando tem disponibilidade.
+                Somos um laboratório distribuído. Cada parte dos recursos que 
+                contribui com o hipeerLab se encontra nas casas de indivíduos e 
+                em instituições independentes. Somos uma organização dinâmica,
+                que se expande e se contrai enquanto se adapta às circunstâncias.
               </p>
-              <p></p>
+              <p>
+                Em Março de 2020 nos adaptamos para fabricar e doar mais de 700
+                face shields para profissionais de saúde e outros em situação de
+                vulnerabilidade. Em Abril do mesmo ano colocamos o primeiro protótipo
+                de respirador mecânico em funcionamento. 
+              </p>
             </div>
             <div className="col-md-4 mb-5">
               <Title>
-                <h2>O que fazemos</h2>
+                <h2>Contato</h2>
               </Title>
               <hr />
               <address>
-                <strong>LMP</strong>
+                <strong>hipeerLab</strong>
                 <br />
-                R. Eng. Agronômico Andrei Cristian Ferreira, s/n
+                Proximidades da UFSC campus Trindade
                 <br />
-                Trindade, Florianópolis, SC
-                <br />
-                CEP 88040-900
+                Florianópolis, SC                
                 <br />
               </address>
               <address>
-                <abbr title="Phone">P:</abbr>
-                +55 (48) 3271-7229
+                <span title="Slack">Slack:</span>
+                <a href="https://hipeerlab.slack.com"> hipeerlab.slack.com</a>
                 <br />
-                <abbr title="Email">E:</abbr>
-                <a href="mailto:#"> lmp@ufsc.br</a>
+                <span title="Email">E-mail:</span>
+                <a href="mailto:#"> hipeerlab@gmail.com</a>
               </address>
             </div>
           </Row>

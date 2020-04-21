@@ -12,8 +12,9 @@ export const PartnerCard = styled.div`
   min-width: 0;
 `;
 export const PartnerImg = styled.img`
-  height: 100px;
+  
   margin: auto;
+  max-width: 100px;
 `;
 
 export const Div = styled.div`

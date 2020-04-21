@@ -28,9 +28,9 @@ export default class Donate extends React.Component {
                 matéria-prima e arcar com outros custos logísticos e
                 operacionais.
               </p>
-
+              <br/>
               <Btn
-                className="btn btn-primary btn-lg color-dark"
+                className="btn btn-dark"
                 href="/transparencia"
               >
                 Prestação de Contas &raquo;
