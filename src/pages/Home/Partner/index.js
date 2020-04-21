@@ -19,19 +19,14 @@ function Partner(props) {
 export default function PartnersContent() {
   return (
     <Partners>
-      <Title className="py-3 mb-3">
+      <Title className="col-md-12 mb-3">
         <h2>Parceiros</h2>
         <hr />
       </Title>
-
       <Partner imgPath={Ngd} />
-
       <Partner imgPath={Eme} />
-
       <Partner imgPath={Pronto} />
-
       <Partner imgPath={Lmp} />
-
       <Partner imgPath={Comunave} />
     </Partners>
   );

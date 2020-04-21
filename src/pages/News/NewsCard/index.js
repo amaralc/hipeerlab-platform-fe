@@ -7,18 +7,18 @@ export default function NewsCard(props) {
       href={props.link}
       target="_blank"
       rel="noopener noreferrer"
-      class="news-card"
+      className="news-card"
     >
       <img
-        class="news-image"
+        className="news-image"
         height="76px"
         width="76px"
         src={props.image}
         alt=""
       />
-      <div class="info-container">
-        <div class="title">{props.title}</div>
-        <div class="date">{props.date}</div>
+      <div className="info-container">
+        <div className="title">{props.title}</div>
+        <div className="date">{props.date}</div>
       </div>
     </a>
   );

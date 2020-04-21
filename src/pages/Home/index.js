@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "../../components/Card";
-import Ventilator from "../Ventilator/img/project-hipeerlab-v3-croped.png";
-import FaceShield from "../../img/faceShield.png";
-import Donation from "../../img/donation.png";
+import Ventilator from "../Ventilator/img/project-hipeerlab-v3-300x200px.png";
+import FaceShield from "../../img/prusaFaceShield.png";
+import Donation from "./img/contribua.png";
 
 import { Title, Row } from "./styles";
 
@@ -23,7 +23,7 @@ export default class Home extends React.Component {
         />
         <div className="container">
           <Row>
-            <div className="col-md-8 mb-5">
+            <div className="col-md-8 mb-3">
               <Title>
                 <h2>Quem somos</h2>
               </Title>
@@ -31,17 +31,18 @@ export default class Home extends React.Component {
               <p>
                 Somos um laboratório distribuído. Cada parte dos recursos que 
                 contribui com o hipeerLab se encontra nas casas de indivíduos e 
-                em instituições independentes. Somos uma organização dinâmica,
-                que se expande e se contrai enquanto se adapta às circunstâncias.
+                instituições que se complementam de forma colaborativa. Formamos
+                uma organização dinâmica, que se expande e se contrai adaptando-se
+                às circunstâncias.
               </p>
               <p>
-                Em Março de 2020 nos adaptamos para fabricar e doar mais de 700
+                Até o momento nos adaptamos para fabricar e doar mais de 600
                 face shields para profissionais de saúde e outros em situação de
-                vulnerabilidade. Em Abril do mesmo ano colocamos o primeiro protótipo
-                de respirador mecânico em funcionamento. 
+                vulnerabilidade. Nosso desafio do momento é validar o projeto
+                de respirador mecânico que pode ajudar a salvar vidas. 
               </p>
             </div>
-            <div className="col-md-4 mb-5">
+            <div className="col-md-4 mb-3">
               <Title>
                 <h2>Contato</h2>
               </Title>
@@ -59,39 +60,52 @@ export default class Home extends React.Component {
           <Row>
             <div className="col-md-4 py-3 mb-3">
               <Card
-                title="Ajude  a causa!"
+                title="Ajude essa causa!"
+                text="As doações que recebemos nos ajudam a custear 
+                a fabricação e doação de face shields, assim como o projeto
+                e fabricação de respiradores mecânicos."
                 location=""
                 updatedAt=""
                 status=""
                 imgPath={Donation}
                 url="/contribua"
-                button="Contribua!"
+                button="Contribua &raquo;"
               />
             </div>
             <div className="col-md-4 py-3 mb-3">
               <Card
-                title="Respiradores"
+                title="Respiradores Mecânicos"
+                text="Veja os projetos de respiradores que listamos e que
+                estamos utilizado como referências para projetar e fabricar
+                o nosso."
                 location=""
                 updatedAt=""
                 status=""
                 imgPath={Ventilator}
                 url="/respiradores"
-                button="Ver Projetos"
+                button="Ver Projetos &raquo;"
               />
             </div>
             <div className="col-md-4 py-3 mb-3">
               <Card
-                title="Suprimentos"
+                title="Face Shields e Outros"
+                text="Veja a lista de grupos que também estão produzindo face shields 
+                e outros suprimentos para ajudar no combate à COVID-19 no Brasil
+                e no mundo."
                 location=""
                 updatedAt=""
                 status=""
                 imgPath={FaceShield}
                 url="/suprimentos"
-                button="Ver Projetos"
+                button="Ver Projetos &raquo;"
               />
             </div>
           </Row>
-          <PartnersContent />
+          <Row>
+            <div className="col-md-12 mb-3">
+              <PartnersContent />  
+            </div>
+          </Row>
         </div>
       </div>
     );

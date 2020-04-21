@@ -38,7 +38,7 @@ export const Body = styled.div`
 
   h5,
   p {
-    text-align: center !important;
+    text-align: left !important;
   }
 `;
 
@@ -53,7 +53,7 @@ export const Footer = styled.div`
 `;
 
 export const FooterDiv = styled.div`
-  text-align: center !important;
+  text-align: left !important;
 
   a {
     display: inline-block;
