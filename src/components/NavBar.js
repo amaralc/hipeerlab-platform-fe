@@ -60,7 +60,12 @@ export default function NavBar() {
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link className="nav-link" to="/noticias">
+                Noticias
+                <span className="sr-only">(current)</span>
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link ins-ic mr-3" role="button" to="/faq">
                 FAQ

@@ -10,6 +10,7 @@ import Supplies from "./pages/Supplies/index";
 import Home from "./pages/Home/index";
 import Donate from "./pages/Donate/index";
 import Faq from "./pages/Faq/index";
+import News from "./pages/News/index";
 import Team from "./pages/Team/index";
 import Transparency from "./pages/Transparency";
 
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route path="/suprimentos" component={Supplies} />
         <Route path="/respiradores" component={Ventilator} />
         <Route path="/faq" component={Faq} />
+        <Route path="/noticias" component={News} />
         <Route path="/equipe" component={Team} />
         <Route path="/transparencia" component={Transparency} />
         <Redirect to="/" />
