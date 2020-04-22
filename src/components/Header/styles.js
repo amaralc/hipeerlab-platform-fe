@@ -1,5 +1,5 @@
 /* --------------------------------- IMPORTS ---------------------------------*/
-import styled from "styled-components";
+import styled from 'styled-components';
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 
@@ -52,6 +52,6 @@ export const Div = styled.div`
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 3rem !important;
-    color: rgba(255,255,255,0.5) !important;
+    color: rgba(255, 255, 255, 0.5) !important;
   }
 `;

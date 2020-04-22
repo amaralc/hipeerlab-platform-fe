@@ -1,18 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import * as serviceWorker from './serviceWorker';
 
-import App from "./App";
-import Ventilator from "./pages/Ventilator/index";
-import Supplies from "./pages/Supplies/index";
-import Home from "./pages/Home/index";
-import Donate from "./pages/Donate/index";
-import Faq from "./pages/Faq/index";
-import News from "./pages/News/index";
-import Team from "./pages/Team/index";
-import Transparency from "./pages/Transparency";
+import App from './App';
+import Ventilator from './pages/Ventilator/index';
+import Supplies from './pages/Supplies/index';
+import Home from './pages/Home/index';
+import Donate from './pages/Donate/index';
+import Faq from './pages/Faq/index';
+import News from './pages/News/index';
+import Team from './pages/Team/index';
+import Transparency from './pages/Transparency';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -30,7 +30,7 @@ ReactDOM.render(
       </Switch>
     </App>
   </BrowserRouter>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

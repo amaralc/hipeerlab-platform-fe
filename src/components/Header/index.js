@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { HeaderDiv, Container, Row, Div } from "./styles";
+import { HeaderDiv, Container, Row, Div } from './styles';
 
 export default function Header(props) {
   return (

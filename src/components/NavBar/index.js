@@ -1,13 +1,13 @@
-import React from "react";
-import logo from "../../img/icon.png";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="/">hipeerLab</a>
-        
+        <a className="navbar-brand" href="/">
+          hipeerLab
+        </a>
 
         <button
           className="navbar-toggler"
@@ -71,7 +71,7 @@ export default function NavBar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="fa fa-instagram"></span>
+                <span className="fa fa-instagram" />
               </a>
             </li>
           </ul>
