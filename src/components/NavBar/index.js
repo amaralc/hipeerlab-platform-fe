@@ -1,20 +1,13 @@
 import React from "react";
-import logo from "../img/icon.png";
+import logo from "../../img/icon.png";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <Link to="/">
-          <img
-            className="navbar-brand"
-            src={logo}
-            style={{ paddingTop: "3px", height: "30px" }}
-            alt="hipeerLab"
-          />
-          hipeerLab
-        </Link>
+        <a className="navbar-brand" href="/">hipeerLab</a>
+        
 
         <button
           className="navbar-toggler"
@@ -60,7 +53,12 @@ export default function NavBar() {
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link className="nav-link" to="/noticias">
+                Noticias
+                <span className="sr-only">(current)</span>
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link ins-ic mr-3" role="button" to="/faq">
                 FAQ
@@ -73,7 +71,7 @@ export default function NavBar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span class="fa fa-instagram"></span>
+                <span className="fa fa-instagram"></span>
               </a>
             </li>
           </ul>

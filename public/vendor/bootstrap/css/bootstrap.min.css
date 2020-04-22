@@ -2562,8 +2562,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #1E305A;
-    border-color: #1E305A;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 .btn-primary:hover {
@@ -2834,8 +2834,8 @@ fieldset:disabled a.btn {
 
 .btn-dark:hover {
     color: #fff;
-    background-color: #23272b;
-    border-color: #1d2124
+    background-color: #F4D75D;
+    border-color: #F4D75D
 }
 
 .btn-dark.focus,
@@ -6503,7 +6503,7 @@ a.close.disabled {
 
 .carousel {
     position: relative;
-    background: #1E305A;
+    background: #007bff;
     margin-bottom:20px;    
 }
 
@@ -6802,7 +6802,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #1e305a!important
+    background-color: #007bff!important
 }
 
 a.bg-primary:focus,

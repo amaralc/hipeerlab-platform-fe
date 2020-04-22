@@ -1,15 +1,12 @@
 import React from "react";
 import Card from "../../components/Card";
-import Ventilator from "../Ventilator/img/project-hipeerlab-v2-croped.png";
-import FaceShield from "../../img/faceShield.png";
-import Donation from "../../img/donation.png";
-import Eme from "../../img/eme.png";
-import Ngd from "../../img/ngd.png";
-import Pronto from "../../img/pronto.png";
-import Lmp from "../../img/lmp.png";
-import Comunave from "../../img/comunave.png";
+import Ventilator from "../Ventilator/img/project-hipeerlab-v3-300x200px.png";
+import FaceShield from "../../img/prusaFaceShield.png";
+import Donation from "./img/contribua.png";
 
-import { TeamCard, TeamImg, Div, Row, Title } from "../Partner/styles";
+import { Title, Row } from "./styles";
+
+import PartnersContent from "./Partner";
 
 import Header from "../../components/Header";
 
@@ -19,75 +16,95 @@ export default class Home extends React.Component {
       <div>
         {/* inclui o header nos moldes das paginas de conteudo */}
         <Header
-          headerTitle="COVID-19: Equipamentos emergenciais"
-          headerText="Indexação dos projetos de equipamentos hospitalares emergenciais para auxílio no combate à COVID-19."
+          headerTitle="Iniciativa COVID-19"
+          headerText="Nos reunimos para auxiliar no combate à propagação da COVID-19.
+          No momento estamos projetando e fabricando um respirador mecânico de baixo
+          custo, assim como fabricando e doando face shields."
         />
         <div className="container">
-          <div className="row">
+          <Row>
+            <div className="col-md-8 mb-3">
+              <Title>
+                <h2>Quem somos</h2>
+              </Title>
+              <hr />
+              <p>
+                Somos um laboratório distribuído. Cada parte dos recursos que 
+                contribui com o hipeerLab se encontra nas casas de indivíduos e 
+                instituições que se complementam de forma colaborativa. Formamos
+                uma organização dinâmica, que se expande e se contrai adaptando-se
+                às circunstâncias.
+              </p>
+              <p>
+                Até o momento nos adaptamos para fabricar e doar mais de 600
+                face shields para profissionais de saúde e outros em situação de
+                vulnerabilidade. Nosso desafio do momento é validar o projeto
+                de respirador mecânico que pode ajudar a salvar vidas. 
+              </p>
+            </div>
+            <div className="col-md-4 mb-3">
+              <Title>
+                <h2>Contato</h2>
+              </Title>
+              <hr />
+              <address>
+                <p><strong>hipeerLab</strong></p>
+                <p>Florianópolis, SC</p>          
+              </address>
+              <address>
+                <span title="Instagram">Instagram:</span>
+                <a href="https://www.instagram.com/hipeerlab/"> @hipeerlab</a>
+              </address>
+            </div>
+          </Row>
+          <Row>
             <div className="col-md-4 py-3 mb-3">
               <Card
-                title="Ajude  a causa!"
+                title="Ajude essa causa!"
+                text="As doações que recebemos nos ajudam a custear 
+                a fabricação e doação de face shields, assim como o projeto
+                e fabricação de respiradores mecânicos."
                 location=""
                 updatedAt=""
                 status=""
                 imgPath={Donation}
                 url="/contribua"
-                button="Contribua!"
+                button="Contribua &raquo;"
               />
             </div>
             <div className="col-md-4 py-3 mb-3">
               <Card
-                title="Respiradores"
+                title="Respiradores Mecânicos"
+                text="Veja os projetos de respiradores que listamos e que
+                estamos utilizado como referências para projetar e fabricar
+                o nosso."
                 location=""
                 updatedAt=""
                 status=""
                 imgPath={Ventilator}
                 url="/respiradores"
-                button="Ver Projetos"
+                button="Ver Projetos &raquo;"
               />
             </div>
             <div className="col-md-4 py-3 mb-3">
               <Card
-                title="Suprimentos"
+                title="Face Shields e Outros"
+                text="Veja a lista de grupos que também estão produzindo face shields 
+                e outros suprimentos para ajudar no combate à COVID-19 no Brasil
+                e no mundo."
                 location=""
                 updatedAt=""
                 status=""
                 imgPath={FaceShield}
                 url="/suprimentos"
-                button="Ver Projetos"
+                button="Ver Projetos &raquo;"
               />
             </div>
-          </div>
-          <Row className="row">
-            <Title className="py-3 mb-3">
-              <p>Parceiros</p>
-              <hr />
-            </Title>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Ngd} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Eme} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Pronto} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Lmp} />
-              </TeamCard>
-            </Div>
-            <Div>
-              <TeamCard>
-                <TeamImg imgPath={Comunave} />
-              </TeamCard>
-            </Div>
+          </Row>
+          <Row>
+            <div className="col-md-12 mb-3">
+              <PartnersContent />  
+            </div>
           </Row>
         </div>
       </div>

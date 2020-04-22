@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
-import { Btn, Title } from "./styles";
+import { Title, Button } from "./styles";
 
 export default class Donate extends React.Component {
   render() {
@@ -29,12 +29,9 @@ export default class Donate extends React.Component {
                 operacionais.
               </p>
 
-              <Btn
-                className="btn btn-primary btn-lg color-dark"
-                href="/transparencia"
-              >
-                Prestação de Contas &raquo;
-              </Btn>
+              <Button>
+                <a href="/transparencia">Prestação de Contas &raquo;</a>
+              </Button>
             </div>
 
             <div className="col-md-4 mb-5">
