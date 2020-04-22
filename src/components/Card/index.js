@@ -1,5 +1,5 @@
-import React from "react";
-import { CardContainer, Body, Footer, FooterDiv } from "./styles";
+import React from 'react';
+import { CardContainer, Body, Footer, FooterDiv } from './styles';
 
 export default function Card(props) {
   return (

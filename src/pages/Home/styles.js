@@ -1,5 +1,5 @@
 /* --------------------------------- IMPORTS ---------------------------------*/
-import styled from "styled-components";
+import styled from 'styled-components';
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 export const Row = styled.div`
