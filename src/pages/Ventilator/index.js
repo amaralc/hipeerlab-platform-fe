@@ -17,7 +17,10 @@ import projectOpenAir from "./img/project-open-air-croped.png";
 import projectVirginOrbit from "./img/project-virgin-orbit-croped.png";
 import projectApolloBVM from "./img/project-apollo-bvm-croped.png";
 import projectInspire from "./img/project-inspire-croped.png";
-
+import projectAAU from "./img/project-aau-pandemic-ventilator-croped.png";
+import projectPrevailNY from "./img/project-prevail-ny-croped.png";
+import projectOpenBreath from "./img/project-open-breath-croped.png";
+import projectVentCore from "./img/project-vent-core-croped.png";
 
 
 import Header from "../../components/Header";
@@ -218,7 +221,51 @@ export default class Ventilator extends React.Component {
                 updatedAt="09/04/2020"
                 status= "Protótipo pronto"
                 imgPath={projectInspire}
-                url=""
+                url="https://www.poli.usp.br/inspire"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="AAU Pandemic Ventilator"
+                location="Aalborg, Dinamarca"
+                updatedAt="08/04/2020"
+                status= "Protótipo pronto"
+                imgPath={projectAAU}
+                url="https://corescue.org"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="Prevail NY"
+                location="Syracuse, EUA"
+                updatedAt="09/04/2020"
+                status= "Protótipo pronto"
+                imgPath={projectPrevailNY}
+                url="https://jmawireless.com/prevail-ny/"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="Open Breath"
+                location="Turim, Itália"
+                updatedAt="03/04/2020"
+                status= "Protótipo pronto"
+                imgPath={projectOpenBreath}
+                url="https://www.openbreath.it/en/#"
+                button="Ver Projeto"
+              />
+            </div>
+            <div className="col-md-3 py-3 mb-3">
+              <Card
+                title="VentCore"
+                location="Pristina, Kosovo"
+                updatedAt="03/04/2020"
+                status= "Protótipo pronto"
+                imgPath={projectVentCore}
+                url="https://www.ventcore.health/"
                 button="Ver Projeto"
               />
             </div>
