@@ -1,15 +1,13 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import GlobalStyle from './styles/global';
+import { Router } from 'react-router-dom';
 
-export default function App(props) {
+import Routes from './routes';
+import history from './services/history';
+
+export default function App() {
   return (
-    <div>
-      <NavBar />
-      <GlobalStyle />
-      <main>{props.children}</main>
-      <Footer />
-    </div>
+    <Router history={history}>
+      <Routes />
+    </Router>
   );
 }
