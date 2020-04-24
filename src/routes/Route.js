@@ -3,6 +3,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
+import AuthLayout from '../pages/_layouts/auth';
+import DefaultLayout from '../pages/_layouts/default';
+
 /* --------------------------------- EXPORTS ---------------------------------*/
 /**
  * Cria componente de roteamento modificado, com condições de roteamento
@@ -21,7 +24,7 @@ export default function RouteWrapper({
   /**
    * Cria variavel que define status do usuario na aplicacao
    */
-  const signed = false;
+  const signed = true;
 
   /**
    * Aplica condicoes de redirecionamento do usuario
@@ -34,11 +37,27 @@ export default function RouteWrapper({
     return <Redirect to="/dashboard" />;
   }
 
+  const Layout = signed ? DefaultLayout : AuthLayout;
   /**
    * Se nao requer redirecionamento, retorna rota com mesmo componente definido
    * nas props
    */
-  return <Route {...rest} component={Component} />;
+  return (
+    <Route
+      {...rest}
+      /**
+       * Recebe todas as propriedades da tela
+       */
+      render={(props) => (
+        /**
+         * Renderiza layout e componente dentro do layout
+         */
+        <Layout>
+          <Component {...props} />
+        </Layout>
+      )}
+    />
+  );
 }
 
 /**
