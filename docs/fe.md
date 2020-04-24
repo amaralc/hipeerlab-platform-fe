@@ -4,6 +4,7 @@
 
   * [Configurando Reactotron](#configurando-reactotron)
   * [Rotas Privadas](#rotas-privads)
+  * [Layouts por Pagina](#layouts-por-pagina)
 
 ## Configurando Reactotron
 [Voltar para índice](#indice)
@@ -164,3 +165,215 @@
 
   * (terminal) Importa proptypes: `yarn add prop-types` ;
   * Roda app e testa condições de redirecionamento alterando valor da variavel `signed` ;
+
+## Layoutes por Página
+[Voltar para índice](#indice)
+[Video](https://skylab.rocketseat.com.br/node/gobarber-web/group/ambiente-inicial-e-conceitos-1/lesson/layouts-por-pagina-1)
+
+  Objetivo: criar templates de telas para usuários logados e não logados;
+
+  * (vscode extensions) Instala extensão `vscode-styled-components` ;
+  * Cria arquivo **pages/_layouts/auth/index.js**:
+
+    ```js
+    /* --------------------------------- IMPORTS ---------------------------------*/
+    import React from 'react';
+    import PropTypes from 'prop-types';
+    import { Wrapper } from './styles';
+
+    /* --------------------------------- EXPORTS ---------------------------------*/
+    export default function AuthLayout({ children }) {
+      return <Wrapper>{children}</Wrapper>;
+    }
+
+    /**
+    * Define proptypes do componente
+    */
+    AuthLayout.propTypes = {
+      children: PropTypes.element.isRequired,
+    };
+
+    ```
+
+  * Cria arquivo **pages/_layouts/default/index.js**:
+
+    ```js
+    /* --------------------------------- IMPORTS ---------------------------------*/
+    import React from 'react';
+    import PropTypes from 'prop-types';
+    import { Wrapper } from './styles';
+
+    /* --------------------------------- EXPORTS ---------------------------------*/
+    export default function DefaultLayout({ children }) {
+      return <Wrapper>{children}</Wrapper>;
+    }
+
+    /**
+    * Define proptypes do componente
+    */
+    DefaultLayout.propTypes = {
+      children: PropTypes.element.isRequired,
+    };
+
+    ```
+
+  * Cria arquivo **pages/_layouts/auth/styles.js**:
+
+    ```js
+    import styled from 'styled-components';
+
+    export const Wrapper = styled.div`
+      height: 100%;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 992px !important;
+      background-color: #fff;
+
+      @media (min-width: 576px) {
+        max-width: 540px;
+      }
+
+      @media (min-width: 768px) {
+        max-width: 720px;
+      }
+
+      @media (min-width: 992px) {
+        max-width: 960px;
+      }
+
+      @media (min-width: 1200px) {
+        max-width: 1140px;
+      }
+    `;
+
+    ```
+
+  * Cria arquivo **pages/_layouts/default/styles.js**:
+
+    ```js
+    import styled from 'styled-components';
+
+    export const Wrapper = styled.div`
+      height: 100%;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 992px !important;
+      background-color: #fff;
+
+      @media (min-width: 576px) {
+        max-width: 540px;
+      }
+
+      @media (min-width: 768px) {
+        max-width: 720px;
+      }
+
+      @media (min-width: 992px) {
+        max-width: 960px;
+      }
+
+      @media (min-width: 1200px) {
+        max-width: 1140px;
+      }
+
+      h1 {
+        color: #38b6ff;
+      }
+    `;
+
+    ```
+
+  * Importa layouts nas rotas e cria condições de renderização:
+
+    ```js
+    /* --------------------------------- IMPORTS ---------------------------------*/
+    import React from 'react';
+    import PropTypes from 'prop-types';
+    import { Route, Redirect } from 'react-router-dom';
+
+    import AuthLayout from '../pages/_layouts/auth';
+    import DefaultLayout from '../pages/_layouts/default';
+
+    /* --------------------------------- EXPORTS ---------------------------------*/
+    /**
+    * Cria componente de roteamento modificado, com condições de roteamento
+    */
+    export default function RouteWrapper({
+      component: Component,
+      /**
+      * Passa propriedade isPrivate que por padrão é 'false'
+      */
+      isPrivate,
+      /**
+      * Passa demais propriedades do componente
+      */
+      ...rest
+    }) {
+      /**
+      * Cria variavel que define status do usuario na aplicacao
+      */
+      const signed = true;
+
+      /**
+      * Aplica condicoes de redirecionamento do usuario
+      */
+      if (!signed && isPrivate) {
+        return <Redirect to="/signin" />;
+      }
+
+      if (signed && !isPrivate) {
+        return <Redirect to="/dashboard" />;
+      }
+
+      const Layout = signed ? DefaultLayout : AuthLayout;
+      /**
+      * Se nao requer redirecionamento, retorna rota com mesmo componente definido
+      * nas props
+      */
+      return (
+        <Route
+          {...rest}
+          /**
+          * Recebe todas as propriedades da tela
+          */
+          render={(props) => (
+            /**
+            * Renderiza layout e componente dentro do layout
+            */
+            <Layout>
+              <Component {...props} />
+            </Layout>
+          )}
+        />
+      );
+    }
+
+    /**
+    * Define tipos das propriedades de RouteWrapper
+    */
+    RouteWrapper.propTypes = {
+      isPrivate: PropTypes.bool,
+      /**
+      * Como o componente pode ser function ou class definimos como um dos tipos
+      * definidos no array
+      */
+      component: PropTypes.oneOfType([PropTypes.element, PropTypes.func])
+        .isRequired,
+    };
+
+    /**
+    * Define o valor default das propriedades de RouteWrapper
+    */
+    RouteWrapper.defaultProps = {
+      isPrivate: false,
+    };
+
+    ```
+
+
