@@ -1,7 +1,8 @@
 import React from 'react';
+import Header from '../../components/Header';
 
 // import { Container } from './styles';
 
 export default function Profile() {
-  return <h1>Profile</h1>;
+  return <Header headerTitle="Profile" />;
 }
