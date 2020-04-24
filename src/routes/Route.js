@@ -37,7 +37,11 @@ export default function RouteWrapper({
     return <Redirect to="/dashboard" />;
   }
 
+  /**
+   * Define qual layout aplicar a partir de condicao determinada
+   */
   const Layout = signed ? DefaultLayout : AuthLayout;
+
   /**
    * Se nao requer redirecionamento, retorna rota com mesmo componente definido
    * nas props
