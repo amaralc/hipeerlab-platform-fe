@@ -5,6 +5,7 @@
   * [Configurando Reactotron](#configurando-reactotron)
   * [Rotas Privadas](#rotas-privads)
   * [Layouts por Pagina](#layouts-por-pagina)
+  * [Utilizando Root Import](#utilizando-root-import)
 
 ## Configurando Reactotron
 [Voltar para índice](#indice)
@@ -376,4 +377,144 @@
 
     ```
 
+## Utilizando Root Import
+[Voltar para índice](#indice)
+[Video](https://skylab.rocketseat.com.br/node/gobarber-web/group/ambiente-inicial-e-conceitos-1/lesson/utilizando-root-import-1)
 
+  Objetivo: alterar forma de importação de arquivos utilizando pasta raiz 'src' como referência.
+
+  * (terminal) Instala customize-cra e react-app-rewired como dependência de
+  desenvolvimento: `yarn add customize-cra react-app-rewired -D` ;
+
+  * (terminal) Instala babel-plugin-root-import como dependência de desenvolvimento:
+  `yarn add babel-plugin-root-import -D` ;
+
+  * Cria arquivo **config-overrides.js** na raiz do projeto:
+
+    ```js
+    /* --------------------------------- IMPORTS ---------------------------------*/
+    /**
+    * Desconsiderar erro indicado pelo eslint
+    */
+    const { addBabelPlugin, override } = require('customize-cra');
+
+    /* --------------------------------- EXPORTS ---------------------------------*/
+    module.exports = override(
+      addBabelPlugin([
+        'babel-plugin-root-import',
+        {
+          rootPathSuffix: 'src',
+        },
+      ])
+    );
+    ```
+
+  * Troca scripts em **package.json** para:
+
+    ```js
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test",
+      "eject": "react-scripts eject"
+    },
+    ```
+
+  * Altera sintaxe de importação no arquivo **src/routes/Route.js** para:
+
+  ```js
+  import AuthLayout from '~/pages/_layouts/auth';
+  import DefaultLayout from '~/pages/_layouts/default';
+
+  ```
+
+  * (terminal) Testa se as alterações já estão rodando normalmente: `yarn start` ;
+
+  * (terminal) Instala pacote para informar ao eslint como decifrar a sintaxe com ~/path:
+  `yarn add eslint-import-resolver-babel-plugin-root-import -D` ;
+
+  * Cria configuração `settings` no arquivo **.eslintrc.js**:
+
+    ```js
+    module.exports = {
+      env: {
+        browser: true,
+        jest: true,
+        es6: true,
+      },
+      extends: [
+        'airbnb',
+        'prettier',
+        'prettier/react'
+      ],
+      globals: {
+        Atomics: 'readonly',
+        SharedArrayBuffer: 'readonly',
+        __DEV__: true
+      },
+      parser: 'babel-eslint',
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+        ecmaVersion: 2018,
+        sourceType: 'module',
+      },
+      plugins: [
+        'react',
+        'jsx-a11y',
+        'import',
+        'react-hooks',
+        'prettier'
+      ],
+      rules: {
+        'prettier/prettier': 'error',
+        'react/jsx-filename-extension': [
+          'error',
+          {extensions: ['.jsx','.js']}
+        ],
+        'react/jsx-one-expression-per-line': 'off',
+        'import/prefer-default-export':'off',
+        'react/destructuring-assignment':'off',
+        'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+        'global-require': 'off',
+        'react-native/no-raw-text': 'off',
+        'no-param-reassign': 'off',
+        'no-underscore-dangle': 'off',
+        camelcase: 'off',
+        'no-console': ['error', { allow: ['tron'] }],
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'warn',
+        'no-console':'off',
+        /**
+         * Recomendação: ativar 'react/jsx-props-no-spreading'
+        * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
+        * Por hora vamos manter 'off' e avaliamos possíveis impactos mais adiante
+        */
+        'react/jsx-props-no-spreading':'off'
+      },
+      settings: {
+        "import/resolver": {
+          "babel-plugin-root-import":{
+            rootPathSuffix: "src"
+          }
+        }
+      }
+    };
+
+    ```
+
+  * Cria arquivo **jsconfig.json** para configurar redirecionamento ao arquivo ao
+  clicar no path enquanto segura Ctrl:
+
+  ```js
+  {
+    "compilerOptions":{
+      "baseUrl":"src",
+      "paths":{
+        "~/*": ["*"],
+      }
+    }
+  }
+
+  ```
