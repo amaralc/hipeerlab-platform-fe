@@ -1,5 +1,6 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+import Route from './Route';
 
 import Home from '../pages/Home';
 import Donate from '../pages/Donate';
@@ -34,11 +35,11 @@ export default function Routes() {
         <Route path="/transparencia" component={Transparency} />
         <Route path="/noticias" component={News} />
 
-        <Route path="/login" exact component={SignIn} />
-        <Route path="/register" component={SignUp} />
+        <Route path="/signin" exact component={SignIn} />
+        <Route path="/signup" component={SignUp} />
 
-        <Route path="/dashboard" component={Dashboard} />
-        <Route path="/profile" component={Profile} />
+        <Route path="/dashboard" component={Dashboard} isPrivate />
+        <Route path="/profile" component={Profile} isPrivate />
       </Switch>
       <Footer />
     </>

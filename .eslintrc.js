@@ -47,8 +47,12 @@ module.exports = {
     'no-console': ['error', { allow: ['tron'] }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/prop-types':'off',
-    'no-console':'off'
-
+    'no-console':'off',
+    /**
+     * Recomendação: ativar 'react/jsx-props-no-spreading'
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
+     * Por hora vamos manter 'off' e avaliamos possíveis impactos mais adiante
+     */
+    'react/jsx-props-no-spreading':'off'
   },
 };
