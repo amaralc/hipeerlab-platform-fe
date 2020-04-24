@@ -12,7 +12,6 @@ import Transparency from '../pages/Transparency';
 import News from '../pages/News';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
-import GlobalStyle from '../styles/global';
 
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
@@ -23,7 +22,6 @@ import Profile from '../pages/Profile';
 export default function Routes() {
   return (
     <>
-      <GlobalStyle />
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />

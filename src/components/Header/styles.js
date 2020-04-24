@@ -4,7 +4,6 @@ import styled from 'styled-components';
 /* --------------------------------- EXPORTS ---------------------------------*/
 
 export const HeaderDiv = styled.header`
-  background-color: #000 !important;
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
   margin-bottom: 1.5rem !important;
@@ -43,7 +42,6 @@ export const Div = styled.div`
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
-    color: #fff !important;
     margin-top: 3rem !important;
     margin-bottom: 0.5rem !important;
   }
@@ -52,6 +50,5 @@ export const Div = styled.div`
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 3rem !important;
-    color: rgba(255, 255, 255, 0.5) !important;
   }
 `;
