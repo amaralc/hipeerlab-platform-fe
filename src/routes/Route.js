@@ -3,8 +3,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
-import AuthLayout from '../pages/_layouts/auth';
-import DefaultLayout from '../pages/_layouts/default';
+import AuthLayout from '~/pages/_layouts/auth';
+import DefaultLayout from '~/pages/_layouts/default';
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 /**
@@ -24,7 +24,7 @@ export default function RouteWrapper({
   /**
    * Cria variavel que define status do usuario na aplicacao
    */
-  const signed = true;
+  const signed = false;
 
   /**
    * Aplica condicoes de redirecionamento do usuario
@@ -37,7 +37,11 @@ export default function RouteWrapper({
     return <Redirect to="/dashboard" />;
   }
 
+  /**
+   * Define qual layout aplicar a partir de condicao determinada
+   */
   const Layout = signed ? DefaultLayout : AuthLayout;
+
   /**
    * Se nao requer redirecionamento, retorna rota com mesmo componente definido
    * nas props
