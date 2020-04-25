@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
+import { Switch, Redirect } from 'react-router-dom';
 import Route from './Route';
 
 import Home from '../pages/Home';
@@ -38,6 +38,7 @@ export default function Routes() {
 
         <Route path="/dashboard" component={Dashboard} isPrivate />
         <Route path="/profile" component={Profile} isPrivate />
+        <Redirect to="/" />
       </Switch>
       <Footer />
     </>
