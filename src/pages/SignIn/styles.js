@@ -33,7 +33,7 @@ export const Content = styled.div`
       height: 2.5rem;
       padding: 0 15px;
       color: rgba(0, 0, 0, 0.5);
-      margin: 0 0 0.75rem;
+      margin: 0.75rem 0 0;
       text-align: center;
 
       &::placeholder {
@@ -49,7 +49,7 @@ export const Content = styled.div`
     }
 
     button {
-      margin: 0 0 0.75rem;
+      margin: 1.5rem 0 0;
       height: 2.5rem;
       background: #000;
       color: #fff;
@@ -64,6 +64,7 @@ export const Content = styled.div`
     }
 
     a {
+      margin: 0.75rem 0 0;
       color: #38b6ff;
       font-size: 1rem;
       opacity: 0.8;
