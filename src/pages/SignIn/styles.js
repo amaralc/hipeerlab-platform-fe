@@ -5,7 +5,7 @@ import { darken } from 'polished';
 /* --------------------------------- EXPORTS ---------------------------------*/
 
 export const Wrapper = styled.div`
-  height: 100%;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,11 @@ export const Content = styled.div`
   width: 100%;
   max-width: 315px;
   text-align: center;
+
+  img {
+    margin-bottom: 1.5rem;
+    height: 3rem;
+  }
 
   form {
     display: flex;
@@ -38,10 +43,9 @@ export const Content = styled.div`
 
     span {
       color: #ff6f91;
-      align-self: flex-start;
+      align-self: center;
       margin: 0 0 10px;
-      font-weight: bold;
-      font-size: 14px;
+      font-size: 0.75rem;
     }
 
     button {
