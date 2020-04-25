@@ -1,25 +1,14 @@
-import './styles.css';
 import React from 'react';
+import { CardLink, Image, InfoContainer, InfoTitle, InfoDate } from './styles';
 
 export default function NewsCard(props) {
   return (
-    <a
-      href={props.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="news-card"
-    >
-      <img
-        className="news-image"
-        height="76px"
-        width="76px"
-        src={props.image}
-        alt=""
-      />
-      <div className="info-container">
-        <div className="title">{props.title}</div>
-        <div className="date">{props.date}</div>
-      </div>
-    </a>
+    <CardLink href={props.link} target="_blank" rel="noopener noreferrer">
+      <Image height="76px" width="76px" src={props.image} alt="" />
+      <InfoContainer>
+        <InfoTitle>{props.title}</InfoTitle>
+        <InfoDate>{props.date}</InfoDate>
+      </InfoContainer>
+    </CardLink>
   );
 }
