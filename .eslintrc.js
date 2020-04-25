@@ -53,7 +53,9 @@ module.exports = {
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
      * Por hora vamos manter 'off' e avaliamos possíveis impactos mais adiante
      */
-    'react/jsx-props-no-spreading':'off'
+    'react/jsx-props-no-spreading':'off',
+    'react/state-in-constructor':'off',
+    'react/static-property-placement':'off'
   },
   settings: {
     "import/resolver": {

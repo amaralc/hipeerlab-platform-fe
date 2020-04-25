@@ -7,14 +7,15 @@ export const HeaderDiv = styled.header`
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
   margin-bottom: 1.5rem !important;
+  background-color: #000 !important;
 `;
 export const Container = styled.div`
-  width: 100% !important;
   padding-right: 15px !important;
   padding-left: 15px !important;
   margin-right: auto !important;
   margin-left: auto !important;
   height: 100% !important;
+  width: 100% !important;
 `;
 
 export const Row = styled.div`
@@ -44,11 +45,13 @@ export const Div = styled.div`
     line-height: 1.2;
     margin-top: 3rem !important;
     margin-bottom: 0.5rem !important;
+    color: #fff;
   }
 
   p {
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 3rem !important;
+    color: rgba(255, 255, 255, 0.5);
   }
 `;
