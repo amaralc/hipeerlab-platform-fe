@@ -50,7 +50,7 @@ export const Content = styled.div`
     }
 
     button {
-      margin: 0.75rem 0 0;
+      margin: 1.5rem 0 0;
       height: 2.5rem;
       background: #000;
       color: #fff;
