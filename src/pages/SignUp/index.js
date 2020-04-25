@@ -1,10 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
-import Header from '../../components/Header';
 import { Wrapper, Content } from './styles';
+import * as Yup from 'yup';
 
-// import { Container } from './styles';
+import logo from '~/assets/hipeerlab.ico';
+
+const schema = Yup.object().shape({
+  name: Yup.string().required('O nome é obrigatório'),
+  email: Yup.string()
+    .email('Insira um e-mail válido')
+    .required('O e-mail é obrigatório'),
+  password: Yup.string()
+    .min(6, 'O password deve ter 6 caracteres')
+    .required('A senha é obrigatória'),
+});
 
 export default function SignUp() {
   function handleSubmit(data) {
@@ -13,11 +23,11 @@ export default function SignUp() {
 
   return (
     <>
-      <Header headerTitle="Sign Up" />
       <div className="container">
         <Wrapper>
           <Content>
-            <Form onSubmit={handleSubmit}>
+            <img src={logo} alt="hipeerLab" />
+            <Form schema={schema} onSubmit={handleSubmit}>
               <h5>Crie sua conta</h5>
               <Input name="name" placeholder="Nome completo" />
               <Input
@@ -30,6 +40,7 @@ export default function SignUp() {
                 type="password"
                 placeholder="Digite sua senha"
               />
+              <small>Sua senha deve ter ao menos 6 caracteres.</small>
               <button type="submit">Acessar</button>
               <Link to="/signin">Já sou cadastrado</Link>
             </Form>
