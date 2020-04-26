@@ -1,8 +1,11 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
-import { Wrapper, Content } from './styles';
 import * as Yup from 'yup';
+import { Wrapper, Content } from './styles';
+
+import { signUpRequest } from '~/store/modules/auth/actions';
 
 import logo from '~/assets/hipeerlab.ico';
 
