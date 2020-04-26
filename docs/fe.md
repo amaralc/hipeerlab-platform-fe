@@ -6,6 +6,16 @@
   * [Rotas Privadas](#rotas-privads)
   * [Layouts por Pagina](#layouts-por-pagina)
   * [Utilizando Root Import](#utilizando-root-import)
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  * [Exibindo toasts](#exibindo-toasts)
+
 
 ## Configurando Reactotron
 [Voltar para índice](#indice)
@@ -518,3 +528,102 @@
   }
 
   ```
+
+## Configurando Reactotron
+[Voltar para índice](#indice)
+[Video](https://skylab.rocketseat.com.br/node/gobarber-web/group/cadastro-e-autenticacao-de-usuarios-1/lesson/exibindo-toasts-1)
+
+  Objetivo: instalar módulo que permite envio de mensagens de erro estilizadas ao usuário.
+
+  * (terminal) Instala react-toastify: `yarn add react-toastify` ;
+
+  * Importa e usa ToastContainer em **App.js**:
+
+    ```js
+    /* --------------------------------- IMPORTS ---------------------------------*/
+    import React from 'react';
+    import { ToastContainer } from 'react-toastify';
+    import { PersistGate } from 'redux-persist/integration/react';
+    import { Provider } from 'react-redux';
+    import { Router } from 'react-router-dom';
+    import './config/ReactotronConfig';
+
+    import Routes from './routes';
+    import history from './services/history';
+
+    /**
+    * Importação do store precisa vir depois da importação do reactotron
+    */
+    import { store, persistor } from './store';
+    import GlobalStyle from './styles/global';
+
+    /* --------------------------------- EXPORTS ---------------------------------*/
+    export default function App() {
+      return (
+        <Provider store={store}>
+          <PersistGate persistor={persistor}>
+            <Router history={history}>
+              <Routes />
+              <GlobalStyle />
+              <ToastContainer autoClose={3000} />
+            </Router>
+          </PersistGate>
+        </Provider>
+      );
+    }
+
+    ```
+
+  * Importa estilos de react-toastify em **src/styles/global.js**:
+
+    ```js
+    import 'react-toastify/dist/ReactToastify.css';
+
+    ```
+
+  * Importa {toast} e atualiza erros no arquivo **auth/sagas.js**:
+
+    ```js
+    /* --------------------------------- IMPORTS ---------------------------------*/
+    import { takeLatest, call, put, all } from 'redux-saga/effects';
+    import { toast } from 'react-toastify';
+
+    import { signInSuccess, signFailure } from './actions';
+
+    import history from '~/services/history';
+    import api from '~/services/api';
+
+    /* --------------------------------- EXPORTS ---------------------------------*/
+    export function* signIn({ payload }) {
+      try {
+        const { email, password } = payload;
+        const response = yield call(api.post, 'sessions', {
+          email,
+          password,
+        });
+
+        const { token, user } = response.data;
+
+        if (!user.provider) {
+          toast.error('Usuário não é prestador');
+          yield put(signFailure());
+          return;
+        }
+
+        yield put(signInSuccess(token, user));
+
+        history.push('/dashboard');
+      } catch (err) {
+        toast.error('Falha na autenticação, verifique seus dados');
+        yield put(signFailure());
+      }
+    }
+
+    export default all([takeLatest('@auth/SIGN_IN_REQUEST', signIn)]);
+
+    ```
+
+
+
+
+
