@@ -1,7 +1,7 @@
 import produce from 'immer';
 
 /**
- * Defini estado inicial
+ * Define estado inicial
  */
 const INITIAL_STATE = {
   token: null,
