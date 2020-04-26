@@ -1,8 +1,11 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
-import { Wrapper, Content } from './styles';
 import * as Yup from 'yup';
+import { Wrapper, Content } from './styles';
+
+import { signUpRequest } from '~/store/modules/auth/actions';
 
 import logo from '~/assets/hipeerlab.ico';
 
@@ -17,8 +20,10 @@ const schema = Yup.object().shape({
 });
 
 export default function SignUp() {
-  function handleSubmit(data) {
-    console.tron.log(data);
+  const dispatch = useDispatch();
+
+  function handleSubmit({ name, email, password }) {
+    dispatch(signUpRequest(name, email, password));
   }
 
   return (
@@ -41,7 +46,7 @@ export default function SignUp() {
                 placeholder="Digite sua senha"
               />
               <small>Sua senha deve ter ao menos 6 caracteres.</small>
-              <button type="submit">Acessar</button>
+              <button type="submit">Criar conta</button>
               <Link to="/signin">Já sou cadastrado</Link>
             </Form>
           </Content>
