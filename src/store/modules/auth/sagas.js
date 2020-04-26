@@ -17,6 +17,8 @@ export function* signIn({ payload }) {
 
     if (!user.provider) {
       console.tron.error('Usuário não é prestador');
+      yield put(signFailure());
+      return;
     }
 
     yield put(signInSuccess(token, user));
