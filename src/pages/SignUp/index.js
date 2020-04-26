@@ -46,7 +46,7 @@ export default function SignUp() {
                 placeholder="Digite sua senha"
               />
               <small>Sua senha deve ter ao menos 6 caracteres.</small>
-              <button type="submit">Acessar</button>
+              <button type="submit">Criar conta</button>
               <Link to="/signin">Já sou cadastrado</Link>
             </Form>
           </Content>
