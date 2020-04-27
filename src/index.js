@@ -13,7 +13,7 @@ import Faq from './pages/Faq/index';
 import News from './pages/News/index';
 import Team from './pages/Team/index';
 import Transparency from './pages/Transparency';
-import hipeerLab_Ventilator from  './pages/hipeerLab_Ventilator/index';
+import hipeerLabVenti from  './pages/hipeerLabVenti/index';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -27,7 +27,7 @@ ReactDOM.render(
         <Route path="/noticias" component={News} />
         <Route path="/equipe" component={Team} />
         <Route path="/transparencia" component={Transparency} />
-        <Route path="/hipeerLab_Ventilator" component={hipeerLab_Ventilator} />
+        <Route path="/hipeerLabVenti" component={hipeerLabVenti} />
         <Redirect to="/" />
       </Switch>
     </App>
