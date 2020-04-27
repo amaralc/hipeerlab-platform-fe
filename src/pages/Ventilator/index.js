@@ -42,7 +42,7 @@ export default function Ventilator() {
               updatedAt="15/04/2020"
               status="Protótipo pronto"
               imgPath={projecthipeerLab}
-              url="https://cad.onshape.com/documents/e5be8ec8b08e9cf7da0f61df/w/deeaf8c80be6a7337b6eb1dc/e/a6d575935da95adc5c422287"
+              url="/hipeerLab_Ventilator"
               button="Ver Projeto"
             />
           </div>
