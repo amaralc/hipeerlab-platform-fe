@@ -64,9 +64,19 @@ export default function Donate() {
 
           <div className="col-md-4 mb-5">
             <Title>
+              <h2>Como contribuir</h2>
+              <hr />
+            </Title>
+            <p className="text-justify">
+              Faça uma doação através{' '}
+              <a href="http://vaka.me/1015856">desta vakinha</a> ou utilize os
+              dados bancários disponíveis abaixo.
+            </p>
+            <Title>
               <h2>Dados bancários</h2>
               <hr />
             </Title>
+
             <address>
               <strong>Titular:</strong> Rafael Gomes Nunes Silva
               <br />
