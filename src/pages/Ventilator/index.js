@@ -42,9 +42,11 @@ export default function Ventilator() {
               updatedAt="15/04/2020"
               status="Protótipo pronto"
               imgPath={projecthipeerLab}
-              url="/hipeerLab_Ventilator"
+              url="/hipeerLabVenti"
               button="Ver Projeto"
             />
+          </div>
+          <div className="col-md-9 py-3 mb-3">
           </div>
           <div className="col-md-3 py-3 mb-3">
             <Card
