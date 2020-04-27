@@ -13,18 +13,48 @@ export default function Donate() {
               <h2>Sobre a campanha</h2>
               <hr />
             </Title>
+
             <p className="text-justify">
-              Somos engenheiros, artistas e estudantes residentes em
-              Florianópolis-SC unidos no combate ao CORONAVÍRUS (COVID-19).
-              Utilizamos impressoras 3D para PRODUZIR e DOAR kits com viseira,
-              elástico e suporte, assim como equipamentos emergenciais
-              hospitalares para profissionais de saúde e outros em situação de
-              vulnerabilidade.
+              O hipeerLab é um laboratório multidisciplinar descentralizado,
+              formado por engenheiros, artistas e estudantes residentes em
+              Florianópolis-SC. Formamos uma organização dinâmica e
+              colaborativa, onde cada membro e cada parceiro coloca à disposição
+              do grupo as ferramentas que possui conforme a necessidade do
+              momento e a disponibilidade de cada um.
+            </p>
+
+            <p className="text-justify">
+              Em função da pandemia COVID-19 temos nos dedicado a fabricar e
+              doar os principais itens que o sistema de saúde necessita no
+              momento: face shields e respiradores.
+            </p>
+
+            <p className="text-justify">
+              Para fazer as face shields, utilizamos impressoras 3D. Já
+              fabricamos e doamos mais de 600 face shields para instituições de
+              saúde e outras entidades e profissionais cuja atuação gera risco
+              de contaminação (dentistas, bombeiros, policiais, agentes de
+              limpeza urbana e enfermeiros).
+            </p>
+
+            <p className="text-justify">
+              Os respiradores estão sendo produzidos com base no modelo aberto
+              denominado{' '}
+              <a href="https://www.oxygen.protofy.xyz/">OxyGEN Project</a>{' '}
+              desenvolvido por um grupo de profissionais liderados pela empresa
+              espanhola <a href="https://www.protofy.xyz/">Protofy.xyz</a>.
+            </p>
+
+            <p className="text-justify">
+              Estamos adaptando o projeto para construção de um protótipo com
+              componentes nacionais e buscando parceiros de fabricação.
             </p>
             <p className="text-justify">
-              Você também pode nos ajudar nessa causa, SEM SAIR DE CASA, fazendo
-              uma doação de qualquer valor para auxiliar na compra de
-              matéria-prima e arcar com outros custos logísticos e operacionais.
+              Sua doação nos ajuda a custear a aquisição dos materiais
+              necessários para a fabricação das máscaras para que os
+              profissionais de saúde continuem salvando vidas e para o
+              desenvolvimento dos protótipos dos respiradores para fabricação em
+              escala.{' '}
             </p>
 
             <Button>
