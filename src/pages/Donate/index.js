@@ -57,10 +57,6 @@ export default function Donate() {
               desenvolvimento dos protótipos dos respiradores para fabricação em
               escala.{' '}
             </p>
-
-            <Button>
-              <a href="/transparencia">Prestação de Contas &raquo;</a>
-            </Button>
           </div>
 
           <div className="col-md-4 mb-5">
@@ -79,6 +75,11 @@ export default function Donate() {
             </Title>
 
             <Bank />
+            <hr />
+
+            <Button>
+              <a href="/transparencia">Prestação de Contas &raquo;</a>
+            </Button>
           </div>
         </div>
       </div>
