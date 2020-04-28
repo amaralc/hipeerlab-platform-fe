@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Select, Address } from './styles';
 
 export default class Bank extends Component {
   state = {
@@ -22,7 +23,7 @@ export default class Bank extends Component {
     const { titular, agencia, conta } = this.state;
     return (
       <>
-        <address>
+        <Address>
           <strong>Banco:</strong>
           <select id="mySelect" onChange={this.handleSubmit}>
             <option value="Banco do Brasil">Banco do Brasil (001)</option>
@@ -48,7 +49,7 @@ export default class Bank extends Component {
             <strong>WhatsApp:</strong>
           </abbr>
           +55 (48) 99800-6530
-        </address>
+        </Address>
       </>
     );
   }
