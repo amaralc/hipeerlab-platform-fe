@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Select, Address } from './styles';
+import { Address } from './styles';
 
 export default class Bank extends Component {
   state = {
@@ -11,7 +11,7 @@ export default class Bank extends Component {
   handleSubmit = async (e) => {
     const x = document.getElementById('mySelect').value;
 
-    if (x == 'BB') {
+    if (x === 'BB') {
       this.setState({
         titular: 'Rafael Gomes Nunes Silva',
         agencia: '1453-2',
@@ -19,7 +19,7 @@ export default class Bank extends Component {
       });
     }
 
-    if (x == 'NuBank') {
+    if (x === 'NuBank') {
       this.setState({
         titular: 'Calil Amaral',
         agencia: '0001',
@@ -27,7 +27,7 @@ export default class Bank extends Component {
       });
     }
 
-    if (x == 'Caixa') {
+    if (x === 'Caixa') {
       this.setState({
         titular: 'Bruno Weber de Castro',
         agencia: '0921',

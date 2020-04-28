@@ -52,3 +52,8 @@ export const Button = styled.button`
     color: #fff;
   }
 `;
+
+export const A = styled.a.attrs((props) => ({
+  target: '_blank',
+  rel: 'noopener noreferrer',
+}))``;

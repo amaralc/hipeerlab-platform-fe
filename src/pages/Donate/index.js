@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
-import { Title, Button } from './styles';
+import { Title, Button, A } from './styles';
 import Bank from './Bank';
 
 export default function Donate() {
@@ -41,9 +41,9 @@ export default function Donate() {
             <p className="text-justify">
               Os respiradores estão sendo produzidos com base no modelo aberto
               denominado{' '}
-              <a href="https://www.oxygen.protofy.xyz/">OxyGEN Project</a>{' '}
+              <A href="https://www.oxygen.protofy.xyz/">OxyGEN Project</A>{' '}
               desenvolvido por um grupo de profissionais liderados pela empresa
-              espanhola <a href="https://www.protofy.xyz/">Protofy.xyz</a>.
+              espanhola <A href="https://www.protofy.xyz/">Protofy.xyz</A>.
             </p>
 
             <p className="text-justify">
@@ -66,7 +66,7 @@ export default function Donate() {
             </Title>
             <p className="text-justify">
               Faça uma doação através{' '}
-              <a href="http://vaka.me/1015856">desta vakinha</a> ou utilize os
+              <A href="http://vaka.me/1015856">desta vakinha</A> ou utilize os
               dados bancários disponíveis abaixo.
             </p>
             <Title>
