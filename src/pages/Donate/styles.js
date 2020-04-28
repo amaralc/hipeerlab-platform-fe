@@ -56,4 +56,12 @@ export const Button = styled.button`
 export const A = styled.a.attrs((props) => ({
   target: '_blank',
   rel: 'noopener noreferrer',
-}))``;
+}))`
+  color: #007bff;
+
+  img {
+    height: 20px;
+    width: 20px;
+    margin: -1px 0 0px 1px;
+  }
+`;

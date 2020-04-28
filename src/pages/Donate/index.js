@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import { Title, Button, A } from './styles';
 import Bank from './Bank';
+import Vakinha from './img/logo-vakinha.png';
 
 export default function Donate() {
   return (
@@ -69,6 +70,13 @@ export default function Donate() {
               <A href="http://vaka.me/1015856">desta vakinha</A> ou utilize os
               dados bancários disponíveis abaixo.
             </p>
+            <Button>
+              <A href="http://vaka.me/1015856">
+                Página da Vakinha <img src={Vakinha} alt="" />
+              </A>
+            </Button>
+            <br />
+            <br />
             <Title>
               <h2>Dados bancários</h2>
               <hr />
