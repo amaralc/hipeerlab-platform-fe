@@ -21,4 +21,7 @@ export const Address = styled.address`
       outline: 0;
     }
   }
+  abbr {
+    text-decoration: none;
+  }
 `;
