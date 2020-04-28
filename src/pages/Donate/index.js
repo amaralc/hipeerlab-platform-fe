@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header';
 import { Title, Button } from './styles';
+import Bank from './Bank';
 
 export default function Donate() {
   return (
@@ -76,6 +77,8 @@ export default function Donate() {
               <h2>Dados bancários</h2>
               <hr />
             </Title>
+
+            <Bank />
 
             <address>
               <strong>Titular:</strong> Rafael Gomes Nunes Silva
