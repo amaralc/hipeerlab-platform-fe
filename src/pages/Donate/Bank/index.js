@@ -21,9 +21,9 @@ export default class Bank extends Component {
 
     if (x === 'NuBank') {
       this.setState({
-        titular: ' Rafael Nunes',
+        titular: ' Rafael Gomes Nunes Silva',
         agencia: ' 0001',
-        conta: ' 753763319-9',
+        conta: ' 75376319-9',
       });
     }
 
@@ -31,7 +31,14 @@ export default class Bank extends Component {
       this.setState({
         titular: ' Bruno Weber de Castro',
         agencia: ' 0921',
-        conta: ' 013 21120-1',
+        conta: ' 013 00135995-8',
+      });
+    }
+    if (x === 'Bradesco') {
+      this.setState({
+        titular: ' Calil Amaral',
+        agencia: ' 2727',
+        conta: ' 00135995-8',
       });
     }
   };
@@ -44,8 +51,9 @@ export default class Bank extends Component {
           <strong>Banco:</strong>
           <select id="mySelect" onChange={this.handleSubmit}>
             <option value="BB">Banco do Brasil (001)</option>
-            <option value="NuBank">NuBank (260)</option>
             <option value="Caixa">Caixa Econômica Federal (024)</option>
+            <option value="Bradesco">Bradesco (237)</option>
+            <option value="NuBank">NuBank (260)</option>
           </select>
           <br />
           <strong>Titular:</strong>
