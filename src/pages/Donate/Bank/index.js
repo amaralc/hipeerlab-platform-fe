@@ -21,9 +21,9 @@ export default class Bank extends Component {
 
     if (x === 'NuBank') {
       this.setState({
-        titular: ' Calil Amaral',
+        titular: ' Rafael Nunes',
         agencia: ' 0001',
-        conta: ' 21120-1',
+        conta: ' 753763319-9',
       });
     }
 
