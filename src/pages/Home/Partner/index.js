@@ -1,10 +1,10 @@
-import React from "react";
-import { PartnerCard, PartnerImg, Div, Title, Partners } from "./styles";
-import Eme from "../../../img/eme.png";
-import Ngd from "../../../img/ngd.png";
-import Pronto from "../../../img/pronto.png";
-import Lmp from "../../../img/lmp.png";
-import Comunave from "../../../img/comunave.png";
+import React from 'react';
+import { PartnerCard, PartnerImg, Div, Title, Partners } from './styles';
+import Eme from '../../../img/eme.png';
+import Ngd from '../../../img/ngd.png';
+import Pronto from '../../../img/pronto.png';
+import Lmp from '../../../img/lmp.png';
+import Comunave from '../../../img/comunave.png';
 
 function Partner(props) {
   return (

@@ -1,5 +1,5 @@
 /* --------------------------------- IMPORTS ---------------------------------*/
-import styled from "styled-components";
+import styled from 'styled-components';
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 export const Title = styled.div`
@@ -50,5 +50,18 @@ export const Button = styled.button`
   a {
     text-decoration: none;
     color: #fff;
+  }
+`;
+
+export const A = styled.a.attrs((props) => ({
+  target: '_blank',
+  rel: 'noopener noreferrer',
+}))`
+  color: #007bff;
+
+  img {
+    height: 20px;
+    width: 20px;
+    margin: -1px 0 0px 1px;
   }
 `;

@@ -1,6 +1,6 @@
-import React from "react";
-import In from "../img/in.png";
-import { TeamCard, TeamImg, Div, InImg, Name, About } from "./styles";
+import React from 'react';
+import In from '../img/in.png';
+import { TeamCard, TeamImg, Div, InImg, Name, About } from './styles';
 
 export default function TeamMember(props) {
   return (

@@ -1,5 +1,5 @@
 /* --------------------------------- IMPORTS ---------------------------------*/
-import styled from "styled-components";
+import styled from 'styled-components';
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 
@@ -12,7 +12,6 @@ export const PartnerCard = styled.div`
   min-width: 0;
 `;
 export const PartnerImg = styled.img`
-  
   margin: auto;
   max-width: 100px;
 `;
@@ -32,7 +31,7 @@ export const Title = styled.div`
 `;
 
 export const Partners = styled.div`
-  margin-bottom: 1rem!important;
+  margin-bottom: 1rem !important;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
