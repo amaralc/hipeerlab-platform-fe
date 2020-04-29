@@ -21,9 +21,9 @@ export default class Bank extends Component {
 
     if (x === 'NuBank') {
       this.setState({
-        titular: ' Calil Amaral',
+        titular: ' Rafael Nunes',
         agencia: ' 0001',
-        conta: ' 21120-1',
+        conta: ' 753763319-9',
       });
     }
 
@@ -44,7 +44,7 @@ export default class Bank extends Component {
           <strong>Banco:</strong>
           <select id="mySelect" onChange={this.handleSubmit}>
             <option value="BB">Banco do Brasil (001)</option>
-            <option value="NuBank">NuBank (000)</option>
+            <option value="NuBank">NuBank (260)</option>
             <option value="Caixa">Caixa Econômica Federal (024)</option>
           </select>
           <br />
