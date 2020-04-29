@@ -66,13 +66,13 @@ export default function Donate() {
               <hr />
             </Title>
             <p className="text-justify">
-              Faça uma doação através{' '}
+              Faça uma doação por cartão de crédito ou boleto através{' '}
               <A href="http://vaka.me/1015856">desta vakinha</A> ou utilize os
               dados bancários disponíveis abaixo.
             </p>
             <Button>
               <A href="http://vaka.me/1015856">
-                Página da Vakinha <img src={Vakinha} alt="" />
+                Página da Vakinha <img src={Vakinha} alt="" /> &raquo;
               </A>
             </Button>
             <br />
