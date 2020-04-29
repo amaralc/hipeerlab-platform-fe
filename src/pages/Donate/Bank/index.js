@@ -21,7 +21,7 @@ export default class Bank extends Component {
 
     if (x === 'NuBank') {
       this.setState({
-        titular: ' Rafael Nunes',
+        titular: ' Rafael Gomes Nunes Silva',
         agencia: ' 0001',
         conta: ' 75376319-9',
       });
