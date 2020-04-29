@@ -38,7 +38,7 @@ export default class Bank extends Component {
       this.setState({
         titular: ' Calil Amaral',
         agencia: ' 2727',
-        conta: ' 00135995-8',
+        conta: ' 99161-9',
       });
     }
   };
