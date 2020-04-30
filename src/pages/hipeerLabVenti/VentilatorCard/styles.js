@@ -20,7 +20,7 @@ export const CardContainer = styled.div`
   img {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
-    border: 1.3px solid rgba(0, 0, 0, 0.125);
+
   }
 `;
 export const Body = styled.div`
