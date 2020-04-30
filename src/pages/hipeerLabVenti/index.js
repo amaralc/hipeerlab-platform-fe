@@ -2,8 +2,8 @@ import React from 'react';
 import Header from '../../components/Header';
 import { Title } from './styles';
 import VentilatorCard from './VentilatorCard';
-import Ventilator2 from '../Ventilator/img/project-hipeerlab-v3-croped.png';
-import Ventilator1 from './img/project-hipeerlab-v2-croped.png';
+import Ventilator2 from './img/update-2.png';
+import Ventilator1 from './img/update-1.png';
 
 export default function hipeerLabVenti() {
   return (
