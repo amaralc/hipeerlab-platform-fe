@@ -22,20 +22,20 @@ export default function hipeerLabVenti() {
               no mercado brasileiro.
             </p>
           </div>
-          <div className="col-md-12 mb-5 ">
+          <div className="col-md-12 mb-3">
             <Title>
               <h2>Updates</h2>
               <hr />
             </Title>
           </div>
-          <div className="col-md-9 py-9 mb-3">
+          <div className="col-md-12 py-9 mb-3">
             <VentilatorCard
               title="07/04/2020"
               status="Segundo projeto. Baseado no conceito do respirador OxyGEN."
               imgPath={Ventilator2}
             />
           </div>
-          <div className="col-md-9 py-3 mb-3">
+          <div className="col-md-12 py-3 mb-3">
             <VentilatorCard
               title="28/03/2020"
               status="Primeiro projeto."
