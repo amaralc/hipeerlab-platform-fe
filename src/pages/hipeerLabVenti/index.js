@@ -17,9 +17,10 @@ export default function hipeerLabVenti() {
               <hr />
             </Title>
             <p className="text-justify">
-              Nosso objetivo é construir um produto de baixo custo, atendendo as normas da ANVISA para o
-              auxílio no tratamento de COVID-19. A construção é baseada em partes e peças facilmente encontradas
-              no mercado brasileiro.
+              Nosso objetivo é construir um produto de baixo custo, atendendo as
+              normas da ANVISA para o auxílio no tratamento de COVID-19. A
+              construção é baseada em partes e peças facilmente encontradas no
+              mercado brasileiro.
             </p>
           </div>
           <div className="col-md-12 mb-3">
@@ -30,15 +31,19 @@ export default function hipeerLabVenti() {
           </div>
           <div className="col-md-12 py-9 mb-3">
             <VentilatorCard
-              title="07/04/2020"
-              status="Segundo projeto. Baseado no conceito do respirador OxyGEN."
+              date="07/04/2020"
+              title="Adoção do projeto OxyGEN"
+              description="Segundo projeto. Baseado no conceito do respirador OxyGEN."
               imgPath={Ventilator2}
             />
           </div>
           <div className="col-md-12 py-3 mb-3">
             <VentilatorCard
-              title="28/03/2020"
-              status="Primeiro projeto."
+              date="28/03/2020"
+              title="Modelagem de conceito com came e cinto"
+              description="Desenvolvimento de modelo de automatizador de ambu baseado
+              em rotação contínua de um came que traciona cinto atravez de sistema de
+              rolos móveis."
               imgPath={Ventilator1}
             />
           </div>
