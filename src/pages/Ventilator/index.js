@@ -47,6 +47,15 @@ export default function Ventilator() {
             />
           </div>
           <div className="col-md-9 py-3 mb-3">
+            <iframe
+              title="Meu video"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/I5RhkEoho9c"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
           <div className="col-md-3 py-3 mb-3">
             <Card
