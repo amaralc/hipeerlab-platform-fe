@@ -17,7 +17,6 @@ export const Banner = styled.div`
   img {
     border-radius: 0.25rem;
     width: 100%;
-    min-height: 300px;
     height: 100% !important;
   }
 `;
