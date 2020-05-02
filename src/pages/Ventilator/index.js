@@ -1,4 +1,6 @@
 import React from 'react';
+import { Title, Row } from './styles';
+
 import Card from '../../components/Card';
 import projectJoinville from './img/project-fablab-croped.png';
 import projectOxygen from './img/project-oxygen-croped.png';
@@ -30,22 +32,45 @@ export default function Ventilator() {
       {/* inclui o header nos moldes das paginas de conteudo */}
       <Header
         headerTitle="Projetos de Respiradores Mecânicos"
-        headerText="Indexação dos projetos de respiradores mecânicos de baixo custo
-              para utilização em hospitais no combate à COVID-19."
+        headerText="Lista de projetos de respiradores mecânicos de baixo custo
+        para utilização em hospitais no combate à COVID-19."
       />
       <div className="container">
-        <div className="row">
+        <Title>
+          <h2>Equipe hipeerLab</h2>
+          <hr />
+        </Title>
+        <Row>
+          <div className="col-md-9 py-3 mb-3">
+            <iframe
+              title="Meu video"
+              width="100%"
+              height="300px"
+              src="https://www.youtube.com/embed/I5RhkEoho9c"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
           <div className="col-md-3 py-3 mb-3">
             <Card
               title="Equipe hipeerLab"
               location="Florianópolis, Brasil"
               updatedAt="15/04/2020"
-              status="Protótipo pronto"
+              status="Protótipo OxyGEN-M pronto"
               imgPath={projecthipeerLab}
-              url="https://cad.onshape.com/documents/e5be8ec8b08e9cf7da0f61df/w/deeaf8c80be6a7337b6eb1dc/e/a6d575935da95adc5c422287"
+              url="/respiradores-hipeerlab"
               button="Ver Projeto"
             />
           </div>
+        </Row>
+      </div>
+      <div className="container">
+        <Title>
+          <h2>Referências</h2>
+          <hr />
+        </Title>
+        <Row>
           <div className="col-md-3 py-3 mb-3">
             <Card
               title="Fablab Joinville"
@@ -267,7 +292,7 @@ export default function Ventilator() {
               button="Ver Projeto"
             />
           </div>
-        </div>
+        </Row>
       </div>
     </div>
   );
