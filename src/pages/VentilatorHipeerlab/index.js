@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header';
 import { Title } from './styles';
-import VentilatorCard from './VentilatorCard';
+import VentilatorCard from '../../components/CardHorizontal';
+
 import Update20200323 from './img/update-20200323.png';
 import Update20200328 from './img/update-20200328.png';
 import Update20200407 from './img/update-20200407.png';
