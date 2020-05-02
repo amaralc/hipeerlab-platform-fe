@@ -7,25 +7,20 @@ import Update1 from './img/update-1.png';
 import Update2 from './img/update-2.png';
 import Update3 from './img/update-3.png';
 import Update4 from './img/update-4.png';
+import Update5 from './img/update-5.png';
 
 export default function hipeerLabVenti() {
   return (
     <div>
-      <Header headerTitle="Respirador hipeerLab" />
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12 mb-5 ">
-            <Title>
-              <h2>Sobre o projeto</h2>
-              <hr />
-            </Title>
-            <p className="text-justify">
-              Nosso objetivo é construir um produto de baixo custo, atendendo as
+      <Header
+        headerTitle="Respirador hipeerLab"
+        headerText="Nosso objetivo é construir um produto de baixo custo, atendendo as
               normas da ANVISA para o auxílio no tratamento de COVID-19. A
               construção é baseada em partes e peças facilmente encontradas no
-              mercado brasileiro.
-            </p>
-          </div>
+              mercado brasileiro."
+      />
+      <div className="container">
+        <div className="row">
           <div className="col-md-12 mb-3">
             <Title>
               <h2>Updates</h2>
@@ -33,8 +28,17 @@ export default function hipeerLabVenti() {
             </Title>
           </div>
           <VentilatorCard
+            date="15/04/2020"
+            title="Montagem do primeiro protótipo em acrílico (OxyGEN M V5)"
+            description="Os componentes são levados para montagem com apoio das
+            instalações do Laboratório de Mecânica de Precisão (LMP) da UFSC. A
+            montagem deixa claro que será necessário fixar as partes com resina
+            ou outro tipo de fixação antes da realização de qualquer ensaio."
+            imgPath={Update5}
+          />
+          <VentilatorCard
             date="14/04/2020"
-            title="Corte das chapas de acrílico no NGD"
+            title="Corte a laser das chapas de acrílico"
             description="As chapas de acrílico do protótipo experimental
             OxyGEN M V5, adaptado pela equipe hipeerLab, são fabricadas por corte
             a laser no Núcleo de Gestão e Design - Laboratório de Design e Usabilidade
