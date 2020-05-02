@@ -10,6 +10,7 @@ export const Row = styled.div`
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin-bottom: 2rem;
 `;
 
 export const CardContainer = styled.div`
