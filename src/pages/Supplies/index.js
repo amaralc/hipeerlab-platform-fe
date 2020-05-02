@@ -1,5 +1,8 @@
 import React from 'react';
+import { Row, Title, Banner } from './styles';
+
 import Card from '../../components/Card';
+import BannerFaceShield from './img/banner-vakinha-faceshield.png';
 import faceShield from '../../img/faceShield.png';
 import medicalShield from '../../img/medicalshield.png';
 import hipeerShields from '../../img/hipeerShields.png';
@@ -38,8 +41,17 @@ export default function Supplies() {
           e outros itens de apoio, úteis para a prevenção da propagação do COVID-19."
       />
       <div className="container">
-        <div className="row">
-          <div className="col-md-3 mb-5">
+        <Title>
+          <h2>Equipe hipeerLab</h2>
+          <hr />
+        </Title>
+        <Row>
+          <div className="col-md-9 mb-3 py-3">
+            <Banner>
+              <img src={BannerFaceShield} alt="test" />
+            </Banner>
+          </div>
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Equipe hipeerLab"
               location="Florianópolis, Brasil"
@@ -50,7 +62,15 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+        </Row>
+      </div>
+      <div className="container">
+        <Title>
+          <h2>Referências</h2>
+          <hr />
+        </Title>
+        <Row>
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="FabLab Joinville"
               location="Joinville, Brasil"
@@ -61,7 +81,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Konrad Klepacki"
               location="Gdynia, Polônia"
@@ -72,7 +92,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Medicina - USP"
               location="São Paulo, Brasil"
@@ -83,7 +103,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Prusa RC3"
               location="Praga, República Tcheca"
@@ -94,7 +114,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Penang Science Cluster"
               location="Pulau Pinang, Malásia"
@@ -105,7 +125,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Cervejaria Ambev"
               location="São Paulo, Brasil"
@@ -116,7 +136,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="iMaginum 3D"
               location="São Lourenço do Oeste, Brasil"
@@ -127,7 +147,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Santos Hacker Club"
               location="Santos, Brasil"
@@ -138,7 +158,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Sicnova 3D"
               location="Linares, Espanha"
@@ -149,7 +169,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Aegis V1A"
               location="Filipinas"
@@ -160,7 +180,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Poli USP"
               location="São Paulo, Brasil"
@@ -171,7 +191,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Campus Universitário FEI"
               location="São Bernardo do Campo, Brasil"
@@ -182,7 +202,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="FabLab 3DToy"
               location="Campinas, Brasil"
@@ -193,7 +213,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Fix it"
               location="São Paulo, Brasil"
@@ -205,7 +225,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="UNESP"
               location="Ilha Solteira, Brasil"
@@ -216,7 +236,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="SOS 3D COVID 19"
               location="Rio de Janeiro, Brasil"
@@ -227,7 +247,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Área 42 - UTFPR"
               location="Cornélio Precópio, Brasil"
@@ -238,7 +258,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Atitude 3D"
               location="Curitiba, Brasil"
@@ -249,7 +269,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Brother in Arms"
               location="Porto Alegre, Brasil"
@@ -260,7 +280,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Cuidar"
               location="Aracaju, Brasil"
@@ -271,7 +291,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="SESI - MS"
               location="Campo Grande, Brasil"
@@ -282,7 +302,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="SOS 3D JF"
               location="Juiz de Fora, Brasil"
@@ -293,7 +313,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-3 py-3">
             <Card
               title="Universidade Federal de Ouro Preto"
               location="Ouro Preto, Brasil"
@@ -304,7 +324,7 @@ export default function Supplies() {
               button="Ver Projeto"
             />
           </div>
-        </div>
+        </Row>
       </div>
     </div>
   );
