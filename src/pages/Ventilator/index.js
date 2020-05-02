@@ -57,9 +57,9 @@ export default function Ventilator() {
               title="Equipe hipeerLab"
               location="Florianópolis, Brasil"
               updatedAt="15/04/2020"
-              status="Protótipo pronto"
+              status="Protótipo OxyGEN-M pronto"
               imgPath={projecthipeerLab}
-              url="/hipeerLabVenti"
+              url="/respiradores-hipeerlab"
               button="Ver Projeto"
             />
           </div>
