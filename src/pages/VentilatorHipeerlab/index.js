@@ -90,7 +90,7 @@ export default function hipeerLabVenti() {
             date="28/03/2020"
             title="Modelagem de conceito com came e cinto"
             description="Desenvolvimento de modelo de automatizador de ambu baseado
-              em rotação contínua de um came que traciona cinto atravez de sistema de
+              em rotação contínua de um came que traciona cinto através de sistema de
               rolos móveis."
             imgPath={Update20200328}
           />
