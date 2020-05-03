@@ -22,10 +22,11 @@ export const Content = styled.div`
       font-weight: bold;
       color: #38b6ff;
     }
+  }
 
-    aside {
-      display: flex;
-    }
+  aside {
+    display: flex;
+    align-items: center;
   }
 `;
 
