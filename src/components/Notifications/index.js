@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { MdNotifications } from 'react-icons/md';
+import api from '~/services/api';
 import {
   Container,
   Badge,
