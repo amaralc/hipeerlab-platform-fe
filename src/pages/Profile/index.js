@@ -1,6 +1,8 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Form, Input } from '@rocketseat/unform';
-import { useSelector } from 'react-redux';
+
+import { updateProfileRequest } from '~/store/modules/user/actions';
 
 import Header from '../../components/Header';
 import UserHeader from '~/components/UserHeader';
@@ -8,9 +10,12 @@ import UserHeader from '~/components/UserHeader';
 import { Container } from './styles';
 
 export default function Profile() {
+  const dispatch = useDispatch();
   const profile = useSelector((state) => state.user.profile);
 
-  function handleSubmit(data) {}
+  function handleSubmit(data) {
+    dispatch(updateProfileRequest(data));
+  }
 
   return (
     <>

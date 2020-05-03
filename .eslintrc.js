@@ -55,7 +55,8 @@ module.exports = {
      */
     'react/jsx-props-no-spreading':'off',
     'react/state-in-constructor':'off',
-    'react/static-property-placement':'off'
+    'react/static-property-placement':'off',
+    'prefer-object-spread':'off',
   },
   settings: {
     "import/resolver": {
