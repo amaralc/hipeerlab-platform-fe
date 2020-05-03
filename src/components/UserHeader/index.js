@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+import Notifications from '~/components/Notifications';
 import logo from '~/assets/hipeerlab.ico';
 
 import { Content, Profile } from './styles';
@@ -14,6 +16,7 @@ export default function UserHeader() {
         </nav>
 
         <aside>
+          <Notifications />
           <Profile>
             <div>
               <strong>User Name</strong>
