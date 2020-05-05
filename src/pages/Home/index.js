@@ -4,7 +4,7 @@ import Ventilator from '../Ventilator/img/project-hipeerlab-v3-300x200px.png';
 import FaceShield from '../../img/prusaFaceShield.png';
 import Donation from './img/contribua.png';
 
-import { Title, Row } from './styles';
+import { Title, Row, ButtonDemanda } from './styles';
 
 import PartnersContent from './Partner';
 
@@ -56,6 +56,12 @@ export default function Home() {
               <span title="Instagram">Instagram:</span>
               <a href="https://www.instagram.com/hipeerlab/"> @hipeerlab</a>
             </address>
+
+            <ButtonDemanda>
+              <a href="https://forms.gle/y7s7m8R6MmRYZJk89">
+                Cadastrar demanda &raquo;
+              </a>
+            </ButtonDemanda>
           </div>
         </Row>
         <Row>
