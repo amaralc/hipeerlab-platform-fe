@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Title } from '../styles';
+import { Title } from './styles';
+import Producao from './Producao';
+import Financas from './Financas';
 
 export default class Drop extends Component {
   state = {
@@ -23,19 +25,18 @@ export default class Drop extends Component {
   };
 
   render() {
+    const { selected } = this.state;
     return (
-      <select id="mySelect" onChange={this.handleSubmit}>
-        <option value="Financas">
-          <Title>
-            <h2>Finanças</h2>
-          </Title>
-        </option>
-        <option value="Produção">
-          <Title>
-            <h2>Produção</h2>
-          </Title>
-        </option>
-      </select>
+      <>
+        <Title>
+          <select id="mySelect" onChange={this.handleSubmit}>
+            <option value="Financas">Finanças</option>
+            <option value="Producao">Produção</option>
+          </select>
+        </Title>
+        <hr />
+        {selected === '1' ? <Financas /> : <Producao />}
+      </>
     );
   }
 }
