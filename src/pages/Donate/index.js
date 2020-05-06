@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import { Title, Button, A } from './styles';
 import Bank from './Bank';
-import Vakinha from './img/logo-vakinha.png';
+import Vakinha from '../../img/logo-vakinha.png';
 
 export default function Donate() {
   return (
