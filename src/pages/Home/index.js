@@ -3,8 +3,9 @@ import Card from '../../components/Card';
 import Ventilator from '../Ventilator/img/project-hipeerlab-v3-300x200px.png';
 import FaceShield from '../../img/prusaFaceShield.png';
 import Donation from './img/contribua.png';
+import Vakinha from '../../img/logo-vakinha.png';
 
-import { Title, Row } from './styles';
+import { Title, Row, A, Button } from './styles';
 
 import PartnersContent from './Partner';
 
@@ -46,16 +47,17 @@ export default function Home() {
               <h2>Contato</h2>
             </Title>
             <hr />
+
             <address>
-              <p>
-                <strong>hipeerLab</strong>
-              </p>
               <p>Florianópolis, SC</p>
-            </address>
-            <address>
               <span title="Instagram">Instagram:</span>
               <a href="https://www.instagram.com/hipeerlab/"> @hipeerlab</a>
             </address>
+            <Button>
+              <A href="http://vaka.me/1015856">
+                Faça uma doação <img src={Vakinha} alt="" /> &raquo;
+              </A>
+            </Button>
           </div>
         </Row>
         <Row>
