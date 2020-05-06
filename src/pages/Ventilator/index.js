@@ -43,10 +43,10 @@ export default function Ventilator() {
         <Row>
           <div className="col-md-9 py-3 mb-3">
             <iframe
-              title="Meu video"
+              title="Projeto de respirador mecânico hipeerLab"
               width="100%"
-              height="300px"
-              src="https://www.youtube.com/embed/I5RhkEoho9c"
+              height="300"
+              src="https://www.youtube.com/embed/ek0xhZ4vgP8"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
