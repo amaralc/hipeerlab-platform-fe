@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Title } from './styles';
+import { Select } from './styles';
 import Producao from './Producao';
 import Financas from './Financas';
 
@@ -28,13 +28,12 @@ export default class Drop extends Component {
     const { selected } = this.state;
     return (
       <>
-        <Title>
-          <select id="mySelect" onChange={this.handleSubmit}>
-            <option value="Financas">Finanças</option>
-            <option value="Producao">Produção</option>
-          </select>
-        </Title>
+        <Select id="mySelect" onChange={this.handleSubmit}>
+          <option value="Financas">Finanças</option>
+          <option value="Producao">Produção</option>
+        </Select>
         <hr />
+        <br />
         {selected === '1' ? <Financas /> : <Producao />}
       </>
     );
