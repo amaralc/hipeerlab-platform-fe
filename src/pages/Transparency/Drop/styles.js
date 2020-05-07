@@ -36,3 +36,24 @@ export const Row = styled.div`
   margin-right: -15px;
   margin-left: -15px;
 `;
+export const Select = styled.select`
+  border-radius: 4px;
+  text-align: left;
+  font-size: 30px;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 10px 2px -3px -5px;
+  font-weight: 500;
+  option {
+    font-weight: 500;
+  }
+
+  &:not(:hover) {
+    border: 1px solid #fff;
+  }
+  &:focus {
+    outline: 0;
+    border-radius: 4px 4px 0 0;
+  }
+`;
