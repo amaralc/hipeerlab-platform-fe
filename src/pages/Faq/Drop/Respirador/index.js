@@ -20,9 +20,12 @@ export default function Respirador() {
             <h7>
               Nós escolhemos uma baixa tecnologia agregada para atender a demanda de emergência com
               três premissas:
+                <br/ >
                 1. Ser fácil de construir sem elementos complexos ou altamente tecnológicos de baixa
                 disponibilidade;
+                <br/ >
                 2. Ser fácil de treinar, fácil de usar e fácil de consertar;
+                <br/ >
                 3. Rápida produção em massa e a um custo unitário muito baixo (abaixo de 6 mil reais).
             </h7>
             <hr />
