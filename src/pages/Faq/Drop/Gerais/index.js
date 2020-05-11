@@ -39,7 +39,7 @@ export default function Gerais() {
             <h7>
               Para continuarmos a produção e a distribuição dos equipamentos
               emergenciais hospitalares, dependemos de doações. As doações podem
-              ser feitas financeiramente ou em forma de insumos. {'  '}
+              ser feitas financeiramente ou em forma de insumos.{' '}
               <a href="/contribua">Contribua! &raquo;</a>
             </h7>
             <hr />

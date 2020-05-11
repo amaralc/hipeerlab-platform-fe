@@ -1,5 +1,6 @@
 import React from 'react';
-import { SubTitle, Row } from '../styles';
+import { Link } from 'react-router-dom';
+import { SubTitle } from '../styles';
 
 // import { Container } from './styles';
 
@@ -7,101 +8,158 @@ export default function Respirador() {
   return (
     <>
       <SubTitle>
-        <p>Perguntas sobre o respirador mecânico hipeerLab</p>
+        <p>Perguntas sobre o respirador mecânico em que estamos trabalhando</p>
         <hr />
       </SubTitle>
       <div>
         <div className="row">
           <div className="col-md-12 mb-5 ">
-            <h5>
-              Por que escolhemos um projeto de baixa tecnologia
-              agregada?
-            </h5>
+            <h5>Qual o nome do projeto que escolhemos?</h5>
             <h7>
-              Nós escolhemos uma baixa tecnologia agregada para atender a demanda de emergência com
-              três premissas:
-                <br/ >
-                1. Ser fácil de construir sem elementos complexos ou altamente tecnológicos de baixa
-                disponibilidade;
-                <br/ >
-                2. Ser fácil de treinar, fácil de usar e fácil de consertar;
-                <br/ >
-                3. Rápida produção em massa e a um custo unitário muito baixo (abaixo de 6 mil reais).
+              Escolhemos o projeto{' '}
+              <a
+                href="https://www.oxygen.protofy.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                OxyGEN
+              </a>{' '}
+              da equipe{' '}
+              <a
+                href="https://protofy.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Protofy
+              </a>{' '}
+              , de Barcelona na Espanha.
+            </h7>
+            <hr />
+
+            <h5>Em qual versão do projeto estamos trabalhando atualmente?</h5>
+            <h7>
+              Inicialmente fabricamos um protótipo do modelo OxyGEN M V5, em
+              acrílico para avaliar o conceito presencialmente. Em seguida
+              passamos a desenvolver a versão OxyGEN IP, feito de chapas
+              metálicas , por entender que essa versão oferece maior robustez
+              para operar em situações adversas.
+              <Link to="/respiradores-hipeerlab">
+                {' '}
+                Confira a evolução do projeto! &raquo;
+              </Link>
             </h7>
             <hr />
 
             <h5>
-              Para quem é direcionado?
+              Por que escolhemos um projeto de baixa complexidade tecnológica?
             </h5>
             <h7>
-              Para qualquer profissional de saúde que trabalhe em situações extremas com baixa
-              disponibilidade de ventiladores pulmonares e que precisa, como último recurso, de um
-              dispositivo capaz de automatizar um ressuscitador manual do tipo AMBU, usualmente
-              encontrado em ambulâncias. Este dispositivo pode ser construído em um período curto de
-              tempo e possui uma elevada componentes de elevada disponibilidade no mercado. É um
-              dispositivo desenvolvido para evitar situações de vida ou morte em triagem nas emergências
-              hospitalares e não para substituir outros tipos superiores de respiradores profissionais e muito
-              mais seguros.
+              Escolhemos um projeto de menor complexidade tecnológica para
+              atender à demanda emergencial considerando os seguintes
+              requisitos:
+              <br />
+              1. Ser fácil de construir com componentes de baixa complexidade e
+              alta disponibilidade no mercado;
+              <br />
+              2. Ser fácil de fabricar, usar e consertar;
+              <br />
+              3. Permitir produção em massa a um baixo custo unitário (abaixo de
+              6 mil reais);
             </h7>
             <hr />
 
-            <h5>
-              Quem pode construir um protótipo OxyGEN e quanto
-              tempo demora?
-            </h5>
+            <h5>Para quem é direcionado?</h5>
             <h7>
-              O Respirador OxyGEN é desenvolvido para ser montado em situações de emergência. Nenhum
-              conhecimento especializado de engenharia é necessário para montá-lo. Você pode montá-lo
-              em menos de um dia você mesmo. AS ferramentas necessárias podem ser encontradas aqui.
+              Para os profissionais de saúde qualificados que se encontrem em
+              situações extremas com baixa disponibilidade de ventiladores
+              pulmonares e que precisem, como último recurso, de um dispositivo
+              capaz de automatizar um ressuscitador manual do tipo AMBU,
+              usualmente encontrado em ambulâncias. Este dispositivo pode ser
+              construído em um curto espaço de tempo e faz uso de componentes de
+              alta disponibilidade no mercado. É um dispositivo desenvolvido
+              para ser utilizado em situações críticas em triagem nas
+              emergências hospitalares e <strong>NÃO</strong> foi desenvolvido
+              para substituir outros tipos superiores de equipamentos
+              profissionais mais seguros.
             </h7>
             <hr />
 
             <h5>OxyGEN substitui um ventilador pulmonar homologado?</h5>
             <h7>
-              Não, este é um dispositivo de emergência. Ele não é uma solução para substituir ventiladores
-              pulmonares profissionais. É uma solução de emergência para situações extremas, quando não
-              houver outra opção.
+              <strong>Não!</strong> O OxyGEN IP é um dispositivo de emergência.
+              Ele não é uma solução para substituir ventiladores pulmonares
+              profissionais. É uma solução de emergência para situações
+              extremas, quando não houver outra opção.
             </h7>
             <hr />
 
-            <h5>
-              Como posso ajudar?
-            </h5>
+            <h5>Como posso ajudar?</h5>
             <h7>
-              OxyGEN é um projeto OPEN SOURCE e livre, você pode fazer ajuste ou adicionar novas ideias
-              desde que mantenha-o aberto e livre para qualquer cidadão do mundo.
+              OxyGEN é um projeto OPEN SOURCE e livre, você pode fazer ajustes
+              ou adicionar novas ideias desde que mantenha-o aberto e livre para
+              qualquer cidadão do mundo. Para ajudar a equipe hipeerLab a
+              fabricar os respiradores OxyGEN você pode fazer uma doação através
+              de nossa página de financiamento coletivo.
+              <a
+                href="http://vaka.me/1015856"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                Contribua! &raquo;
+              </a>
             </h7>
             <hr />
 
-            <h5>Quem está por trás do OxyGEN?</h5>
+            <h5>Onde posso encontrar os arquivos do projeto?</h5>
             <h7>
-              OxyGEN é um projeto colaborativo de hardware iniciado no conduzido pelo grupo Protofy na
-              Espanha. Qualquer pessoa pode contribuir com ideias, planos ou conhecimento. Você pode
-              contatá-los através do e-mail: oxygen@protofy.xyz.
+              Tanto os arquivos do projeto original, quanto os arquivos do
+              projeto adaptado para o mercado nacional pela equipe de
+              voluntários anônimos e o projeto adaptado para o estado de Santa
+              Catarina, pelo grupo hipeerLab, podem ser encontrados no nosso
+              repositório do github.
+              <a
+                href="https://github.com/hipeerlab/oxygen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                Confira os arquivos do projeto! &raquo;
+              </a>{' '}
+            </h7>
+            <hr />
+
+            <h5>Quem está por trás do projeto OxyGEN?</h5>
+            <h7>
+              <a
+                href="https://www.oxygen.protofy.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                OxyGEN
+              </a>{' '}
+              é um projeto colaborativo de hardware iniciado no conduzido pelo
+              grupo{' '}
+              <a
+                href="https://protofy.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Protofy
+              </a>{' '}
+              na Espanha. Qualquer pessoa pode contribuir com ideias, planos ou
+              conhecimento. Você pode contatá-los através do e-mail:
+              oxygen@protofy.xyz.
             </h7>
             <hr />
 
             <h5>O que é o grupo Protofy?</h5>
             <h7>
-              Protofy é uma companhia sediada em Barcelona que oferece suporte para inovação de
-              hardware e software a companhias e departamentos de engenharia.
+              Protofy é uma companhia sediada em Barcelona que oferece suporte
+              para inovação de hardware e software a companhias e departamentos
+              de engenharia.
             </h7>
             <hr />
-
-            <h5>O que inspira e motiva a Protofy?</h5>
-            <h7>
-              A vontade de contribuir com o conhecimento deles para aliviar os efeitos devastadores dessa
-              crise de saúde que não tem precedentes há muitos anos. Esta pandemia pode conduzir a
-              situações de falta parcial ou total de equipamentos médicos e suprimentos em alguns lugares
-              (áreas rurais e países em desenvolvimento, por exemplo) caso a situação atual se agrave.
-            </h7>
-            {/*
-          <hr />
-
-          <h5></h5>
-          <p></p>
-          <hr />
-          */}
           </div>
         </div>
       </div>
