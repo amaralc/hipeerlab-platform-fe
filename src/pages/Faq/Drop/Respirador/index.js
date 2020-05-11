@@ -1,16 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { SubTitle } from '../styles';
 
 // import { Container } from './styles';
 
 export default function Respirador() {
   return (
     <>
-      <SubTitle>
-        <p>Perguntas sobre o respirador mecânico em que estamos trabalhando</p>
-        <hr />
-      </SubTitle>
       <div>
         <div className="row">
           <div className="col-md-12 mb-5 ">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Select } from './styles';
+import { Select, SubTitle } from './styles';
 import Gerais from './Gerais';
 import Respirador from './Respirador';
 
@@ -28,9 +28,10 @@ export default class Drop extends Component {
     const { selected } = this.state;
     return (
       <>
+        <SubTitle>Selecione uma das opções abaixo:</SubTitle>
         <Select id="mySelect" onChange={this.handleSubmit}>
-          <option value="Gerais">Gerais</option>
-          <option value="Respirador">Respirador</option>
+          <option value="Gerais">Dúvidas sobre o hipeerLab</option>
+          <option value="Respirador">Dúvidas sobre o Respirador</option>
         </Select>
         <hr />
         <br />
