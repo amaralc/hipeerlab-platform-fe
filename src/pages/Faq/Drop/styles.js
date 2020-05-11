@@ -38,12 +38,16 @@ export const Row = styled.div`
 export const Select = styled.select`
   border-radius: 4px;
   text-align: left;
-  font-size: 30px;
+  font-size: 1.5rem;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
   margin: 10px 2px -3px -5px;
-  font-weight: 500;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+
+  padding: 0 0 0 0.5rem;
   option {
     font-weight: 500;
   }
@@ -56,4 +60,3 @@ export const Select = styled.select`
     border-radius: 4px 4px 0 0;
   }
 `;
-
