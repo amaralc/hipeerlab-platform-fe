@@ -74,13 +74,6 @@ export default function Team() {
             url="https://www.linkedin.com/in/frederico-baumgratz/"
             about="Engenheiro Mecânico"
           />
-
-          <TeamMember
-            imgPath={Marcos}
-            name="Marcos R. Butignol"
-            url="https://www.linkedin.com/in/marcos-rodrigues-butignol-87188a127/"
-            about="Engenheiro Mecatrônico"
-          />
         </div>
 
         <Title className="py-3 mb-3">
@@ -89,13 +82,6 @@ export default function Team() {
         </Title>
         <div className="row">
           <TeamMember
-            imgPath={Glauco}
-            name="Glauco G. Tirollo"
-            url="https://www.linkedin.com/in/gtirollo/"
-            about="Engenheiro Químico"
-          />
-
-          <TeamMember
             imgPath={Fernando}
             name="Fernando M. Bordin"
             url="https://www.linkedin.com/in/fernando-moreira-bordin-357aa1186/"
@@ -103,17 +89,17 @@ export default function Team() {
           />
 
           <TeamMember
-            imgPath={Thaison}
-            name="Thaison Prando"
-            url="https://www.linkedin.com/in/thaison-prando-427070102/"
-            about="Graduando em Engenharia Mecânica"
+            imgPath={Glauco}
+            name="Glauco G. Tirollo"
+            url="https://www.linkedin.com/in/gtirollo/"
+            about="Engenheiro Químico"
           />
 
           <TeamMember
-            imgPath={Theodor}
-            name="Theodor van Caspel"
-            url="https://www.linkedin.com/in/theodor-van-caspel-49ba8886/"
-            about="Engenheiro Mecânico"
+            imgPath={Marcos}
+            name="Marcos R. Butignol"
+            url="https://www.linkedin.com/in/marcos-rodrigues-butignol-87188a127/"
+            about="Engenheiro Mecatrônico"
           />
 
           <TeamMember
@@ -128,6 +114,20 @@ export default function Team() {
             name="Max B. Rodrigues"
             url="https://www.linkedin.com/in/max-baranenko-rodrigues/"
             about="Engenheiro Mecatrônico, Msc"
+          />
+
+          <TeamMember
+            imgPath={Thaison}
+            name="Thaison Prando"
+            url="https://www.linkedin.com/in/thaison-prando-427070102/"
+            about="Graduando em Engenharia Mecânica"
+          />
+
+          <TeamMember
+            imgPath={Theodor}
+            name="Theodor van Caspel"
+            url="https://www.linkedin.com/in/theodor-van-caspel-49ba8886/"
+            about="Engenheiro Mecânico"
           />
         </div>
 
