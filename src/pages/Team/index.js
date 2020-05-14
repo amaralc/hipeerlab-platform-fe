@@ -21,6 +21,7 @@ import Braulio from './img/Braulio.png';
 import Larissa from './img/Larissa.png';
 import Max from './img/Max.png';
 import Lehmkuhl from './img/Lehmkuhl.png';
+import Isabele from './img/Isabele.png';
 
 import TeamMember from './TeamMember';
 import { Div, Title } from './styles';
@@ -184,6 +185,13 @@ export default function Team() {
             name="Edália Azevedo"
             url="https://www.linkedin.com/in/ed%C3%A1lia-azevedo/"
             about="Engenheira Mecânica"
+          />
+
+          <TeamMember
+            name="Isabele Orengo"
+            about="Produtora Audiovisual"
+            imgPath={Isabele}
+            url="https://www.linkedin.com/in/isabele-orengo-422b32152/"
           />
 
           <TeamMember
