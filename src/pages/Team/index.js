@@ -5,7 +5,7 @@ import Frederico from './img/Frederico.png';
 import Marcos from './img/Marcos.png';
 import Glauco from './img/Glauco.png';
 import Fernando from './img/Fernando.png';
-import Thaison from './img/Thaison.png';
+import Anderson from './img/Anderson.png';
 import Theodor from './img/Theodor.png';
 import Michel from './img/Michel.png';
 import Calil from './img/Calil.png';
@@ -82,6 +82,13 @@ export default function Team() {
         </Title>
         <div className="row">
           <TeamMember
+            imgPath={Anderson}
+            name="Anderson Tonello Bringhenti"
+            url="https://www.linkedin.com/in/anderson-bringhenti/"
+            about="Engenheiro Mecânico, Msc."
+          />
+
+          <TeamMember
             imgPath={Calil}
             name="Calil Amaral"
             url="https://www.linkedin.com/in/calil-amaral-84005b67/"
@@ -120,7 +127,7 @@ export default function Team() {
             imgPath={Michel}
             name="Michel Tavares"
             url="https://www.linkedin.com/in/michel-tavares-6197609a/"
-            about="Engenheiro Mecânico, Msc"
+            about="Engenheiro Mecânico, Msc."
           />
 
           <TeamMember
