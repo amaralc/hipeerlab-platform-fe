@@ -19,7 +19,7 @@ import Bruno from './img/Bruno.png';
 import Luam from './img/Luam.png';
 import Braulio from './img/Braulio.png';
 import Larissa from './img/Larissa.png';
-import Max from './img/Max.png';
+import Matheus from './img/Matheus.png';
 import Lehmkuhl from './img/Lehmkuhl.png';
 import Isabele from './img/Isabele.png';
 
@@ -82,6 +82,13 @@ export default function Team() {
         </Title>
         <div className="row">
           <TeamMember
+            imgPath={Calil}
+            name="Calil Amaral"
+            url="https://www.linkedin.com/in/calil-amaral-84005b67/"
+            about="Engenheiro Mecânico"
+          />
+
+          <TeamMember
             imgPath={Fernando}
             name="Fernando M. Bordin"
             url="https://www.linkedin.com/in/fernando-moreira-bordin-357aa1186/"
@@ -93,6 +100,13 @@ export default function Team() {
             name="Glauco G. Tirollo"
             url="https://www.linkedin.com/in/gtirollo/"
             about="Engenheiro Químico"
+          />
+
+          <TeamMember
+            imgPath={Matheus}
+            name="Matheus Macedo de Roma"
+            url="https://www.linkedin.com/in/matheus-macedo-de-roma-1232b5177/"
+            about="Graduando em Engenharia Mecânica"
           />
 
           <TeamMember
