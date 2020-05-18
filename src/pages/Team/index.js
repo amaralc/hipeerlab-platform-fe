@@ -110,20 +110,6 @@ export default function Team() {
           />
 
           <TeamMember
-            imgPath={Max}
-            name="Max B. Rodrigues"
-            url="https://www.linkedin.com/in/max-baranenko-rodrigues/"
-            about="Engenheiro Mecatrônico, Msc"
-          />
-
-          <TeamMember
-            imgPath={Thaison}
-            name="Thaison Prando"
-            url="https://www.linkedin.com/in/thaison-prando-427070102/"
-            about="Graduando em Engenharia Mecânica"
-          />
-
-          <TeamMember
             imgPath={Theodor}
             name="Theodor van Caspel"
             url="https://www.linkedin.com/in/theodor-van-caspel-49ba8886/"
