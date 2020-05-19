@@ -86,7 +86,7 @@ export default function Ventilator() {
             <Card
               title="OpenVentilator"
               location="São Paulo, Brasil"
-              updatedAt="14/04/2020"
+              updatedAt="09/05/2020"
               status="Protótipo pronto"
               imgPath={projectOpenVentilator}
               url="https://www.popsolutions.co/en_US/openventilator"
@@ -97,7 +97,7 @@ export default function Ventilator() {
             <Card
               title="Breath4Life"
               location="Florianópolis, Brasil"
-              updatedAt="09/04/2020"
+              updatedAt="07/05/2020"
               status="Protótipo pronto"
               imgPath={projectBreathe4Life}
               url="https://breath4lifeproject.com/"
@@ -119,7 +119,7 @@ export default function Ventilator() {
             <Card
               title="MIT E-vent"
               location="Cambridge, EUA"
-              updatedAt="14/04/2020"
+              updatedAt="03/05/2020"
               status="Protótipo pronto"
               imgPath={projectMitEVent}
               url="https://e-vent.mit.edu/"
@@ -130,7 +130,7 @@ export default function Ventilator() {
             <Card
               title="Ventilaid"
               location="Cracóvia, Polônia"
-              updatedAt="10/04/2020"
+              updatedAt="12/05/2020"
               status="Protótipo pronto"
               imgPath={projectVentilaid}
               url="https://www.ventilaid.org/"
@@ -152,7 +152,7 @@ export default function Ventilator() {
             <Card
               title="OxVent"
               location="Londres, Reino Unido"
-              updatedAt="12/04/2020"
+              updatedAt="29/04/2020"
               status="Protótipo pronto"
               imgPath={projectOxVent}
               url="https://oxvent.org/"
@@ -163,10 +163,10 @@ export default function Ventilator() {
             <Card
               title="OpenVent-Bristol"
               location="Bristol, Reino Unido"
-              updatedAt="01/04/2020"
+              updatedAt="13/05/2020"
               status="Protótipo pronto"
               imgPath={projectOpenVent}
-              url="https://www.instructables.com/id/COVID-19-Rapid-Manufacture-Ventilator-BVM-Ambubag-/"
+              url="https://openventbristol.co.uk/"
               button="Ver Projeto"
             />
           </div>
@@ -174,7 +174,7 @@ export default function Ventilator() {
             <Card
               title="AmboVent"
               location="Israel"
-              updatedAt="14/04/2020"
+              updatedAt="28/04/2020"
               status="Protótipo pronto"
               imgPath={projectAmboVent}
               url="https://members.smoove.io//view.ashx?message=h44811613O122349105O219654O122419175&r=1009"
@@ -185,7 +185,7 @@ export default function Ventilator() {
             <Card
               title="VentilatorPAL"
               location="Nimegue, Holanda"
-              updatedAt="10/04/2020"
+              updatedAt="18/04/2020"
               status="Protótipo pronto"
               imgPath={projectVentilatorPal}
               url="https://freebreathing.org/"
@@ -196,7 +196,7 @@ export default function Ventilator() {
             <Card
               title="RespiraWorks"
               location="EUA"
-              updatedAt="15/04/2020"
+              updatedAt="18/05/2020"
               status="Em fase de projeto"
               imgPath={projectRespiraWorks}
               url="https://respira.works/"
@@ -210,7 +210,7 @@ export default function Ventilator() {
               updatedAt="01/04/2020"
               status="Em fase de projeto"
               imgPath={projectOpenAir}
-              url="https://www.projectopenair.org/open-source-ventilator.php"
+              url="https://projectopenair.org/pt/open-source-ventilator/"
               button="Ver Projeto"
             />
           </div>
@@ -221,8 +221,7 @@ export default function Ventilator() {
               updatedAt="30/03/2020"
               status="Protótipo pronto"
               imgPath={projectVirginOrbit}
-              url="https://virginorbit.com/virgin-orbit-uci-and-ut-austin-
-                design-new-mass-producible-ventilator-for-covid-19-patients/"
+              url="https://virginorbit.com/virgin-orbit-uci-and-ut-austin-design-new-mass-producible-ventilator-for-covid-19-patients/"
               button="Ver Projeto"
             />
           </div>
@@ -241,7 +240,7 @@ export default function Ventilator() {
             <Card
               title="Inspire"
               location="São Paulo, Brasil"
-              updatedAt="09/04/2020"
+              updatedAt="07/05/2020"
               status="Protótipo pronto"
               imgPath={projectInspire}
               url="https://www.poli.usp.br/inspire"
@@ -252,7 +251,7 @@ export default function Ventilator() {
             <Card
               title="AAU Pandemic Ventilator"
               location="Aalborg, Dinamarca"
-              updatedAt="08/04/2020"
+              updatedAt="06/05/2020"
               status="Protótipo pronto"
               imgPath={projectAAU}
               url="https://corescue.org"
@@ -274,7 +273,7 @@ export default function Ventilator() {
             <Card
               title="Open Breath"
               location="Turim, Itália"
-              updatedAt="03/04/2020"
+              updatedAt="29/04/2020"
               status="Protótipo pronto"
               imgPath={projectOpenBreath}
               url="https://www.openbreath.it/en/#"
@@ -285,7 +284,7 @@ export default function Ventilator() {
             <Card
               title="VentCore"
               location="Pristina, Kosovo"
-              updatedAt="03/04/2020"
+              updatedAt="07/04/2020"
               status="Protótipo pronto"
               imgPath={projectVentCore}
               url="https://www.ventcore.health/"
