@@ -1,7 +1,9 @@
+/* --------------------------------- IMPORTS ---------------------------------*/
 import React from 'react';
 
 import { FooterDiv, FooterContainer } from './styles';
 
+/* --------------------------------- EXPORTS ---------------------------------*/
 export default function Footer() {
   return (
     <FooterDiv>
