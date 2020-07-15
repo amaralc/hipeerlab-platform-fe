@@ -14,8 +14,8 @@ export default function Faq() {
       <div className="container">
         <Tabs>
           <TabList id="List">
-            <Tab>Aspectos Gerais</Tab>
-            <Tab>Respirador</Tab>
+            <Tab>Dúvidas sobre o hipeerLab</Tab>
+            <Tab>Dúvidas sobre o Respirador</Tab>
           </TabList>
 
           <TabPanel>
