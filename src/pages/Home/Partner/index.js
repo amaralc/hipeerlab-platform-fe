@@ -5,6 +5,7 @@ import Ngd from '../../../img/ngd.png';
 import Pronto from '../../../img/pronto.png';
 import Lmp from '../../../img/lmp.png';
 import Comunave from '../../../img/comunave.png';
+import OpenBOM from '../../../img/openbom.png';
 
 function Partner(props) {
   return (
@@ -28,6 +29,7 @@ export default function PartnersContent() {
       <Partner imgPath={Pronto} />
       <Partner imgPath={Lmp} />
       <Partner imgPath={Comunave} />
+      <Partner imgPath={OpenBOM} />
     </Partners>
   );
 }
