@@ -11,6 +11,7 @@ export const SubTitle = styled.div`
   margin-bottom: 1rem !important;
   p {
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 500;
   }
 `;

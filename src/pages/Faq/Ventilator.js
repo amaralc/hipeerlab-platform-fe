@@ -9,11 +9,11 @@ export default function Respirador() {
     <>
       <div>
         <div className="row">
-          <SubTitle>
-            <p>Aspectos gerais</p>
-            <hr />
-          </SubTitle>
           <div className="col-md-12 mb-5 ">
+            <SubTitle>
+              <p>Respirador OxyGEN IP</p>
+              <hr />
+            </SubTitle>
             <h5>Qual o nome do projeto que escolhemos?</h5>
             <h7>
               Escolhemos o projeto{' '}
@@ -161,11 +161,11 @@ export default function Respirador() {
             </h7>
           </div>
 
-          <SubTitle>
-            <p>Aspectos técnicos</p>
-            <hr />
-          </SubTitle>
           <div className="col-md-12 mb-5 ">
+            <SubTitle>
+              <p>Aspectos técnicos</p>
+              <hr />
+            </SubTitle>
             <h5>O Equipamento opera a pressão ou volume controlado?</h5>
             <h7>
               OxyGEN trabalha no modo de ventilação controlada por volume (VCV),
