@@ -21,10 +21,28 @@ export const Row = styled.div`
   margin-right: -15px;
   margin-left: -15px;
   margin-bottom: 2rem;
+`;
+
+export const Column = styled.div`
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 2rem;
+
+  #video {
+    margin: auto 15px;
+    padding: 0 0 16px 0;
+    width: 100%;
+  }
 
   iframe {
     border-radius: 0.25rem;
-    min-height: 300px;
+    min-height: 400px;
     height: 100% !important;
+    margin: auto;
   }
 `;

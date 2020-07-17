@@ -1,12 +1,11 @@
 import React from 'react';
-import { Title, Row } from './styles';
+import { Title, Row, Column } from './styles';
 
 import Card from '../../components/Card';
 import projectJoinville from './img/project-fablab-croped.png';
 import projectOxygen from './img/project-oxygen-croped.png';
 import projectOpenVentilator from './img/project-open-ventilator-v2-croped.png';
 import projectOpenSourceVentilator from './img/project-open-source-ventilator-croped.png';
-import projecthipeerLab from './img/project-hipeerlab-v3-croped.png';
 import projectVentilaid from './img/project-ventilaid-croped.png';
 import projectMitEVent from './img/project-mit-e-vent-croped.png';
 import projectBreathe4Life from './img/project-breathe-4-life-croped.png';
@@ -24,6 +23,17 @@ import projectPrevailNY from './img/project-prevail-ny-croped.png';
 import projectOpenBreath from './img/project-open-breath-croped.png';
 import projectVentCore from './img/project-vent-core-croped.png';
 
+import VentilatorCard from '../../components/CardHorizontal';
+
+import Update20200323 from './img/update-20200323.png';
+import Update20200328 from './img/update-20200328.png';
+import Update20200407 from './img/update-20200407.png';
+import Update20200412 from './img/update-20200412.png';
+import Update20200413 from './img/update-20200413.png';
+import Update20200415 from './img/update-20200415.png';
+import Update20200417 from './img/update-20200417.png';
+import Update20200429 from './img/update-20200429.png';
+
 import Header from '../../components/Header';
 
 export default function Ventilator() {
@@ -31,17 +41,18 @@ export default function Ventilator() {
     <div>
       {/* inclui o header nos moldes das paginas de conteudo */}
       <Header
-        headerTitle="Projetos de Respiradores Mecânicos"
-        headerText="Lista de projetos de respiradores mecânicos de baixo custo
-        para utilização em hospitais no combate à COVID-19."
+        headerTitle="Projeto do Respirador Mecânico"
+        headerText="Histórico do projeto de nacionalização do automatizador de AMBU
+        open source desenvolvido pela equipe Protofy de Barcelona, na Espanha. O projeto
+        de baixo custo tem como objetivo auxiliar hospitais no combate à COVID-19."
       />
       <div className="container">
         <Title>
-          <h2>Equipe hipeerLab</h2>
+          <h2>Projeto OxyGEN</h2>
           <hr />
         </Title>
-        <Row>
-          <div className="col-md-9 py-3 mb-3">
+        <Column>
+          <div id="video">
             <iframe
               title="Projeto de respirador mecânico hipeerLab"
               width="100%"
@@ -52,18 +63,84 @@ export default function Ventilator() {
               allowFullScreen
             />
           </div>
-          <div className="col-md-3 py-3 mb-3">
-            <Card
-              title="Equipe hipeerLab"
-              location="Florianópolis, Brasil"
-              updatedAt="15/04/2020"
-              status="Protótipo OxyGEN-M pronto"
-              imgPath={projecthipeerLab}
-              url="/respiradores-hipeerlab"
-              button="Ver Projeto"
-            />
+          <div className="col-md-12 mb-3">
+            <Title>
+              <h2>Histórico</h2>
+              <hr />
+            </Title>
           </div>
-        </Row>
+          <VentilatorCard
+            date="29/04/2020"
+            title="Usinagem de contrapeso metálico"
+            description="Para forçar o retorno da alavanca sem realizar outras
+            furações nas peças em acrílico, um contrapeso com maior massa foi
+            usinado a partir de tarugo metálico no Laboratório de Mecânica de
+            Precisão. Com essa modificação, os rolamentos passaram a
+            manter contato com o came durante rolagem em todo o seu perímetro"
+            imgPath={Update20200429}
+          />
+          <VentilatorCard
+            date="17/04/2020"
+            title="Colagem das placas de acrílico"
+            description="As placas de acrílico foram unidas usando clorofórmio com
+            a ajuda de recursos do Laboratório de Mecânica de Precisão e do Laboratório
+            de Design e Usabilidade da UFSC. Após a colagem a estrutura se manteve
+            rígida e pronta para realização de ensaios."
+            imgPath={Update20200417}
+          />
+          <VentilatorCard
+            date="15/04/2020"
+            title="Montagem do primeiro protótipo em acrílico (OxyGEN M V5)"
+            description="Os componentes são levados para montagem com apoio das
+            instalações do Laboratório de Mecânica de Precisão (LMP) da UFSC. A
+            montagem deixa claro que será necessário fixar as partes com resina
+            ou outro tipo de fixação antes da realização de qualquer ensaio."
+            imgPath={Update20200415}
+          />
+          <VentilatorCard
+            date="13/04/2020"
+            title="Corte a laser das chapas de acrílico"
+            description="As chapas de acrílico do protótipo experimental
+            OxyGEN M V5, adaptado pela equipe hipeerLab, são fabricadas por corte
+            a laser no Núcleo de Gestão e Design - Laboratório de Design e Usabilidade
+            da UFSC."
+            imgPath={Update20200413}
+          />
+          <VentilatorCard
+            date="12/04/2020"
+            title="Adaptação do projeto Oxygen para transmissão direta"
+            description="Eliminação da transmissão por engrenagens e adaptação de
+            flange formada por anéis de acrílico. A opção reduz a complexidade
+            de montagem do protótipo e se assemelha ao conceito IP."
+            imgPath={Update20200412}
+          />
+          <VentilatorCard
+            date="07/04/2020"
+            title="Adoção do projeto OxyGEN"
+            description="Após avaliar e comparar outros projetos de grupos do
+            Brasil e do mundo, optamos por adotar o projeto OxyGEN, da equipe
+            Protofy, de Barcelona na Espanha. O projeto é um dos mais bem
+            documentados dentre os projetos abertos (open-source) e faz uso
+            de poucos componentes eletrônicos, assim como de sistema de acionamento
+            com componentes altamente disponíveis no mercado brasileiro."
+            imgPath={Update20200407}
+          />
+          <VentilatorCard
+            date="28/03/2020"
+            title="Modelagem de conceito com came e cinto"
+            description="Desenvolvimento de modelo de automatizador de ambu baseado
+              em rotação contínua de um came que traciona cinto através de sistema de
+              rolos móveis."
+            imgPath={Update20200328}
+          />
+          <VentilatorCard
+            date="23/03/2020"
+            title="Esboço do primeiro conceito"
+            description="Desenvolvimento de modelo utilizando dreno de sucção como
+            alternativa em situação de escassez de ambu bag."
+            imgPath={Update20200323}
+          />
+        </Column>
       </div>
       <div className="container">
         <Title>
