@@ -1,4 +1,5 @@
 import React from 'react';
+import { SubTitle } from './styles';
 
 // import { Container } from './styles';
 
@@ -8,6 +9,10 @@ export default function Gerais() {
       <div>
         <div className="row">
           <div className="col-md-12 mb-5 ">
+            <SubTitle>
+              <p>hipeerLab</p>
+              <hr />
+            </SubTitle>
             <h5>
               A iniciativa Juntos Contra o COVID-19, do grupo hipeerLab, tem
               fins lucrativos?
