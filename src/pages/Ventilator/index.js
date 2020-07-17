@@ -41,13 +41,14 @@ export default function Ventilator() {
     <div>
       {/* inclui o header nos moldes das paginas de conteudo */}
       <Header
-        headerTitle="Projetos de Respiradores Mecânicos"
-        headerText="Lista de projetos de respiradores mecânicos de baixo custo
-        para utilização em hospitais no combate à COVID-19."
+        headerTitle="Projeto do Respirador Mecânico"
+        headerText="Histórico do projeto de nacionalização do automatizador de AMBU
+        open source desenvolvido pela equipe Protofy de Barcelona, na Espanha. O projeto
+        de baixo custo tem como objetivo auxiliar hospitais no combate à COVID-19."
       />
       <div className="container">
         <Title>
-          <h2>Equipe hipeerLab</h2>
+          <h2>Projeto OxyGEN</h2>
           <hr />
         </Title>
         <Column>
@@ -64,7 +65,7 @@ export default function Ventilator() {
           </div>
           <div className="col-md-12 mb-3">
             <Title>
-              <h2>Updates</h2>
+              <h2>Histórico</h2>
               <hr />
             </Title>
           </div>

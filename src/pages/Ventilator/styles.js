@@ -35,12 +35,13 @@ export const Column = styled.div`
 
   #video {
     margin: auto 15px;
-    padding: 0 20% 16px 20%;
+    padding: 0 0 16px 0;
+    width: 100%;
   }
 
   iframe {
     border-radius: 0.25rem;
-    min-height: 300px;
+    min-height: 400px;
     height: 100% !important;
     margin: auto;
   }
