@@ -27,14 +27,6 @@ import projectPrevailNY from './img/project-prevail-ny-croped.png';
 import projectOpenBreath from './img/project-open-breath-croped.png';
 import projectVentCore from './img/project-vent-core-croped.png';
 
-import VentilatorCard from '../../components/CardHorizontal';
-
-import Update20200323 from './img/update-20200323.png';
-import Update20200328 from './img/update-20200328.png';
-import Update20200407 from './img/update-20200407.png';
-import Update20200412 from './img/update-20200412.png';
-import Update20200413 from './img/update-20200413.png';
-
 export default function Ventilator() {
   return (
     <div>
@@ -72,49 +64,6 @@ export default function Ventilator() {
             {/* mostra a lista de tudo que foi feito no historico */}
             {listData}
           </div>
-          <VentilatorCard
-            date="13/04/2020"
-            title="Corte a laser das chapas de acrílico"
-            description="As chapas de acrílico do protótipo experimental
-            OxyGEN M V5, adaptado pela equipe hipeerLab, são fabricadas por corte
-            a laser no Núcleo de Gestão e Design - Laboratório de Design e Usabilidade
-            da UFSC."
-            imgPath={Update20200413}
-          />
-          <VentilatorCard
-            date="12/04/2020"
-            title="Adaptação do projeto Oxygen para transmissão direta"
-            description="Eliminação da transmissão por engrenagens e adaptação de
-            flange formada por anéis de acrílico. A opção reduz a complexidade
-            de montagem do protótipo e se assemelha ao conceito IP."
-            imgPath={Update20200412}
-          />
-          <VentilatorCard
-            date="07/04/2020"
-            title="Adoção do projeto OxyGEN"
-            description="Após avaliar e comparar outros projetos de grupos do
-            Brasil e do mundo, optamos por adotar o projeto OxyGEN, da equipe
-            Protofy, de Barcelona na Espanha. O projeto é um dos mais bem
-            documentados dentre os projetos abertos (open-source) e faz uso
-            de poucos componentes eletrônicos, assim como de sistema de acionamento
-            com componentes altamente disponíveis no mercado brasileiro."
-            imgPath={Update20200407}
-          />
-          <VentilatorCard
-            date="28/03/2020"
-            title="Modelagem de conceito com came e cinto"
-            description="Desenvolvimento de modelo de automatizador de ambu baseado
-              em rotação contínua de um came que traciona cinto através de sistema de
-              rolos móveis."
-            imgPath={Update20200328}
-          />
-          <VentilatorCard
-            date="23/03/2020"
-            title="Esboço do primeiro conceito"
-            description="Desenvolvimento de modelo utilizando dreno de sucção como
-            alternativa em situação de escassez de ambu bag."
-            imgPath={Update20200323}
-          />
         </Column>
       </div>
       <div className="container">
