@@ -1,6 +1,10 @@
 import React from 'react';
 import { Title, Row, Column } from './styles';
 
+import Header from '../../components/Header';
+
+import listData from './data.js';
+
 import Card from '../../components/Card';
 import projectJoinville from './img/project-fablab-croped.png';
 import projectOxygen from './img/project-oxygen-croped.png';
@@ -30,11 +34,6 @@ import Update20200328 from './img/update-20200328.png';
 import Update20200407 from './img/update-20200407.png';
 import Update20200412 from './img/update-20200412.png';
 import Update20200413 from './img/update-20200413.png';
-import Update20200415 from './img/update-20200415.png';
-import Update20200417 from './img/update-20200417.png';
-import Update20200429 from './img/update-20200429.png';
-
-import Header from '../../components/Header';
 
 export default function Ventilator() {
   return (
@@ -69,34 +68,10 @@ export default function Ventilator() {
               <hr />
             </Title>
           </div>
-          <VentilatorCard
-            date="29/04/2020"
-            title="Usinagem de contrapeso metálico"
-            description="Para forçar o retorno da alavanca sem realizar outras
-            furações nas peças em acrílico, um contrapeso com maior massa foi
-            usinado a partir de tarugo metálico no Laboratório de Mecânica de
-            Precisão. Com essa modificação, os rolamentos passaram a
-            manter contato com o came durante rolagem em todo o seu perímetro"
-            imgPath={Update20200429}
-          />
-          <VentilatorCard
-            date="17/04/2020"
-            title="Colagem das placas de acrílico"
-            description="As placas de acrílico foram unidas usando clorofórmio com
-            a ajuda de recursos do Laboratório de Mecânica de Precisão e do Laboratório
-            de Design e Usabilidade da UFSC. Após a colagem a estrutura se manteve
-            rígida e pronta para realização de ensaios."
-            imgPath={Update20200417}
-          />
-          <VentilatorCard
-            date="15/04/2020"
-            title="Montagem do primeiro protótipo em acrílico (OxyGEN M V5)"
-            description="Os componentes são levados para montagem com apoio das
-            instalações do Laboratório de Mecânica de Precisão (LMP) da UFSC. A
-            montagem deixa claro que será necessário fixar as partes com resina
-            ou outro tipo de fixação antes da realização de qualquer ensaio."
-            imgPath={Update20200415}
-          />
+          <div>
+            {/* mostra a lista de tudo que foi feito no historico */}
+            {listData}
+          </div>
           <VentilatorCard
             date="13/04/2020"
             title="Corte a laser das chapas de acrílico"
