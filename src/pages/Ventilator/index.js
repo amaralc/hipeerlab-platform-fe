@@ -3,7 +3,7 @@ import { Title, Row, Column } from './styles';
 
 import Header from '../../components/Header';
 
-import listData from './data.js';
+import Updates from './Updates';
 
 import Card from '../../components/Card';
 import projectJoinville from './img/project-fablab-croped.png';
@@ -61,8 +61,7 @@ export default function Ventilator() {
             </Title>
           </div>
           <div>
-            {/* mostra a lista de tudo que foi feito no historico */}
-            {listData}
+            <Updates />
           </div>
         </Column>
       </div>
