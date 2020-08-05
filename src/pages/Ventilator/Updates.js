@@ -1,5 +1,6 @@
 import React from 'react';
 import VentilatorCard from '../../components/CardHorizontal';
+
 import Update20200429 from './img/update-20200429.png';
 import Update20200417 from './img/update-20200417.png';
 import Update20200415 from './img/update-20200415.png';
