@@ -174,6 +174,14 @@ const data = [
     status: "Protótipo pronto",
     imgPath: projectVentCore,
     url: "https://www.ventcore.health/",
+  },
+  {
+    title: "Virgin Orbit Ventilator",
+    location: "Long Beach, EUA",
+    updatedAt: "30/03/2020",
+    status: "Protótipo pronto",
+    imgPath: projectVentCore,
+    url: "https://www.ventcore.health/",
   }
 ];
 
