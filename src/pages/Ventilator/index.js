@@ -4,7 +4,6 @@ import { Title, Row, Column } from './styles';
 import Header from '../../components/Header';
 import Updates from './Updates';
 import References from './References';
-import Card from '../../components/Card';
 
 export default function Ventilator() {
   return (
